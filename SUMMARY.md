@@ -2,14 +2,14 @@
 
 * [Home](README.md)
 
-## Use headings to create page groups like this one​
+## Platform Overview
 
-* [First page’s title](use-headings-to-create-page-groups-like-this-one/first-pages-title/README.md)
-  * [Some child page](use-headings-to-create-page-groups-like-this-one/first-pages-title/some-child-page.md)
-  * [Some other child page](use-headings-to-create-page-groups-like-this-one/first-pages-title/some-other-child-page.md)
-* [Second page’s title](use-headings-to-create-page-groups-like-this-one/second-pages-title/README.md)
-  * [Some child page](use-headings-to-create-page-groups-like-this-one/second-pages-title/some-child-page.md)
-  * [Some other child page](use-headings-to-create-page-groups-like-this-one/second-pages-title/some-other-child-page.md)
+* [Getting Started](platform-overview/getting-started/README.md)
+  * [Benefits](platform-overview/getting-started/benefits.md)
+  * [Definition of Terms](platform-overview/getting-started/definition-of-terms.md)
+* [Architecture](platform-overview/architecture/README.md)
+  * [Components](platform-overview/architecture/components.md)
+  * [Modules](platform-overview/architecture/modules.md)
 
 ## A second-page group​
 
