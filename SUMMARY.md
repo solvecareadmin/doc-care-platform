@@ -4,13 +4,12 @@
 
 ## Platform Overview
 
-* [Getting Started](platform-overview/getting-started/README.md)
-  * [Benefits](platform-overview/getting-started/benefits.md)
-  * [Definition of Terms](platform-overview/getting-started/definition-of-terms.md)
-* [Architecture](platform-overview/architecture/README.md)
-  * [Components](platform-overview/architecture/components.md)
-  * [Modules](platform-overview/architecture/modules.md)
+* [Introduction](platform-overview/introduction/README.md)
+  * [Key Components](platform-overview/introduction/key-components.md)
 
-## A second-page group​
+## About Care.Protocol
 
-* [Yet another page](a-second-page-group/yet-another-page.md)
+* [Getting Started](about-care.protocol/getting-started/README.md)
+  * [Understand the file structure](about-care.protocol/getting-started/understand-the-file-structure.md)
+* [Building Your Network](about-care.protocol/building-your-network/README.md)
+  * [Define roles and journeys](about-care.protocol/building-your-network/define-roles-and-journeys.md)

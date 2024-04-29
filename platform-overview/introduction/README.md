@@ -1,4 +1,4 @@
-# Getting Started
+# Introduction
 
 ### What is Care.Platform?
 
@@ -20,7 +20,7 @@ In most cases, the healthcare provider handles submitting the insurance claim on
 
 #### Employee rewards system
 
-Healthcare employees spend long hours of work shifts and face stressful situations on a daily basis. To avoid burnout and high turnover, it is crucial in health organizations to implement recognition and rewards system for their employees. It can be in a form of gift cards, paid time offs, discount vouchers, wellness programs, and more.
+Healthcare employees spend long hours of work shifts and often face stressful situations. To avoid burnout and high turnover, it is important for health organizations to implement recognition and rewards system for their employees. It can be in a form of gift cards, paid time offs, discount vouchers, wellness programs, and more.
 
 <figure><img src="../../.gitbook/assets/employee-rewards-system.png" alt=""><figcaption><p>Figure 1.2: Use case diagram for employee rewards system</p></figcaption></figure>
 
