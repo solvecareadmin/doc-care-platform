@@ -2,6 +2,10 @@
 
 * [Home](README.md)
 
+## Platform Overview
+
+* [Introduction](platform-overview/introduction.md)
+
 ## About Care.Protocol
 
 * [Getting Started](about-care.protocol/getting-started/README.md)
