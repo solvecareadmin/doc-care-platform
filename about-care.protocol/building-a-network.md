@@ -1,3 +1,0 @@
-# Building a Network
-
-#### Prerequisites
