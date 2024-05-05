@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section describes the overview of steps in creating and authoring a
-  network.
+description: This section describes the overview of steps in authoring a network.
 ---
 
 # Building a Network
@@ -16,7 +14,18 @@ description: >-
 6. Save and validate the input.json file.
 
 {% hint style="warning" %}
-**Note:** Based on the protocol requirements, make sure that each value follows the specified format. For more information, see [network-configuration.md](network-configuration.md "mention").
+**Note:** Based on the protocol requirements, make sure that each value follows the specified format.&#x20;
 {% endhint %}
 
-#### &#x20;Create the card definitions, events, and event handlers&#x20;
+#### Create the card definitions, events, and event handlers&#x20;
+
+* Define the [card structure](card-definitions/#card-definition-structure).
+* Configure wallet events and event handlers.
+* Configure node events and event handlers.
+* Define the transactional data structure.
+
+#### Configure Python event handlers
+
+* Python template
+* Use case examples
+

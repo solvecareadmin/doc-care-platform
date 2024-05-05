@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section describes the details about user roles and journeys or user flows
+  This section describes the details for user roles and journeys or user flows
   within the network.
 ---
 
