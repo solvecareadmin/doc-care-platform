@@ -1,75 +1,69 @@
 ---
 description: >-
-  This section defines the user roles and journeys that link to cards and events
-  in your network.
+  This section describes the details about user roles and journeys or user flows
+  within the network.
 ---
 
 # Roles and journeys
 
 ### Roles
 
-<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td></td><td></td></tr><tr><td>name</td><td></td><td></td></tr><tr><td>description</td><td></td><td></td></tr><tr><td>type</td><td></td><td></td></tr><tr><td>status</td><td></td><td></td></tr><tr><td>version</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type defined in the system.</td></tr><tr><td>status</td><td>string</td><td>The status for the role set to Active.</td></tr><tr><td>version</td><td>number</td><td>The version number of the role, which is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
 
+{% code title="Example:" %}
 ```json
         "roles": [
             {
-                "id": "rl-vhz4fm7811nkee2k79olbqes4f4",
-                "name": "CW User",
-                "description": "CW User Desc",
+                "id": "rl-member",
+                "name": "Member",
+                "description": "The member user role.",
                 "type": "Wallet",
                 "status": "Active",
                 "version": 1,
                 "allow_events_with_role": [],
-                "home_card_ref_id": "cd-h-CWUser-wow"
+                "home_card_ref_id": "cd-h-member"
             },
             {
-                "id": "rl-9xvtcyoamg2wvmaegorkzbdfpsq",
-                "name": "Doctor",
-                "description": "Doctor Desc",
+                "id": "rl-doctor",
+                "name": "Admin",
+                "description": "The Doctor user role.",
                 "type": "Wallet",
                 "status": "Active",
                 "version": 1,
                 "allow_events_with_role": [],
-                "home_card_ref_id": "cd-h-doctor-o8z"
+                "home_card_ref_id": "cd-h-doctor"
             }
             
         ],
 ```
+{% endcode %}
 
-### Journey
+### Journeys
 
-| Field Name           | Description |
-| -------------------- | ----------- |
-| id                   |             |
-| name                 |             |
-| description          |             |
-| status               |             |
-| start\_card\_ref\_id |             |
-| roles                |             |
-| journey\_type        |             |
+<table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the system.</td></tr></tbody></table>
 
+{% code title="Example:" %}
 ```json
         "journeys": [
             {
-                "id": "jn-joining-journey-l0sa4",
+                "id": "jn-intro-journey",
                 "icon": "",
-                "name": "Welcome Journey for the Care.Network",
-                "description": "Welcome Journey for the Care.Network",
+                "name": "Intro journey for My Network",
+                "description": "Intro journey for My Network",
                 "status": "Active",
-                "start_card_ref_id": "cd-welcome-card-7phrv",
+                "start_card_ref_id": "cd-intro-card",
                 "roles": [],
                 "journey_type": "JOIN_NETWORK_JOURNEY"
             },
             {
-                "id": "jn-rl-vhz4fm7811nkee2k79olbqes4f4",
+                "id": "jn-rl-doctor",
                 "icon": "",
-                "name": "Join as Patient",
-                "description": "Join as Patient",
+                "name": "Join as Doctor",
+                "description": "Join as Doctor",
                 "status": "Active",
-                "start_card_ref_id": "cd-invite-rl-vhz4fm7811nkee2k79olbqes4f4",
-                "roles": [
-                    "rl-vhz4fm7811nkee2k79olbqes4f4"
-                ],
+                "start_card_ref_id": "cd-invite-rl-doctor",
+                "roles": ["rl-doctor"],
                 "journey_type": "JOIN_NETWORK_JOURNEY"
             },
 ```
+{% endcode %}
