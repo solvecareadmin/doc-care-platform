@@ -8,7 +8,9 @@ description: >-
 
 ### Roles
 
-<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type defined in the system.</td></tr><tr><td>status</td><td>string</td><td>The status for the role set to Active.</td></tr><tr><td>version</td><td>number</td><td>The version number of the role, which is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
+A role is a basic element of Care.Protocol that represents a specific role type in a network. Each role is defined with associated cards and permissions.
+
+<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type defined in the platform.</td></tr><tr><td>status</td><td>string</td><td>The status for the role set to Active.</td></tr><tr><td>version</td><td>number</td><td>The version number of the role, which is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -25,7 +27,7 @@ description: >-
             },
             {
                 "id": "rl-doctor",
-                "name": "Admin",
+                "name": "Doctor",
                 "description": "The Doctor user role.",
                 "type": "Wallet",
                 "status": "Active",
@@ -40,7 +42,11 @@ description: >-
 
 ### Journeys
 
-<table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the system.</td></tr></tbody></table>
+A journey contains a collection of multiple Care.Cards tied to a specific role or network.
+
+<table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the platform.</td></tr></tbody></table>
+
+The following example shows the "intro" journey for the network, and the "join as doctor" journey for the role.
 
 {% code title="Example:" %}
 ```json

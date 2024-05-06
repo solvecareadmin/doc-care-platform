@@ -17,7 +17,7 @@
   * [Card definitions](about-care.protocol/building-a-network/card-definitions/README.md)
     * [Tile definitions](about-care.protocol/building-a-network/card-definitions/tile-definitions.md)
   * [Events and event handlers](about-care.protocol/building-a-network/events-and-event-handlers.md)
-  * [Transactional data](about-care.protocol/building-a-network/transactional-data.md)
   * [Python event handlers](about-care.protocol/building-a-network/python-event-handlers.md)
+  * [Transactional data](about-care.protocol/building-a-network/transactional-data.md)
 * [Testing the Network](about-care.protocol/testing-the-network.md)
 * [Publishing the Network](about-care.protocol/publishing-the-network.md)
