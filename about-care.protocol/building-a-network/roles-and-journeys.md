@@ -46,7 +46,7 @@ A journey contains a collection of multiple Care.Cards tied to a specific role o
 
 <table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the platform.</td></tr></tbody></table>
 
-The following example shows the "Intro" journey for the network, and the "Join as Doctor" journey for the role.
+The following example shows the "Get started" and the "Join as Doctor" journeys.
 
 {% code title="Example:" %}
 ```json

@@ -1,6 +1,6 @@
 # Getting Started
 
-**Care.Protocol** is a set of rules that govern how information is communicated in care networks. It is an event-driven architecture design that contains a predefined structure in JSON files. Each file defines the configurations for roles, relationships, events, journeys, and transactions in a network.
+**Care.Protocol** is a set of rules that govern how information is communicated in care networks. It is an event-driven architecture design that contains a predefined structure in JSON files. These structured files define the configurations for roles, relationships, journeys, events, and interactions in a network.
 
 In this guide, you will learn how to author a network manually using the examples provided.
 

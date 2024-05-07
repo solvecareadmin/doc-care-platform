@@ -7,14 +7,14 @@ description: >-
 # Card definitions
 
 {% hint style="info" %}
-All card definitions must be included in the input.json file.
+All card definitions must be included in the _input.json_ file.
 {% endhint %}
 
 ### Cards
 
 A card contains data types, user interface elements, and interactive functions triggered by events.
 
-<table><thead><tr><th width="230">Field Name</th><th width="158">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the card.</td></tr><tr><td>name</td><td>string</td><td>The name of the card.</td></tr><tr><td>description</td><td>string</td><td>The description of the card.</td></tr><tr><td>status</td><td>string</td><td>The current status set for the card, which can either be Active or Inactive.</td></tr><tr><td>card_definition_ref</td><td>string</td><td>The reference to the UI component of the card.</td></tr><tr><td>side</td><td>string</td><td>The default value is generated in the platform.</td></tr><tr><td>role</td><td>string</td><td>The role ID referenced in the card.</td></tr><tr><td>transaction_data_ref</td><td>string</td><td>The reference to the transaction data used upon initialization.</td></tr><tr><td>journey</td><td>string</td><td>The journey in which the card belongs to.</td></tr><tr><td>outgoing_events</td><td>array</td><td>The events or actions triggered by the card.</td></tr><tr><td>pre_rendering_events</td><td>array</td><td>The events or actions used to initialize the card.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Field Name</th><th width="158">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the card.</td></tr><tr><td>name</td><td>string</td><td>The name of the card.</td></tr><tr><td>description</td><td>string</td><td>The description of the card.</td></tr><tr><td>status</td><td>string</td><td>The status for the card set to Active.</td></tr><tr><td>card_definition_ref</td><td>string</td><td>The reference to the UI component of the card.</td></tr><tr><td>side</td><td>string</td><td>The default value is generated in the platform.</td></tr><tr><td>role</td><td>string</td><td>The role ID referenced in the card.</td></tr><tr><td>transaction_data_ref</td><td>string</td><td>The reference to the transaction data used upon initialization.</td></tr><tr><td>journey</td><td>string</td><td>The journey in which the card belongs to.</td></tr><tr><td>outgoing_events</td><td>array</td><td>The events or actions triggered by the card.</td></tr><tr><td>pre_rendering_events</td><td>array</td><td>The events or actions used to initialize the card.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -31,7 +31,7 @@ A card contains data types, user interface elements, and interactive functions t
         "private_card": "",
         "base_card": "",
         "journey": "jn-start-journey",
-        "outgoing_events": ["e-w-patient-nav-to-cd-next"],
+        "outgoing_events": ["ew-patient-nav-to-cd-next"],
         "pre_rendering_events": [],
         "post_rendering_events": []
       }
@@ -57,8 +57,8 @@ The card data can include different types of information relevant to a healthcar
 {% code title="Example:" %}
 ```json
 {
-    "id": "cd-intro-card",
-    "name": "Introduction",
+    "id": "cd-start-rl-patient",
+    "name": "Get started",
     "cardData": {
         "Tile11000vtext": "Welcome to my care network!",
         "Tile11000vsubText": "This is an example.",

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section describes the overall network specifications in the input.json
-  file.
+  This section describes the overall network specifications, including author
+  details, countries, join network settings, and solve token settings.
 ---
 
 # Network configuration

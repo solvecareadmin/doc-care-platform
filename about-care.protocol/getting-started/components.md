@@ -8,7 +8,7 @@ description: >-
 
 ### input.json
 
-The input.json file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
+The _input.json_ file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
 
 ### Care Data Node (CDN)
 
@@ -28,7 +28,7 @@ An event handler is a set of business rules associated with an event or message 
 
 ### Python event handlers
 
-Python event handlers are designed to execute complex events and transactions that involve machine learning and data analytics. A Python event handler can fetch external data in various formats such as HL7, X12 EDI, XML, JSON, or CSV.
+Python event handlers are designed to execute complex events and transactions that require data processing, analysis, import and export. A Python event handler can fetch external data in various formats such as HL7, X12 EDI, XML, JSON, or CSV.
 
 ### Resources
 
