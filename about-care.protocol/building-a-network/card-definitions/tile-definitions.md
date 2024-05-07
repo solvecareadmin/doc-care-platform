@@ -1,7 +1,8 @@
 ---
-description: This section describes the elements and properties of a tile.
+description: This section describes the supported elements and properties of tiles.
 ---
 
 # Tile definitions
 
-<table><thead><tr><th width="159">Tile ID</th><th>Description</th><th>Configurations</th></tr></thead><tbody><tr><td>Tile0</td><td>A tile that can represents a text</td><td>Style: Regular or Bold</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="99">Tile ID</th><th width="133">Description</th><th width="197">Configurations</th><th>Example</th></tr></thead><tbody><tr><td>Tile0</td><td>A tile that represents a text</td><td>Style: Regular or Bold<br>Alignment: START, CENTER, END and JUSTIFY<br>Border Color: Hex value<br>Text Color: Hex value</td><td><img src="../../../.gitbook/assets/tile0.png" alt="" data-size="original"></td></tr><tr><td>Tile0a</td><td>A tile that represents two texts</td><td>Style: Regular or Bold<br>Alignment: FIXED (left and right), JUSTIFY<br>Border Color: Hex value<br>Text Color: Hex value</td><td><img src="../../../.gitbook/assets/tile0a (1).png" alt="" data-size="original"></td></tr><tr><td>Tile1</td><td>A tile that represents a Text Input for a specific key</td><td>Validation: min and max length<br>Alignment: FIXED (left and right)<br>Keyboard: Text can be set to number</td><td><img src="../../../.gitbook/assets/tile1.png" alt="" data-size="original"></td></tr><tr><td>Tile1a</td><td>A two-row tile that represents a Text Input for a specific key.</td><td><p>Title text: First row.</p><p>Subtitle text: Second row (input field)<br>Text color: Hex value<br>Alignment: START, CENTER, END and JUSTIFY</p></td><td><img src="../../../.gitbook/assets/tile1a.png" alt="" data-size="original"></td></tr><tr><td>Tile2</td><td>A tile that represents a Text Input for a specific key.</td><td>Validation: min and max length<br>Alignment: FIXED (left and right)<br>Keyboard: Text can be set to number<br>Hint: Placeholder for Tex Input</td><td></td></tr></tbody></table>
+

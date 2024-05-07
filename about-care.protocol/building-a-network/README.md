@@ -22,7 +22,7 @@ description: This section describes the overview of steps in authoring a network
 
 * Define the [card structure](card-definitions/#card-definition-structure).
 * Create the event and event handler [definitions](events-and-event-handlers.md#definitions).
-* Define the transactional data structure.
+* Define the [transactional data](transactional-data.md) structure.
 
 ### Configure Python event handlers
 
