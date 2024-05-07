@@ -6,6 +6,8 @@ In this guide, you will learn how to author a network manually using the example
 
 ### Structure of files and folders
 
+<figure><img src="../../.gitbook/assets/network-folder-structure.png" alt="care-protocol-folder-structure" width="375"><figcaption></figcaption></figure>
+
 ```
 ├── sample-network/
      ├── definitions/
@@ -23,7 +25,7 @@ In this guide, you will learn how to author a network manually using the example
 Before you begin, make sure you have the following:
 
 * An Integrated Development Environment (IDE) or a basic text editor for authoring files manually
-* Python packages to configure and run Python Event Handlers in Care.Protocol
+* Python packages to configure and run Python event handlers in Care.Protocol
 * Postman API platform and the network environment details for publishing
 * BrowserStack, a cloud web and mobile testing platform for testing the application
 

@@ -10,7 +10,7 @@ The Python event handler contains a set of base classes that provide an interfac
 
 ### Python template
 
-{% code title="Example:" %}
+{% code title="Example:" fullWidth="false" %}
 ```python
 import java
 import polyglot
