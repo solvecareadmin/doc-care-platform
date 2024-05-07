@@ -51,7 +51,7 @@ All event and event handler definitions must be included in the _input.json_ fil
 
 ### Definitions
 
-The following example is an event definition for _event/ew-patient-nav-to-cd-next.json_.
+The following example is an event definition for _event/ew-patient-nav-to-cd-next1.json_.
 
 {% code title="Example:" %}
 ```json
@@ -65,12 +65,12 @@ The following example is an event definition for _event/ew-patient-nav-to-cd-nex
   "structure": {
     "attributes": [
       {
-        "code": "answerQuestion1",
-        "name": "answerQuestion1",
+        "code": "answer",
+        "name": "answer",
         "type_definition": {
           "type": "number"
         },
-        "order": 4,
+        "order": 3,
         "system": false,
         "required": false
       },
@@ -81,7 +81,7 @@ The following example is an event definition for _event/ew-patient-nav-to-cd-nex
         "type_definition": {
           "type": "string"
         },
-        "order": 2,
+        "order": 1,
         "system": false,
         "required": false
       }
@@ -91,7 +91,7 @@ The following example is an event definition for _event/ew-patient-nav-to-cd-nex
 ```
 {% endcode %}
 
-The following example is an event handler definition for _event-handler/ehw-patient-nav-to-cd-next.json_.&#x20;
+The following example is an event handler definition for _event-handler/ehw-patient-nav-to-cd-next1.json_.&#x20;
 
 ```json
 {
