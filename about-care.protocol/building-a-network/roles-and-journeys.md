@@ -23,7 +23,7 @@ A role is a basic element of Care.Protocol that represents a specific role type 
                 "status": "Active",
                 "version": 1,
                 "allow_events_with_role": [],
-                "home_card_ref_id": "cd-h-member"
+                "home_card_ref_id": "cd-h-patient"
             },
             {
                 "id": "rl-doctor",
@@ -46,20 +46,20 @@ A journey contains a collection of multiple Care.Cards tied to a specific role o
 
 <table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the platform.</td></tr></tbody></table>
 
-The following example shows the "intro" journey for the network, and the "join as doctor" journey for the role.
+The following example shows the "Intro" journey for the network, and the "Join as Doctor" journey for the role.
 
 {% code title="Example:" %}
 ```json
         "journeys": [
             {
-                "id": "jn-intro-journey",
+                "id": "jn-start-journey",
                 "icon": "",
-                "name": "Intro journey for My Network",
-                "description": "Intro journey for My Network",
+                "name": "Get started",
+                "description": "Start journey for Patient",
                 "status": "Active",
-                "start_card_ref_id": "cd-intro-card",
-                "roles": [],
-                "journey_type": "JOIN_NETWORK_JOURNEY"
+                "start_card_ref_id": "cd-start-rl-patient",
+                "roles": [rl-patient],
+                "journey_type": "STANDARD_JOURNEY"
             },
             {
                 "id": "jn-rl-doctor",

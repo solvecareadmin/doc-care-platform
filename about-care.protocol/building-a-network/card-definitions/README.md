@@ -20,17 +20,18 @@ A card contains data types, user interface elements, and interactive functions t
 ```json
     "cards": [
       {
-        "id": "cd-intro-card",
-        "name": "My Network",
-        "description": "Welcome to My Network",
+        "id": "cd-start-rl-patient",
+        "name": "Patient start card",
+        "description": "Start card for patient",
         "status": "Active",
-        "card_definition_ref": "card/cd-intro-card.json",
+        "card_definition_ref": "card/cd-start-rl-patient.json",
         "side": "PUBLIC",
-        "transaction_data_ref": "",
+        "role": "rl-patient",
+        "transaction_data_ref": "td/td-default.json",
         "private_card": "",
         "base_card": "",
-        "journey": "jn-intro-journey",
-        "outgoing_events": [],
+        "journey": "jn-start-journey",
+        "outgoing_events": ["e-w-patient-nav-to-cd-next"],
         "pre_rendering_events": [],
         "post_rendering_events": []
       }
@@ -46,7 +47,7 @@ Each card definition is located in the **/definitions/card/** folder.
 
 * **Card data** - The information or data displayed within the card, such as texts, images, and links.
 * **Card layout** - The arrangement and organization of elements within the card, including body content style, and footer menus.
-* **Card footer** - Additional options, navigation buttons, or menus located at the bottom of the card for user interaction and navigation.
+* **Card footer** - Additional options, navigation buttons, or menus are located at the bottom of the card for user interaction and navigation.
 * **Card UI actions** - Interactive actions triggered by user interactions within the card, such as navigation, form submissions, or data updates.&#x20;
 
 #### Card data
@@ -59,7 +60,7 @@ The card data can include different types of information relevant to a healthcar
     "id": "cd-intro-card",
     "name": "Introduction",
     "cardData": {
-        "Tile11000vtext": "Welcome to my network!",
+        "Tile11000vtext": "Welcome to my care network!",
         "Tile11000vsubText": "This is an example.",
         "Tile11000vsubText1": "This is another example.",
         "imgUrlpjbx": "https://123.abc.net/media/Intro.png",
@@ -70,7 +71,7 @@ The card data can include different types of information relevant to a healthcar
 
 #### Card layout
 
-The card body presents the main content of the card that includes tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md).
+The card body presents the main content of the card which includes tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md).
 
 <pre class="language-json" data-title="Example:"><code class="lang-json">    "cardLayout": {
         "body": [
@@ -194,7 +195,7 @@ The card UI actions enable various functionalities such as retrieving data, inte
                 {
                     "name": "Function.CallEventHandler",
                     "method": "DETAILS",
-                    "NAVIGATION": "cd-consent-rl-9xvtcyoamg2wvmaegorkzbdfpsq"
+                    "NAVIGATION": "cd-consent-rl-doctor"
                 }
             ]
         }

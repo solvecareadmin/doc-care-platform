@@ -10,6 +10,10 @@ description: >-
 
 The input.json file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
 
+### Care Data Node (CDN)
+
+Care Data Node is the database of the network. It retrieves external data and converts them into events in a network. It is used to interface a network with external client systems, such as electronic medical records, member management systems, and payment systems.
+
 ### Care.Card definitions
 
 Care.Card is a decentralized application within a network that contains data types, user interface elements, and interactive functions that are triggered by events. The Care.Card definition structure contains card data, card layout, card footer, and card UI actions.
@@ -33,7 +37,3 @@ The resources contain a collection of predefined data that are inserted or updat
 ### Transactional data
 
 Transactional data contains a collection of configurable data that can be referenced from roles, cards, or events within the network.
-
-### Care.DataNode (CDN)
-
-Care.DataNode is a data transformation or integration tool that retrieves external data and converts them into events in a network. It is used to interface a network with external client systems, such as electronic medical records, member management systems, and payment systems.

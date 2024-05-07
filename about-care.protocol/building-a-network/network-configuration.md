@@ -55,7 +55,7 @@ description: >-
                     "join_network_settings": {
                       "join_roles": [
                         {
-                          "role": "rl-member",
+                          "role": "rl-patient",
                           "join_method": "DEFAULT",
                           "required_consents": ["WALLET", "PHONE"],
                           "terms_and_conditions_checksum": "d61c0c428b88a19c1d0b9e10dae816fe"

@@ -12,6 +12,7 @@
   * [Components](about-care.protocol/getting-started/components.md)
   * [Definition of Terms](about-care.protocol/getting-started/definition-of-terms.md)
 * [Building a Network](about-care.protocol/building-a-network/README.md)
+  * [Care Data Node (CDN)](about-care.protocol/building-a-network/care-data-node-cdn.md)
   * [Network configuration](about-care.protocol/building-a-network/network-configuration.md)
   * [Roles and journeys](about-care.protocol/building-a-network/roles-and-journeys.md)
   * [Card definitions](about-care.protocol/building-a-network/card-definitions/README.md)
