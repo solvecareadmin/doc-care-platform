@@ -12,35 +12,6 @@ The Python event handler contains a set of base classes that provide an interfac
 
 {% code title="Example:" fullWidth="false" %}
 ```python
-import java
-import polyglot
-
-HandlerExecutionContext = java.type('care.solve.node.core.context.HandlerExecutionContext')
-Map = java.type('java.util.Map')
-HashMap = java.type('java.util.HashMap')
-List = java.type('java.util.List')
-SearchRequest = java.type('care.solve.node.core.model.cdn.SearchRequest')
-SearchResponse = java.type('care.solve.node.core.model.cdn.SearchResponse')
-QueryCondition = java.type('care.solve.node.core.model.cdn.QueryCondition')
-QueryConditions = java.type('care.solve.node.core.model.cdn.QueryConditions')
-SimpleQueryBuilder = java.type('care.solve.node.core.model.cdn.SimpleQueryBuilder')
-WalletProfile = java.type('care.solve.node.core.model.mainnetnode.WalletProfile')
-PhoneProfile = java.type('care.solve.node.core.model.mainnetnode.PhoneProfile')
-ContactProfile = java.type('care.solve.node.core.model.mainnetnode.ContactProfile')
-ProfileType = java.type('care.solve.node.core.model.mainnetnode.ProfileType')
-NodeInfo = java.type("care.solve.node.core.model.NodeInfo")
-ProfileAttribute = java.type('care.solve.node.core.model.mainnetnode.ProfileAttribute')
-EqualitySearchFilter = java.type("care.solve.node.core.model.query.EqualitySearchFilter")
-NumericBoundsSearchFilter = java.type("care.solve.node.core.model.query.NumericBoundsSearchFilter")
-SearchQueryFilter = java.type("care.solve.node.core.model.query.SearchQueryFilter")
-HandlerDefinition = java.type("care.solve.node.handler.generic.definition.ScriptHandlerDefinition")
-ProtocolSpecification = java.type("com.care.solve.client.protocol.dto.spec.protocol.ProtocolSpecificationDto")
-NodeProtocolSpecification = java.type("com.care.solve.client.protocol.dto.spec.event.NodeProtocolSpecificationDto")
-context: HandlerExecutionContext = polyglot.import_value('context')
-protocol: ProtocolSpecification = polyglot.import_value('protocol')
-node_protocol: ProtocolSpecification = polyglot.import_value('node_protocol')
-handler_definition: HandlerDefinition = polyglot.import_value('handler_definition')
-
 class CDN:
     def __init__(self, index: str):
         self.context = context
@@ -86,11 +57,6 @@ class Vault:
         vault = self.context.getVaultStorage(collection)
         return vault.search(filters)
 
-def arguments() -> Map:
-    return context.getArguments()
-...
-def cw_id():
-    return polyglot.import_value('context').getCareWalletId()
 def execute(ctx: HandlerExecutionContext) -> Map:
     result = HashMap(arguments())
     # PUT YOUR CODE HERE
@@ -123,7 +89,7 @@ The following examples show how to send an event from Care Data Node (CDN) to Ca
 ```
 {% endcode %}
 
-2. Create the event definition.
+2. Create the event definition for _event/ev-cdn-broadcast.json._
 
 {% code title="Example:" %}
 ```json
@@ -192,6 +158,7 @@ The following examples show how to send an event from Care Data Node (CDN) to Ca
 
 3. Define the event handler in the _input.json_ file.
 
+{% code title="Example:" %}
 ```json
  {
     "id": "e-h-n-patient-process-py",
@@ -200,12 +167,14 @@ The following examples show how to send an event from Care Data Node (CDN) to Ca
     "status": "Active",
     "event": "ev-cdn-broadcast",
     "type": "NODE_EVENT_HANDLER",
-    "python_event_handler_ref": "event-handler/e-h-n-patient-process.py"
+    "python_event_handler_ref": "python-event-handler/e-h-n-patient-process.py"
   }
 ```
+{% endcode %}
 
-4. Create the event handler definition based on the Python template.
+4. Create a Python event handler definition that saves the data.
 
+{% code title="Example:" %}
 ```python
 def execute(ctx: HandlerExecutionContext) -> Map:
     result = HashMap(arguments())
@@ -219,3 +188,4 @@ def execute(ctx: HandlerExecutionContext) -> Map:
     Vault('MY_DATA').save(page.getContent())
     return result
 ```
+{% endcode %}
