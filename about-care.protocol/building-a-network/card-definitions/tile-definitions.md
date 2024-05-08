@@ -65,9 +65,7 @@ This tile represents two texts.
 
 This tile represents a text input for a specific key.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                             | Preview                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>min and max length</li><li>align: START (left), END (right) or JUSTIFY</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*sugarLevel}</code>- The text input is set to key <code>sugarLevel</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile1.png) |
+<table><thead><tr><th width="370">Configurations</th><th>Preview</th></tr></thead><tbody><tr><td><ul><li>min and max length</li><li>align: START (left), END (right) or JUSTIFY</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*sugarLevel}</code>- The text input is set to key <code>sugarlevel</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul></td><td><img src="../../../.gitbook/assets/tile1.png" alt=""></td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -143,9 +141,9 @@ This tile represents a text input for a specific key.
 
 This tile represents a text input for a specific key with tooltip.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                                                                                                     | Preview                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>min and max length</li><li>align: START (fixed left)</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*age}</code> - The text input is set to key <code>age</code> that will be used and sent through an event.</li><li>tip: text shows when a user clicks the question mark icon</li><li>border color: hex value</li><li>text color: hex value</li><li>icon mage: height and width</li></ul> | ![](../../../.gitbook/assets/tile2.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                                                                                                                                 | Preview                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>min and max length</li><li>align: START (fixed left)</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*age}</code> - The text input is set to <code>age</code> that will be used and sent through an event.</li><li>tip: text shows when a user clicks the question mark icon</li><li>border color: hex value</li><li>text color: hex value</li><li>icon mage: height and width</li></ul> | ![](../../../.gitbook/assets/tile2.jpg) |
 
 ```json
 {
@@ -176,9 +174,9 @@ This tile represents a text input for a specific key with tooltip.
 
 This tile represents a data selection for a specific key.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                                                        | Preview                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>title label (left)</li><li>min and max date values</li><li>align: START (fixed left)</li><li>hint: placeholder for date input</li><li>key: <code>{*dataSelected}</code> - The selected data is set to key <code>dateSelected</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | ![](../../../.gitbook/assets/tile3.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                                                                                    | Preview                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>title label (left)</li><li>min and max date values</li><li>align: START (fixed left)</li><li>hint: placeholder for date input</li><li>key: <code>{*dateSelected}</code> - The date input is set to key <code>dateSelected</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | ![](../../../.gitbook/assets/tile3.jpg) |
 
 ```json
 {
@@ -207,9 +205,9 @@ This tile represents a data selection for a specific key.
 
 This tile represents a stepper for a specific key.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                                 | Preview                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
-| <ul><li>title label (left)</li><li>start: the start number of the stepper</li><li>end: the end number of the stepper</li><li>align: START (fixed left), JUSTIFY</li><li>key: <code>{status}</code> - The selected value is set to key <code>status</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile5.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                                                                | Preview                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>title label (left)</li><li>start: the start number of the stepper</li><li>end: the end number of the stepper</li><li>align: START (fixed left), JUSTIFY</li><li>key: <code>{status}</code> - The selected value is set to key <code>status</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile5.jpg) |
 
 ```json
 {
@@ -238,9 +236,9 @@ This tile represents a stepper for a specific key.
 
 This tile represents option selectors as radio buttons in horizontal format.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                          | Preview                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option from the list is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile6.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                            | Preview                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile6.jpg) |
 
 ```json
 {
@@ -282,9 +280,9 @@ This tile represents option selectors as radio buttons in horizontal format.
 
 This tile represents options selectors as radio buttons in vertical format.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                          | Preview                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option from the list is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile6a.jpg" alt="" data-size="original"> |
+| Configurations                                                                                                                                                                                                                                                                                                                            | Preview                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile6a.jpg" alt="" data-size="original"> |
 
 ```json
 {
@@ -875,10 +873,11 @@ This tile represents selectable images.
 
 This tile represents clickable images in a single row. Clicking the image navigates the user to a target location.
 
-| Configurations                                                                                                                                                                                                                                                            | Preview |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| <ul><li>subtitle text: reference to the title that displays below the image</li><li>align: START, CENTER, or END</li><li>text color: hex value</li><li>border color: hex value</li><li>uiAction: "${action1}" - This value is correlated with an event handler.</li></ul> |         |
+| Configurations                                                                                                                                                                                                          | Preview                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <ul><li>subtitle text: reference to the title that displays below the image</li><li>align: START, CENTER, or END</li><li>text color: hex value</li><li>border color: hex value</li><li>uiAction: "action17a2"</li></ul> | <img src="../../../.gitbook/assets/tile17a (1).png" alt="" data-size="original"> |
 
+{% code title="Tile definition" %}
 ```json
 {
                         "id": "Tile17a",
@@ -888,7 +887,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
                                     "list": [
                                         {
                                             "subTitle": {
-                                                "text": "10tile14iitextiizxq",
+                                                "text": "10tile17aiitextiizxq",
                                                 "subtitleAlign": "CENTER",
                                                 "colorCode": "#000080",
                                                 "style": "REGULAR"
@@ -900,7 +899,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
                                         },
                                         {
                                             "subTitle": {
-                                                "text": "9tile14iitextii0ak",
+                                                "text": "9tile17aiitextii0ak",
                                                 "subtitleAlign": "CENTER",
                                                 "colorCode": "#000080",
                                                 "style": "REGULAR"
@@ -912,7 +911,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
                                         },
                                         {
                                             "subTitle": {
-                                                "text": "8tile14iitextiimyk",
+                                                "text": "8tile17aiitextiimyk",
                                                 "subtitleAlign": "END",
                                                 "colorCode": "#000080",
                                                 "style": "REGULAR"
@@ -933,3 +932,18 @@ This tile represents clickable images in a single row. Clicking the image naviga
                         "order": 5
                     }
 ```
+{% endcode %}
+
+{% code title="cardUIAction" %}
+```json
+"action17a2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId":"cd-vwgot7h4rlhwnzjf24aqa37ezz4"
+                    
+                }
+            ]
+        }
+```
+{% endcode %}
