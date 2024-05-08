@@ -6,9 +6,9 @@
 
 With Care.Platform, you can build care networks to streamline the process and delivery of healthcare services. A care network connects various roles in healthcare using decentralized applications, also known as **Care.Cards**, which can be accessed using **Care.Wallet**.
 
-**Care.Wallet** is a personal healthcare assistant that helps manage your healthcare needs from your mobile device. It contains a set of **Care.Cards** that represent a set of interactions in a healthcare journey, such as handling health records and booking appointments.
+**Care.Wallet** is a personal healthcare assistant that helps manage your healthcare needs from your mobile device. It contains a set of **Care.Cards** that represent a set of interactions in a healthcare journey, such as handling health records, booking appointments, and processing claims or payments.
 
-### Use Cases in Care Networks
+### Use Case Examples
 
 #### Remote patient monitoring
 
