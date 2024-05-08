@@ -10,7 +10,7 @@ description: >-
 
 The _input.json_ file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
 
-### Care Data Node (CDN)
+### Care Data Node
 
 Care Data Node acts as the database of the network for storing and processing data files. It is used to exchange data with external client systems, such as electronic medical records, claims systems, member systems, and payment systems.
 

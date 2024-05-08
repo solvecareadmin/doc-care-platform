@@ -16,9 +16,9 @@ A role is a basic element of Care.Protocol that represents a specific role type 
 ```json
         "roles": [
             {
-                "id": "rl-member",
-                "name": "Member",
-                "description": "The member user role.",
+                "id": "rl-patient",
+                "name": "Patient",
+                "description": "The patient user role.",
                 "type": "Wallet",
                 "status": "Active",
                 "version": 1,

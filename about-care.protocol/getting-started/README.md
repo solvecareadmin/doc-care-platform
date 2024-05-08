@@ -6,8 +6,6 @@ In this guide, you will learn how to author a network manually using the example
 
 ### Structure of files and folders
 
-<figure><img src="../../.gitbook/assets/network-folder-structure.png" alt="care-protocol-folder-structure" width="375"><figcaption></figcaption></figure>
-
 ```
 ├── sample-network/
      ├── definitions/
