@@ -12,7 +12,7 @@ The _input.json_ file is a hierarchical structure of objects defined within a ne
 
 ### Care Data Node (CDN)
 
-Care Data Node is the database of the network. It retrieves external data and converts them into events in a network. It is used to interface a network with external client systems, such as electronic medical records, member management systems, and payment systems.
+Care Data Node acts as the database of the network for storing and processing data files. It is used to exchange data with external client systems, such as electronic medical records, claims systems, member systems, and payment systems.
 
 ### Care.Card definitions
 

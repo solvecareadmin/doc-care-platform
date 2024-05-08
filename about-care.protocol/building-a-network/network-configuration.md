@@ -48,7 +48,7 @@ description: >-
 
 ### Join network settings
 
-<table><thead><tr><th width="211">Field Name</th><th width="169">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>role</td><td>string</td><td>The ID of the role joining the network.</td></tr><tr><td>join_method</td><td>string</td><td>The method of joining the network.</td></tr><tr><td>required_consents</td><td>array</td><td>The cards which you allow other users in the network to access.</td></tr><tr><td>terms_and_conditions_checksum</td><td>string</td><td>The default value generated in the system.</td></tr></tbody></table>
+<table><thead><tr><th width="211">Field Name</th><th width="169">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>role</td><td>string</td><td>The ID of the role joining the network.</td></tr><tr><td>join_method</td><td>string</td><td>The method of joining the network.</td></tr><tr><td>required_consents</td><td>array</td><td>The cards which you allow other users in the network to access.</td></tr><tr><td>terms_and_conditions_checksum</td><td>string</td><td>The terms and conditions for joining the network.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
