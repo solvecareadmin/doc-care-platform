@@ -5,7 +5,7 @@ description: This section describes the event definitions and event handler conf
 # Events and event handlers
 
 {% hint style="info" %}
-All event and event handler definitions must be included in the _input.json_ file.
+All event and event handler definitions must be included in the `input.json` file.
 {% endhint %}
 
 ### Events
@@ -51,7 +51,7 @@ All event and event handler definitions must be included in the _input.json_ fil
 
 ### Definitions
 
-The following example is an event definition for _event/ew-patient-nav-to-cd-next1.json_.
+The following example is an event definition for `event/ew-patient-nav-to-cd-next1.json`.
 
 {% code title="Example:" %}
 ```json
@@ -91,7 +91,7 @@ The following example is an event definition for _event/ew-patient-nav-to-cd-nex
 ```
 {% endcode %}
 
-The following example is an event handler definition for _event-handler/ehw-patient-nav-to-cd-next1.json_.&#x20;
+The following example is an event handler definition for `event-handler/ehw-patient-nav-to-cd-next1.json`.&#x20;
 
 ```json
 {

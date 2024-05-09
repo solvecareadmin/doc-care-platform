@@ -6,9 +6,9 @@ description: >-
 
 # Components
 
-### input.json
+### `input.json`
 
-The _input.json_ file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
+The `input.json` file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
 
 ### Care Data Node
 

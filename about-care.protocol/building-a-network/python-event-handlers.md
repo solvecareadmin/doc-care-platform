@@ -66,9 +66,9 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 
 ### Use case example
 
-The following examples show how to send an event from Care Data Node (CDN) to Care.Wallet.
+The following examples show how to send an event from CDN to Care.Wallet.
 
-1. Define the event in the _input.json_ file.
+1. Define the event in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
@@ -89,7 +89,7 @@ The following examples show how to send an event from Care Data Node (CDN) to Ca
 ```
 {% endcode %}
 
-2. Create the event definition for _event/ev-cdn-broadcast.json._
+2. Create the event definition for `event/ev-cdn-broadcast.json`_._
 
 {% code title="Example:" %}
 ```json
@@ -156,7 +156,7 @@ The following examples show how to send an event from Care Data Node (CDN) to Ca
 ```
 {% endcode %}
 
-3. Define the event handler in the _input.json_ file.
+3. Define the event handler in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
