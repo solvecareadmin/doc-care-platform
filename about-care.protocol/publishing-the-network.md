@@ -115,7 +115,7 @@ https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
 <mark style="color:green;">**GET**</mark>
 
 {% code title="Example:" overflow="wrap" %}
-```
+```bash
 curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/{{networkVersion}}' \
 --header 'Authorization: Bearer {{networkAuthorCANToken}}'
 ```
