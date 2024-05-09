@@ -31,7 +31,7 @@ A card contains data types, user interface elements, and interactive functions t
         "private_card": "",
         "base_card": "",
         "journey": "jn-start-journey",
-        "outgoing_events": ["ew-patient-nav-to-cd-next"],
+        "outgoing_events": ["ew-patient-nav-to-cd-next1"],
         "pre_rendering_events": [],
         "post_rendering_events": []
       }
