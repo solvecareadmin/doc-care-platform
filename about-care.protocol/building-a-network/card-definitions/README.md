@@ -7,7 +7,7 @@ description: >-
 # Card definitions
 
 {% hint style="info" %}
-All card definitions must be included in the _input.json_ file.
+All card definitions must be included in the `input.json` file.
 {% endhint %}
 
 ### Cards
@@ -42,7 +42,7 @@ A card contains data types, user interface elements, and interactive functions t
 ### Card definition structure
 
 {% hint style="info" %}
-Each card definition is located in the **/definitions/card/** folder.
+Each card definition is located in the `/definitions/card/` folder.
 {% endhint %}
 
 * **Card data** - The information or data displayed within the card, such as texts, images, and links.
