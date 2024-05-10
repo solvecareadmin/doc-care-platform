@@ -8,7 +8,7 @@ description: >-
 
 ### Network metadata
 
-<table><thead><tr><th width="213">Field Name</th><th width="174">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>network_id</td><td>string</td><td>The unique ID assigned to the network.</td></tr><tr><td>node_url</td><td>string</td><td>The unique node URL for the network.</td></tr><tr><td>version</td><td>number</td><td>The unique name of the network.</td></tr><tr><td>description</td><td>string</td><td>The short description about the network.</td></tr><tr><td>publish_date</td><td>string</td><td>The publish date of the network protocol.</td></tr><tr><td>effective_date</td><td>string</td><td>The effective date when the protocol is applied to the network.</td></tr></tbody></table>
+<table><thead><tr><th width="213">Field Name</th><th width="174">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>network_id</td><td>string</td><td>The unique ID associated to the network.</td></tr><tr><td>node_url</td><td>string</td><td>The URL of the network node where it is deployed.</td></tr><tr><td>name</td><td>string</td><td>The unique name of the network.</td></tr><tr><td>version</td><td>number</td><td>The version number of the network protocol.</td></tr><tr><td>description</td><td>string</td><td>The short description about the network.</td></tr><tr><td>publish_date</td><td>string</td><td>The date of the network protocol is published.</td></tr><tr><td>effective_date</td><td>string</td><td>The date when the protocol is effective or operational within the network.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -26,7 +26,7 @@ description: >-
 
 ### Author details and countries
 
-<table><thead><tr><th width="212">Field Name</th><th width="172">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>author_name</td><td>string</td><td>The name of the author (entity or person).</td></tr><tr><td>author_website</td><td>string</td><td>The website URL of the author.</td></tr><tr><td>author_address1</td><td>string</td><td>The address of the author (line1).</td></tr><tr><td>author_address2</td><td>string</td><td>The address of the author (line2).</td></tr><tr><td>geo_fence_countries</td><td>string</td><td>The list of countries that can join the network.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Field Name</th><th width="172">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>author_name</td><td>string</td><td>The name of the author (entity or person) of the network protocol.</td></tr><tr><td>author_website</td><td>string</td><td>The website URL of the author.</td></tr><tr><td>author_address1</td><td>string</td><td>The address of the author (line1).</td></tr><tr><td>author_address2</td><td>string</td><td>The address of the author (line2).</td></tr><tr><td>geo_fence_countries</td><td>string</td><td>The list of countries that can join the network.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json

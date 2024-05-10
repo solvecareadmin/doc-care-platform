@@ -13,7 +13,7 @@ description: This section describes the overview of steps in authoring a network
 * Open the `input.json` file in a text editor, and then enter the [network details](network-configuration.md#network-metadata).
 * In the network settings, fill in the [author details and included countries](network-configuration.md#author-details-and-countries).
 * Configure the [join network settings](network-configuration.md#join-network-settings) and [solve token usage](network-configuration.md#solve-token-settings).
-* Add the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journey).
+* Add the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journeys).
 * Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers.md#events), and [event handlers](events-and-event-handlers.md#event-handlers).
 * Save and validate the `input.json` file.
 

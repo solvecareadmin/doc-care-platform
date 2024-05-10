@@ -17,7 +17,7 @@ A role is a basic element of Care.Protocol that represents a specific role type 
         "roles": [
             {
                 "id": "rl-patient",
-                "name": "Patient",
+                "name": "PATIENT",
                 "description": "The patient user role.",
                 "type": "Wallet",
                 "status": "Active",
@@ -27,7 +27,7 @@ A role is a basic element of Care.Protocol that represents a specific role type 
             },
             {
                 "id": "rl-doctor",
-                "name": "Doctor",
+                "name": "DOCTOR",
                 "description": "The Doctor user role.",
                 "type": "Wallet",
                 "status": "Active",
