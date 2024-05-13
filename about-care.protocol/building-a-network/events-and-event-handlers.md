@@ -8,6 +8,8 @@ description: This section describes the event definitions and event handler conf
 All event and event handler definitions must be included in the `input.json` file.
 {% endhint %}
 
+
+
 ### Events
 
 <table><thead><tr><th width="235">Field Name</th><th width="166">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the event used across the network.</td></tr><tr><td>name</td><td>string</td><td>The name of the event.</td></tr><tr><td>description</td><td>string</td><td>The description of the event.</td></tr><tr><td>code</td><td>string</td><td>The same as event name.</td></tr><tr><td>status</td><td>string</td><td>The status for the event set to Active.</td></tr><tr><td>type</td><td>string</td><td>The type of event. The possible values are: WALLET_LOCAL, WALLET_FROM_NODE, WALLET_TO_NODE, NODE_TO_NODE and NODE_TO_ROLE.</td></tr><tr><td>event_definition_ref</td><td>string</td><td>The reference path and ID of the event definition.</td></tr><tr><td>submit_event_handler</td><td>string</td><td>The ID of the event handler used for submitting the event.</td></tr><tr><td>node_event_handlers</td><td>array</td><td>The list of outgoing event handlers for node events.</td></tr><tr><td>card</td><td>string</td><td>The reference ID of the card associated to the event.</td></tr></tbody></table>
@@ -19,7 +21,7 @@ All event and event handler definitions must be included in the `input.json` fil
                 "id": "ew-patient-nav-to-cd-next1",
                 "name": "patient-nav-to-cd-next1",
                 "description": "Event to navigate from start card to next card",
-                "code": "patient-nav-to-cd.next1",
+                "code": "patient-nav-to-cd-next1",
                 "status": "Active",
                 "type": "WALLET_LOCAL",
                 "event_definition_ref": "event/ew-patient-nav-to-cd-next1.json",

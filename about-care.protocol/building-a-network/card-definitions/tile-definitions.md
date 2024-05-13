@@ -947,3 +947,45 @@ This tile represents clickable images in a single row. Clicking the image naviga
         }
 ```
 {% endcode %}
+
+### SmartTile1
+
+This tile is an input field that is used to implement checks. such as "field format" and "field value".
+
+| Configurations                                                                                                                                                                                                                                                                                                                                                                                  | Preview                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| <ul><li>title text</li><li>subtitle text</li><li>text color: hex value</li><li>font size: number value</li><li>border color: hex value</li><li>align: START, CENTER, END or JUSTIFY</li><li>hint: placeholder for text input</li><li>min and max length</li><li>fieldFormat: Any supported field format, such as "email".</li><li>validation: optional or required, and error message</li></ul> | ![](../../../.gitbook/assets/smarttile1-sample.png) |
+
+```json
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile1iitextii5gb",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$email}",
+                                    "hint": "2tile1iihintiid8l",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "tip": "2tile2iitipii3m6",
+                                    "fieldFormat": "email",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "2tile1iierrorii0uj"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+```
