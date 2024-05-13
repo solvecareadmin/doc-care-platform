@@ -83,7 +83,7 @@ The following examples show how to send an event from CDN to Care.Wallet.
     "to_role": "PATIENT",
     "event_definition_ref": "event/ev-cdn-broadcast.json",
     "node_event_handlers": [
-      "e-h-n-patient-process-py"
+      "eh-n-patient-process-py"
     ]
   }
 ```
@@ -161,13 +161,13 @@ The following examples show how to send an event from CDN to Care.Wallet.
 {% code title="Example:" %}
 ```json
  {
-    "id": "e-h-n-patient-process-py",
+    "id": "eh-n-patient-process-py",
     "name": "N.CDN.BROADCAST.MESSAGE",
     "description": "N.CDN.BROADCAST.MESSAGE",
     "status": "Active",
     "event": "ev-cdn-broadcast",
     "type": "NODE_EVENT_HANDLER",
-    "python_event_handler_ref": "python-event-handler/e-h-n-patient-process.py"
+    "python_event_handler_ref": "python-event-handler/eh-n-patient-process.py"
   }
 ```
 {% endcode %}

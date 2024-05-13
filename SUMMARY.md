@@ -17,6 +17,7 @@
   * [Roles and journeys](about-care.protocol/building-a-network/roles-and-journeys.md)
   * [Card definitions](about-care.protocol/building-a-network/card-definitions/README.md)
     * [Tile definitions](about-care.protocol/building-a-network/card-definitions/tile-definitions.md)
+    * [Functions](about-care.protocol/building-a-network/card-definitions/functions.md)
   * [Events and event handlers](about-care.protocol/building-a-network/events-and-event-handlers.md)
   * [Python event handlers](about-care.protocol/building-a-network/python-event-handlers.md)
   * [Transactional data](about-care.protocol/building-a-network/transactional-data.md)

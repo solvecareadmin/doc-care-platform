@@ -185,7 +185,7 @@ The card footer contains the navigation options, actions, or buttons for interac
 
 #### Card UI actions
 
-The card UI actions enable various functionalities such as retrieving data, interacting with external systems or APIs, and validating user inputs.
+The card UI actions enable various functionalities such as retrieving data, interacting with external systems or APIs, and validating user inputs. For information on functions, see [Functions](functions.md).
 
 {% code title="Example:" %}
 ```json
