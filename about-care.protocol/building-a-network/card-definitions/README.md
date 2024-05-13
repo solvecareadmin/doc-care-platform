@@ -73,7 +73,9 @@ The card data can include different types of information relevant to a healthcar
 
 The card body presents the main content of the card which includes tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md).
 
-<pre class="language-json" data-title="Example:"><code class="lang-json">    "cardLayout": {
+{% code title="Example:" %}
+```json
+    "cardLayout": {
         "body": [
             {
                 "id": "00tc01",
@@ -110,8 +112,8 @@ The card body presents the main content of the card which includes tiles, texts,
                         "uiAction": "",
                         "order": 1
                     },
-<strong>                    {
-</strong>                        "id": "Tile16",
+                    {
+                        "id": "Tile16",
                         "subView": [
                             {
                                 "img": {
@@ -135,7 +137,8 @@ The card body presents the main content of the card which includes tiles, texts,
                 "order": 1
             }
         ],
-</code></pre>
+```
+{% endcode %}
 
 #### Card footer
 

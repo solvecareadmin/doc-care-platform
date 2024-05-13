@@ -8,7 +8,7 @@ description: >-
 
 ### Network metadata
 
-<table><thead><tr><th width="213">Field Name</th><th width="174">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>network_id</td><td>string</td><td>The unique ID associated to the network.</td></tr><tr><td>node_url</td><td>string</td><td>The URL of the network node where it is deployed.</td></tr><tr><td>name</td><td>string</td><td>The unique name of the network.</td></tr><tr><td>version</td><td>number</td><td>The version number of the network protocol.</td></tr><tr><td>description</td><td>string</td><td>The short description about the network.</td></tr><tr><td>publish_date</td><td>string</td><td>The date of the network protocol is published.</td></tr><tr><td>effective_date</td><td>string</td><td>The date when the protocol is effective or operational within the network.</td></tr></tbody></table>
+<table><thead><tr><th width="213">Field Name</th><th width="174">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>network_id</td><td>string</td><td>The unique ID associated to the network.</td></tr><tr><td>node_url</td><td>string</td><td>The URL of the network node where it is deployed.</td></tr><tr><td>name</td><td>string</td><td>The unique name of the network.</td></tr><tr><td>version</td><td>number</td><td>The version number of the network protocol.</td></tr><tr><td>description</td><td>string</td><td>The short description about the network.</td></tr><tr><td>publish_date</td><td>string</td><td>The date when the network protocol is published.</td></tr><tr><td>effective_date</td><td>string</td><td>The date when the protocol is effective or operational within the network.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json

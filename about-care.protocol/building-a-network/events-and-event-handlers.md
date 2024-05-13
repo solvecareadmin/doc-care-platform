@@ -17,7 +17,7 @@ All event and event handler definitions must be included in the `input.json` fil
         "events": [
             {
                 "id": "ew-patient-nav-to-cd-next1",
-                "name": "patient-nav-to-cd.next1",
+                "name": "patient-nav-to-cd-next1",
                 "description": "Event to navigate from start card to next card",
                 "code": "patient-nav-to-cd.next1",
                 "status": "Active",
@@ -39,7 +39,7 @@ All event and event handler definitions must be included in the `input.json` fil
         "event_handlers": [
             {
                 "id": "ehw-patient-nav-to-cd-next1",
-                "name": "patient-nav-to-cd.next1",
+                "name": "patient-nav-to-cd-next1",
                 "description": "Wallet Event Handler to Navigate from Start to cd-next1",
                 "status": "Active",
                 "event": "ew-patient-nav-to-cd-next1",
@@ -97,7 +97,7 @@ The following example is an event handler definition for `event-handler/ehw-pati
 {
     "walletEventHandler": [
         {
-            "refId": "e-w-patient-nav-to-cd-next1",
+            "refId": "ew-patient-nav-to-cd-next1",
             "walletEvents": [
                 {
                     "actions": [
@@ -113,7 +113,7 @@ The following example is an event handler definition for `event-handler/ehw-pati
                         }
                     ],
                     "postAction": "cd-next2",
-                    "refId": "e-w-patient-nav-to-cd-next1"
+                    "refId": "ew-patient-nav-to-cd-next1"
                 }
             ]
         }

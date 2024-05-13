@@ -58,7 +58,7 @@ The following example shows the "Get started" and the "Join as Doctor" journeys.
                 "description": "Start journey for Patient",
                 "status": "Active",
                 "start_card_ref_id": "cd-start-rl-patient",
-                "roles": [rl-patient],
+                "roles": ["rl-patient"],
                 "journey_type": "STANDARD_JOURNEY"
             },
             {
