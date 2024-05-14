@@ -102,6 +102,8 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 
 ### Upload data definition file (ddf)
 
+The data definition file contains the model and structure for organizing data in CDN.
+
 <mark style="color:orange;">**POST**</mark>
 
 {% code overflow="wrap" %}
@@ -109,6 +111,52 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
 ```
 {% endcode %}
+
+### Upload CSV
+
+Upload the CSV file with the same attributes as the uploaded DDF in the input folder of the Amazon S3 bucket. If necessary, delete existing data.
+
+#### Deleting existing data from CDN
+
+<mark style="color:orange;">**POST**</mark>
+
+```bash
+curl --location 'https://elasticsearch/trials-with-geo/_delete_by_query' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
+--data '{
+"query": {
+"match_all": {}
+}
+}'
+Body
+{
+"query": {
+"match_all": {}
+}
+}
+```
+
+#### Checking the count
+
+<mark style="color:orange;">**POST**</mark>
+
+```bash
+curl --location 'https://elasticsearch/trials-with-geo/_count' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
+--data '{
+"query": {
+"match_all": {}
+}
+}'
+Body:
+{
+"query": {
+"match_all": {}
+}
+}
+```
 
 ### Get publishing state
 

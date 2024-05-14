@@ -6,7 +6,7 @@ Care Data Node stores and exchanges data files in a Care.Network. It can convert
 
 ### Data definition file
 
-The data definition file contains the model and structure for organizing data in Care Data Node.
+The data definition file contains the model and structure for organizing data in Care Data Node. For information on uploading the data definition file, see [Upload data definition file](../publishing-the-network.md#upload-data-definition-file-ddf).&#x20;
 
 #### Sample file structure
 
