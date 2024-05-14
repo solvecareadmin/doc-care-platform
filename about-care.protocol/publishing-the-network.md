@@ -112,6 +112,25 @@ https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
 ```
 {% endcode %}
 
+#### Searching data
+
+<mark style="color:orange;">**POST**</mark>
+
+```
+https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_search
+```
+
+```bash
+curl --location 'https://elasticsearch/us-doctors-sample/_search' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
+--data '{
+"query": {
+"match_all": {}
+}
+}'
+```
+
 ### Upload CSV
 
 Upload the CSV file with the same attributes as the uploaded DDF in the input folder of the Amazon S3 bucket. If necessary, delete existing data.
@@ -120,8 +139,13 @@ Upload the CSV file with the same attributes as the uploaded DDF in the input fo
 
 <mark style="color:orange;">**POST**</mark>
 
+```
+https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_delete_by_query
+```
+
+{% code title="Example:" %}
 ```bash
-curl --location 'https://elasticsearch/trials-with-geo/_delete_by_query' \
+curl --location 'https://elasticsearch/us-doctors-sample/_delete_by_query' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
 --data '{
@@ -136,13 +160,19 @@ Body
 }
 }
 ```
+{% endcode %}
 
 #### Checking the count
 
+```
+https://{{eks-env}}/{{network-id}}/elasticsearch/trials-with-geo/_count
+```
+
 <mark style="color:orange;">**POST**</mark>
 
+{% code title="Example:" %}
 ```bash
-curl --location 'https://elasticsearch/trials-with-geo/_count' \
+curl --location 'https://elasticsearch/us-doctors-sample/_count' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
 --data '{
@@ -157,6 +187,7 @@ Body:
 }
 }
 ```
+{% endcode %}
 
 ### Get publishing state
 
