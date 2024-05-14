@@ -950,7 +950,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
 
 ### SmartTile1
 
-This tile is an input field that is used to implement checks. such as "field format" and "field value".
+This tile is an input field that is used to implement checks, such as "field format" and "field value".
 
 | Configurations                                                                                                                                                                                                                                                                                                                                                                                  | Preview                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
