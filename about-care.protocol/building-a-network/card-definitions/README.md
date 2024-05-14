@@ -71,7 +71,7 @@ The card data can include different types of information relevant to a healthcar
 
 #### Card layout
 
-The card body presents the main content of the card which includes tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md).
+The card body presents the main content of the card which includes tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For information on supported functions, see [Functions](functions.md).
 
 {% code title="Example:" %}
 ```json
@@ -185,24 +185,18 @@ The card footer contains the navigation options, actions, or buttons for interac
 
 #### Card UI actions
 
-The card UI actions enable various functionalities such as retrieving data, interacting with external systems or APIs, and validating user inputs. For information on functions, see [Functions](functions.md).
+The card UI actions enable various functions, such as navigating between cards, retrieving or updating data, interacting with external systems, and validating user inputs.
 
 {% code title="Example:" %}
 ```json
     "cardUIAction": {
         "action1": {
-            "action": "HOME"
-        },
-        "action2": {
-            "action": [
-                {
-                    "name": "Function.CallEventHandler",
-                    "method": "DETAILS",
-                    "NAVIGATION": "cd-consent-rl-doctor"
-                }
-            ]
+            "action": ""
+        }, "action2": {
+            "action": "cd-next2"
         }
-    },
+    }
+}
 ```
 {% endcode %}
 
