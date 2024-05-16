@@ -555,9 +555,9 @@ This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 
 This tile represents an option selector.
 
-| Configurations                                                                                                                                                                                                                                                                    | Preview                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <ul><li>title label (left)</li><li>options: key and list</li><li>key: {answer} - The selected option is set to key answer that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile10.jpg" alt="" data-size="original"> |
+| Configurations                                                                                                                                                                                                                                                                                              | Preview                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer</code>} - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile10.jpg" alt="" data-size="original"> |
 
 ```json
 {

@@ -120,6 +120,7 @@ https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
 https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_search
 ```
 
+{% code title="" %}
 ```bash
 curl --location 'https://elasticsearch/us-doctors-sample/_search' \
 --header 'Content-Type: application/json' \
@@ -130,6 +131,7 @@ curl --location 'https://elasticsearch/us-doctors-sample/_search' \
 }
 }'
 ```
+{% endcode %}
 
 ### Upload CSV
 
