@@ -167,7 +167,7 @@ Body
 #### Checking the count
 
 ```
-https://{{eks-env}}/{{network-id}}/elasticsearch/trials-with-geo/_count
+https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_count
 ```
 
 <mark style="color:orange;">**POST**</mark>
