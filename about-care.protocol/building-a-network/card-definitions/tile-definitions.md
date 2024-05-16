@@ -12,8 +12,10 @@ This tile represents a text.&#x20;
 
 <table><thead><tr><th width="324">Configurations</th><th>Preview</th></tr></thead><tbody><tr><td><ul><li>style: Regular or Bold</li><li>align: START (left), CENTER, END (right) or JUSTIFY</li><li>border color: hex value</li><li>text color: hex value</li></ul></td><td><img src="../../../.gitbook/assets/tile0.png" alt=""><br></td></tr></tbody></table>
 
-<pre class="language-json" data-title="Example:"><code class="lang-json"><strong>{
-</strong>            "id": "Tile0",
+{% code title="Example:" %}
+```json
+{
+            "id": "Tile0",
             "subView": [
               {
                 "title": {
@@ -27,7 +29,8 @@ This tile represents a text.&#x20;
             "uiAction": "",
             "order": 1
           }
-</code></pre>
+```
+{% endcode %}
 
 ### Tile0a
 
@@ -65,7 +68,7 @@ This tile represents two texts.
 
 This tile represents a text input for a specific key.
 
-<table><thead><tr><th width="370">Configurations</th><th>Preview</th></tr></thead><tbody><tr><td><ul><li>min and max length</li><li>align: START (left), END (right) or JUSTIFY</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*sugarLevel}</code>- The text input is set to key <code>sugarlevel</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul></td><td><img src="../../../.gitbook/assets/tile1.png" alt=""></td></tr></tbody></table>
+<table><thead><tr><th width="370">Configurations</th><th>Preview</th></tr></thead><tbody><tr><td><ul><li>align: START (left), END (right) or JUSTIFY</li><li>keyboard: text or number</li><li>min and max: character length</li><li>hint: placeholder for text input</li><li>key: <code>{*sugarLevel}</code>- The text input is set to key <code>sugarlevel</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul></td><td><img src="../../../.gitbook/assets/tile1.png" alt=""></td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -141,10 +144,11 @@ This tile represents a text input for a specific key.
 
 This tile represents a text input for a specific key with tooltip.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                                                                                                 | Preview                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>min and max length</li><li>align: START (fixed left)</li><li>keyboard: text or number</li><li>hint: placeholder for text input</li><li>key: <code>{*age}</code> - The text input is set to <code>age</code> that will be used and sent through an event.</li><li>tip: text shows when a user clicks the question mark icon</li><li>border color: hex value</li><li>text color: hex value</li><li>icon mage: height and width</li></ul> | ![](../../../.gitbook/assets/tile2.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                                                                                                                                            | Preview                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>align: START (fixed left)</li><li>keyboard: text or number</li><li>min and max: character length</li><li>hint: placeholder for text input</li><li>key: <code>{*age}</code> - The text input is set to <code>age</code> that will be used and sent through an event.</li><li>tip: text shows when a user clicks the question mark icon</li><li>border color: hex value</li><li>text color: hex value</li><li>icon mage: height and width</li></ul> | ![](../../../.gitbook/assets/tile2.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile2",
@@ -169,15 +173,17 @@ This tile represents a text input for a specific key with tooltip.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile3
 
 This tile represents a data selection for a specific key.
 
-| Configurations                                                                                                                                                                                                                                                                                                                                                                                    | Preview                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <ul><li>title label (left)</li><li>min and max date values</li><li>align: START (fixed left)</li><li>hint: placeholder for date input</li><li>key: <code>{*dateSelected}</code> - The date input is set to key <code>dateSelected</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | ![](../../../.gitbook/assets/tile3.jpg) |
+| Configurations                                                                                                                                                                                                                                                                                                                                                                                     | Preview                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| <ul><li>title label (left)</li><li>min and max: date values</li><li>align: START (fixed left)</li><li>hint: placeholder for date input</li><li>key: <code>{*dateSelected}</code> - The date input is set to key <code>dateSelected</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | ![](../../../.gitbook/assets/tile3.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile3",
@@ -200,6 +206,7 @@ This tile represents a data selection for a specific key.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile5
 
@@ -209,6 +216,7 @@ This tile represents a stepper for a specific key.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | <ul><li>title label (left)</li><li>start: the start number of the stepper</li><li>end: the end number of the stepper</li><li>align: START (fixed left), JUSTIFY</li><li>key: <code>{status}</code> - The selected value is set to key <code>status</code>that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile5.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id":"Tile5",
@@ -231,6 +239,7 @@ This tile represents a stepper for a specific key.
             "order":1
           }
 ```
+{% endcode %}
 
 ### Tile6
 
@@ -240,6 +249,7 @@ This tile represents option selectors as radio buttons in horizontal format.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile6.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile6",
@@ -275,6 +285,7 @@ This tile represents option selectors as radio buttons in horizontal format.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile6a
 
@@ -284,6 +295,7 @@ This tile represents options selectors as radio buttons in vertical format.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <ul><li>title label (left)</li><li>align: START, JUSTIFY</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile6a.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile6",
@@ -319,6 +331,7 @@ This tile represents options selectors as radio buttons in vertical format.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile7
 
@@ -328,6 +341,7 @@ This tile represents a multi-option selector as check boxes in horizontal format
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile7.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile7",
@@ -364,6 +378,7 @@ This tile represents a multi-option selector as check boxes in horizontal format
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile7a
 
@@ -373,6 +388,7 @@ This tile represents a multi-option selector as check boxes in vertical format.
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
 | <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile7a.jpg) |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile7a",
@@ -409,6 +425,7 @@ This tile represents a multi-option selector as check boxes in vertical format.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile7b
 
@@ -418,7 +435,8 @@ This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra opti
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | <p>For subtitle color handling:</p><ul><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile7b.png) |
 
-```
+{% code title="Example:" %}
+```json
 {
             "id": "Tile7b",
             "subView": [
@@ -463,6 +481,7 @@ This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra opti
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile8
 
@@ -472,6 +491,7 @@ This tile represents a scrollable table grid.
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: label and data</li><li>label: the header title</li><li>data: the list of data for each header</li></ul> | <img src="../../../.gitbook/assets/tile8.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
               "id": "Tile8",
@@ -508,6 +528,7 @@ This tile represents a scrollable table grid.
               "order": 1
             }
 ```
+{% endcode %}
 
 ### Tile9
 
@@ -517,6 +538,7 @@ This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | See configurations for [Tile8](tile-definitions.md#tile8). | <img src="../../../.gitbook/assets/tile9.jpg.png" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
               "id": "Tile9",
@@ -550,6 +572,7 @@ This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
               "order": 1
             }
 ```
+{% endcode %}
 
 ### Tile10
 
@@ -559,6 +582,7 @@ This tile represents an option selector.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer</code>} - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options list</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile10.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile10",
@@ -592,6 +616,7 @@ This tile represents an option selector.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile10a
 
@@ -601,6 +626,7 @@ This tile represents a toggle option.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | <ul><li>title label (left)</li><li>options: key and list</li><li>key: <code>{answer}</code> - The selected option is set to key <code>answer</code> that will be used and sent through an event.</li><li>list: dynamic options to toggle on and off</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile10a.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile10a",
@@ -634,6 +660,7 @@ This tile represents a toggle option.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile11
 
@@ -643,6 +670,7 @@ This tile represents a title and a text.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <ul><li>title label (left) on first row</li><li>subtitle label (left) on second row</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile11.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile11",
@@ -662,6 +690,7 @@ This tile represents a title and a text.
             
           }
 ```
+{% endcode %}
 
 ### Tile11a
 
@@ -671,6 +700,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable su
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | <p>For subtitle view:</p><ul><li>heightMultiplier: "1" - This value is calculated according the screen ratio.</li><li>text includes JUSTIFY option</li><li>border color: hex value</li><li>text color: hex value</li></ul> | <img src="../../../.gitbook/assets/tile11a.png" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile11",
@@ -691,6 +721,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable su
             
           }
 ```
+{% endcode %}
 
 ### Tile12
 
@@ -700,6 +731,7 @@ This tile represents a dropdown list selector.
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <ul><li>title label (left)</li><li>subtitle: key, hint, and data</li><li>key: {*patient} - The selected option is set to key patient that will be used and sent through an event.</li><li>hint: placeholder for the selected option</li><li>data: an array of options loaded from cardData, for example: ["option 1", "option 2", "option 3"]</li><li>text includes JUSTIFY option</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | <img src="../../../.gitbook/assets/tile12.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id": "Tile12",
@@ -723,6 +755,7 @@ This tile represents a dropdown list selector.
             "order": 1
           }
 ```
+{% endcode %}
 
 ### Tile14
 
@@ -732,6 +765,7 @@ This tile represents an action clickable tile.
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
 | <ul><li>title label</li><li>uiAction: "${action1}" - This value is correlated with an event handler.</li><li>text includes JUSTIFY option</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | <img src="../../../.gitbook/assets/tile14.jpg" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
  {
             "id":"Tile14",
@@ -749,6 +783,7 @@ This tile represents an action clickable tile.
             "order":1
           }
 ```
+{% endcode %}
 
 ### Tile14a
 
@@ -758,6 +793,7 @@ This tile is the same as [Tile14](tile-definitions.md#tile14) with subtitle.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | <ul><li>style: bold</li><li>text includes JUSTIFY option</li><li>border color: hex value</li><li>text color: hex value</li><li>icon image: height and width</li></ul> | <img src="../../../.gitbook/assets/tile14a.png" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
  {
             "id":"Tile14a",
@@ -781,6 +817,7 @@ This tile is the same as [Tile14](tile-definitions.md#tile14) with subtitle.
             "order":1
           }
 ```
+{% endcode %}
 
 ### Tile16
 
@@ -790,6 +827,7 @@ This tile represents an image that can be loaded locally or from a URL.
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
 | <ul><li>image: text, isURL, height and width</li><li>text: the source of the image (link or image name) loaded from the cardData</li><li>isURL: true or false</li><li>size: height and width</li></ul> | <img src="../../../.gitbook/assets/tile16.png" alt="" data-size="original"> |
 
+{% code title="Example:" %}
 ```json
 {
             "id":"Tile16",
@@ -807,6 +845,7 @@ This tile represents an image that can be loaded locally or from a URL.
             "order":1
           }
 ```
+{% endcode %}
 
 ### Tile17
 
@@ -816,6 +855,7 @@ This tile represents selectable images.
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | <ul><li>options: key and list</li><li>key: <code>{answer5}</code> - The selected option from the list is set to key <code>answer5</code> that will be used and sent through an event.</li><li>image: text and isURL</li><li>isURL: true or false</li></ul> | <img src="../../../.gitbook/assets/tile17 (1).png" alt="" data-size="original"> |
 
+{% code title="" %}
 ```json
 {
             "id":"Tile17",
@@ -868,6 +908,7 @@ This tile represents selectable images.
             "uiAction":""
           }
 ```
+{% endcode %}
 
 ### Tile17a
 
@@ -956,6 +997,7 @@ This tile is an input field that is used to implement checks, such as "field for
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | <ul><li>title text</li><li>subtitle text</li><li>text color: hex value</li><li>font size: number value</li><li>border color: hex value</li><li>align: START, CENTER, END or JUSTIFY</li><li>hint: placeholder for text input</li><li>min and max length</li><li>fieldFormat: Any supported field format, such as "email".</li><li>validation: optional or required, and error message</li></ul> | ![](../../../.gitbook/assets/smarttile1-sample.png) |
 
+{% code title="Example:" %}
 ```json
                     {
                         "id": "SmartTile1",
@@ -989,3 +1031,4 @@ This tile is an input field that is used to implement checks, such as "field for
                         "order": 2
                     }
 ```
+{% endcode %}
