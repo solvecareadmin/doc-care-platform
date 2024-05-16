@@ -131,7 +131,7 @@ The following example is an event handler definition for `event-handler/ehw-pati
 
 ### Use case example
 
-The following examples show a node to node event that sends a response from the doctor role to the patient role.
+The following examples show a node to node event that sends a response from the Doctor role to the Patient role.
 
 1. Define the event in the `input.json` file.
 
@@ -229,7 +229,7 @@ The following examples show a node to node event that sends a response from the 
 ```
 {% endcode %}
 
-3. Create the node event handler definition for `event-handler/eh-n-patient-save-response.json`.
+3. Create the node event handler definition for `event-handler/eh-n-patient-save-doctor.json`.
 
 {% code title="Example:" %}
 ```json
@@ -237,37 +237,52 @@ The following examples show a node to node event that sends a response from the 
     "nodeEventHandlers": [
       {
         "type": "MAPPER",
-        "name": "Append SAMPLE payload",
+        "name": "Append payload",
         "order": 1,
         "dataSource": "EVENT_PAYLOAD",
         "additionalAttributes": {
-          "doctorNodeAddress": {
+          "nodeAddress": {
             "source": "EVENT",
             "value": "SENDER"
+          },
+          "name": {
+            "source": "EVENT_PAYLOAD",
+            "value": "doctorName"
+          },
+          "lastActivityAt": {
+            "source": "EVENT_PAYLOAD",
+            "value": "answeredAt"
           }
-        }
+        },
+        "excludedAttributes": [
+          "doctorName",
+          "answer",
+          "answerTitle",
+          "answeredAt",
+          "status"
+        ]
       },
       {
         "type": "VAULT_UPDATE",
         "name": "Patients",
-        "order": 2,
-        "collection": "SAMPLE",
+        "order": 1,
+        "collection": "USERS",
         "collectionVersion": 1,
         "dataSource": "HANDLER_ARGUMENTS",
         "insertIfAbsent": true,
         "searchCriteria": [
           {
             "queryMatcher": "EQUAL",
-            "fieldName": "transactionalGuid",
+            "fieldName": "nodeAddress",
             "dynamicValue": {
-              "source": "EVENT_PAYLOAD",
-              "value": "transactionalGuid"
+              "source": "EVENT",
+              "value": "SENDER"
             }
           }
         ],
-        "handlerOutput": "PERSISTED_ENTITY"
-      },
-      {
-
+        "handlerOutput": "EVENT_PAYLOAD"
+      }
+    ]
+  }
 ```
 {% endcode %}
