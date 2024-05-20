@@ -16,7 +16,7 @@ Care Data Node acts as the database of the network for storing and processing da
 
 ### Care.Card definitions
 
-Care.Card is a decentralized application within a network that contains data types, user interface elements, and interactive functions that are triggered by events. The Care.Card definition structure contains card data, card layout, card footer, and card UI actions.
+Care.Card is a decentralized application within a network containing data types, user interface elements, and interactive functions that are triggered by events. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
 
 ### Event definitions
 
@@ -24,16 +24,16 @@ The events define the actions of each role in a network, such as sending and rec
 
 ### Event handlers
 
-An event handler is a set of business rules associated with an event or message for each role. It is configured to execute a set of predefined actions in response to a specific event. Depending on the requirements, event handlers can also be set up to handle errors or exceptions.
+An event handler is a set of business rules associated with an event or message for each role. It is configured to execute predefined actions in response to a specific event. Event handlers can also be set up to handle errors or exceptions.
 
 ### Python event handlers
 
-Python event handlers are designed to execute complex events and transactions that require data processing, analysis, import and export. A Python event handler can fetch external data in various formats such as HL7, X12 EDI, XML, JSON, or CSV.
+Python event handlers are designed to execute complex events and transactions that require data processing, analysis, import, and export. A Python event handler can fetch external data in HL7, X12 EDI, XML, JSON, or CSV formats.
 
 ### Resources
 
-The resources contain a collection of predefined data that are inserted or updated automatically during initialization.&#x20;
+The resources contain a predefined data that are inserted or updated automatically during initialization.&#x20;
 
 ### Transactional data
 
-Transactional data contains a collection of configurable data that can be referenced from roles, cards, or events within the network.
+Transactional data contains a configurable data that can be referenced from roles, cards, or events within the network.

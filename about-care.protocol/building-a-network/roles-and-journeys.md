@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section describes the details for user roles and journeys or user flows
+  This section describes the details of user roles and journeys or user flows
   within the network.
 ---
 
@@ -8,9 +8,9 @@ description: >-
 
 ### Roles
 
-A role is a basic element of Care.Protocol that represents a specific role type in a network. Each role is defined with associated cards and permissions.
+A role is a fundamental element of Care.Protocol that represents a specific role type in a network. Each role is defined with associated cards and permissions.
 
-<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type as defined in the platform.</td></tr><tr><td>status</td><td>string</td><td>The status for the role is set to Active.</td></tr><tr><td>version</td><td>number</td><td>The version number of the role, which is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
+<table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type is defined in the platform.</td></tr><tr><td>status</td><td>string</td><td>The status for the role is set to Active.</td></tr><tr><td>version</td><td>number</td><td>The role's version number is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records are linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
@@ -44,7 +44,7 @@ A role is a basic element of Care.Protocol that represents a specific role type 
 
 A journey contains a collection of multiple Care.Cards tied to a specific role or network.
 
-<table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type defined in the platform.</td></tr></tbody></table>
+<table><thead><tr><th width="189">Field Name</th><th width="165">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the journey.</td></tr><tr><td>name</td><td>string</td><td>The name of the journey.</td></tr><tr><td>description</td><td>string</td><td>The description of the journey.</td></tr><tr><td>status</td><td>string</td><td>The status for the journey is set to Active.</td></tr><tr><td>start_card_ref_id</td><td>string</td><td>The reference ID of the journey starting card.</td></tr><tr><td>roles</td><td>string</td><td>The roles involved in the journey.</td></tr><tr><td>journey_type</td><td>string</td><td>The journey type is defined in the platform.</td></tr></tbody></table>
 
 The following example shows the "Get started" and the "Join as Doctor" journeys.
 
