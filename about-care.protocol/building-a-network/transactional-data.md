@@ -1,12 +1,12 @@
 ---
 description: >-
   This section describes the definition, structure and attributes of
-  transactional data
+  transactional data.
 ---
 
 # Transactional data
 
-The following example shows the transactional data definition for `td/td-default.json`.
+The following example shows the definition of transactional data for `td/td-default.json`.
 
 {% code title="Example:" %}
 ```json

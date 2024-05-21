@@ -52,7 +52,7 @@ Each card definition is located in the `/definitions/card/` folder.
 
 #### Card data
 
-The card data can include different types of information relevant to a healthcare journey. The data is presented in a structured manner within the UI view of the card.
+Card data can include different types of information relevant to a healthcare journey. It is presented in a structured manner within the card's UI view.
 
 {% code title="Example:" %}
 ```json
@@ -71,7 +71,7 @@ The card data can include different types of information relevant to a healthcar
 
 #### Card layout
 
-The card body presents the card's main content, including tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For details on supported functions, see [Functions](functions.md).
+The card body presents the card's content, including tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For details on supported functions, see [Functions](functions.md).
 
 {% code title="Example:" %}
 ```json

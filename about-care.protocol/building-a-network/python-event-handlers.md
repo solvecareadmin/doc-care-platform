@@ -6,7 +6,7 @@ description: >-
 
 # Python event handlers
 
-The Python event handler contains a set of base classes that provide an interface to the core components in the platform, such as Vault, Wallet, Node, and Care Data Node (CDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
+The Python event handler contains a set of base classes that provide an interface to the platform's core components, such as Vault, Wallet, Node, and Care Data Node (CDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
 
 ### Python template
 

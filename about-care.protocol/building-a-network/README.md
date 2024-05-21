@@ -1,5 +1,5 @@
 ---
-description: This section describes the overview of steps in authoring a network.
+description: This section provides an overview of the steps in creating a network.
 ---
 
 # Building a Network
