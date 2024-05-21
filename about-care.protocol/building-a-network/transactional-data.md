@@ -6,7 +6,7 @@ description: >-
 
 # Transactional data
 
-The following example shows the definition of transactional data for `td/td-default.json`.
+The following example shows the definition of transactional data in `td/td-default.json`.
 
 {% code title="Example:" %}
 ```json

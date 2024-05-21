@@ -100,7 +100,7 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 ```
 {% endcode %}
 
-### Upload data definition file (ddf)
+### Upload data definition file (DDF)
 
 The data definition file contains the model and structure for organizing data in CDN.
 
