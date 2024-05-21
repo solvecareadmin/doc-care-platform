@@ -2,9 +2,9 @@
 
 ### What is Care.Platform?
 
-**Care.Platform** is an ecosystem of healthcare solutions, built on blockchain, that aims to bridge the gaps in clinical care operations at a global scale. It reduces IT infrastructure costs while ensuring data security and regulatory compliance in healthcare.
+**Care.Platform** is an ecosystem of healthcare solutions built on blockchain that aims to bridge the gaps in clinical care operations on a global scale. It reduces IT infrastructure costs while ensuring data security and regulatory compliance in healthcare.
 
-With Care.Platform, you can build care networks to streamline the process and delivery of healthcare services. A care network connects various healthcare roles using decentralized applications, also known as **Care.Cards**, which can be accessed using **Care.Wallet**.
+With Care.Platform, you can build care networks to streamline the process and delivery of healthcare services. A care network connects various healthcare roles using decentralized applications known as **Care.Cards**, which can be accessed using **Care.Wallet**.
 
 **Care.Wallet** is a personal healthcare assistant that helps manage your healthcare needs from your mobile device. It contains interactions in a healthcare journey, such as handling health records, booking appointments, and processing claims or payments.
 
