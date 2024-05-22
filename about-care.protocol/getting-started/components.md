@@ -12,19 +12,19 @@ The `input.json` file is a hierarchical structure of objects defined within a ne
 
 ### Care Data Node
 
-Care Data Node acts as the database of the network for storing and processing data files. It is used to exchange data with external client systems, such as electronic medical records, claims systems, member systems, and payment systems.
+The Care Data Node (CDN) serves as the network's central database for storing and processing data files. It additionally facilitates data exchange with external client systems, including electronic medical records, claims systems, member systems, and payment systems.
 
 ### Care.Card definitions
 
-Care.Card is a decentralized application within a network containing data types, user interface elements, and interactive functions that are triggered by events. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
+A Care.Card is a decentralized application within a network. It comprises data types, user interface elements, and interactive functions that respond to events. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
 
 ### Event definitions
 
-The events define the actions of each role in a network, such as sending and receiving information. An event is chained in time series on a blockchain that creates a secure and transparent record of transactions within a network.
+The events define the actions of each role in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
 
 ### Event handlers
 
-An event handler is a set of business rules associated with an event or message for each role. It is configured to execute predefined actions in response to a specific event. Event handlers can also be set up to handle errors or exceptions.
+An event handler is a set of business rules associated with a specific event or message for each role or node within the network. It is configured to execute predefined actions in response to the event.
 
 ### Python event handlers
 
@@ -32,8 +32,8 @@ Python event handlers are designed to execute complex events and transactions th
 
 ### Resources
 
-The resources contain a predefined data that are inserted or updated automatically during initialization.&#x20;
+The resources contain predefined data that are inserted or updated automatically during initialization.&#x20;
 
 ### Transactional data
 
-Transactional data contains a configurable data that can be referenced from roles, cards, or events within the network.
+Transactional data contains configurable data that can be referenced from roles, cards, or events within the network.
