@@ -1,5 +1,7 @@
 ---
-description: This section describes the event and event handler definitions.
+description: >-
+  This section describes the event definitions, event types, event handlers, and
+  some practical examples.
 ---
 
 # Events and event handlers
@@ -18,7 +20,7 @@ An event represents the actions that occur based on user interactions within a n
 * `WALLET_FROM_NODE` - An event that gets data from the node, such as getting a list of records.
 * `WALLET_TO_NODE` - An event that sends data to the node, such as submitting records.
 * `NODE_TO_NODE` - An event that sends data to a specific node, such as sharing data between nodes.
-* `NODE_TO_ROLE` - An event that sends data to a specified role in a network, such as saving data to the doctor role's node.
+* `NODE_TO_ROLE` - An event that sends data to a designated role in a network, such as saving data to the doctor role's node.
 
 <table><thead><tr><th width="235">Field Name</th><th width="166">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the event.</td></tr><tr><td>name</td><td>string</td><td>The name of the event.</td></tr><tr><td>description</td><td>string</td><td>The description of the event.</td></tr><tr><td>code</td><td>string</td><td>The same as the event name.</td></tr><tr><td>status</td><td>string</td><td>The status of the event is set to Active.</td></tr><tr><td>type</td><td>string</td><td>The type of event. The possible values are WALLET_LOCAL, WALLET_FROM_NODE, WALLET_TO_NODE, NODE_TO_NODE and NODE_TO_ROLE.</td></tr><tr><td>event_definition_ref</td><td>string</td><td>The reference path and ID of the event definition.</td></tr><tr><td>submit_event_handler</td><td>string</td><td>The ID of the event handler used for submitting the event.</td></tr><tr><td>node_event_handlers</td><td>array</td><td>The list of outgoing event handlers for node events.</td></tr><tr><td>card</td><td>string</td><td>The reference ID of the card associated to the event.</td></tr></tbody></table>
 
@@ -63,7 +65,7 @@ The event handler defines the instructions that execute tasks based on specific 
 
 ### Definitions in JSON files
 
-The following example is an event definition for `event/ew-patient-nav-to-cd-next1.json`.
+The following example defines an event containing user details: `event/ew-patient-nav-to-cd-next1.json`.
 
 {% code title="Example:" %}
 ```json
@@ -103,7 +105,7 @@ The following example is an event definition for `event/ew-patient-nav-to-cd-nex
 ```
 {% endcode %}
 
-The following example is an event handler definition for `event-handler/ehw-patient-nav-to-cd-next1.json`.&#x20;
+The following example defines an event handler that sends the details to the next card in the sequence: `event-handler/ehw-patient-nav-to-cd-next1.json`.&#x20;
 
 {% code title="Example:" %}
 ```json
@@ -161,7 +163,7 @@ The following examples demonstrate a node-to-node event that sends a response fr
 ```
 {% endcode %}
 
-2. Create the event definition with data used in the doctor's response: `event/ev-doctor-response.json`.
+2. Create the event definition with the data used in the doctor's response: `event/ev-doctor-response.json`.
 
 {% code title="Example:" %}
 ```json

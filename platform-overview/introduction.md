@@ -6,7 +6,7 @@
 
 ### **Key components**
 
-**Care.Network** is digital network that consists of various healthcare professionals, such as doctors, nurses, pharmacists, and other relevant roles. Each Care.Network is governed by a specific set of rules defined in a Care.Protocol.&#x20;
+**Care.Network** is digital network that consists of various healthcare roles, such as doctors, nurses, pharmacists, and other relevant roles. Each Care.Network is governed by a specific set of rules defined in a Care.Protocol.&#x20;
 
 **Care.Wallet** is a mobile application that functions as a personal healthcare assistant. It manages various aspects of a user's healthcare journey, including health record storage, appointment booking, and claims or payment processing.&#x20;
 

@@ -87,7 +87,7 @@ The following examples show how to send an event from CDN to Care.Wallet.
 ```
 {% endcode %}
 
-2. Create the event definition for `event/ev-cdn-broadcast.json`_._
+2. Create the event definition: `event/ev-cdn-broadcast.json`_._
 
 {% code title="Example:" %}
 ```json

@@ -142,7 +142,7 @@ The card body displays the card's content, which includes tiles, texts, images, 
 
 #### Card footer
 
-The card footer includes button or actions used to interact with the card itself or navigate to other related cards. These buttons or action can perform specific tasks like submitting information, saving changes, or going back to previous screens.
+The card footer includes buttons or actions used to interact with the card itself or navigate to other related cards. These buttons or actions can perform specific tasks like submitting information, saving changes, or going back to previous screens.
 
 {% code title="Example:" %}
 ```json
