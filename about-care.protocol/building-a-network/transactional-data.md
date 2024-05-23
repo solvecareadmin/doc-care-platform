@@ -1,12 +1,10 @@
 ---
-description: >-
-  This section describes the definition, structure and attributes of
-  transactional data.
+description: This section shows the structure and attributes of transactional data.
 ---
 
 # Transactional data
 
-The following example shows the definition of transactional data in `td/td-default.json`.
+Transactional data contains configurable data that can be referenced from roles, cards, or events within the network. The following example shows the definition of transactional data in `td/td-default.json`.
 
 {% code title="Example:" %}
 ```json

@@ -36,9 +36,7 @@ The following example represents an event that lets users navigate from one card
 
 ### Event handlers
 
-The event handler defines the business rules associated with an event or message for each role in the network. It provides the business logic for functionality.
-
-<table><thead><tr><th width="230">Field Name</th><th width="200">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>number</td><td>The unique ID of the event handler used across the network.</td></tr><tr><td>name</td><td>string</td><td>The name of the event handler.</td></tr><tr><td>description</td><td>string</td><td>The description of the event handler.</td></tr><tr><td>type</td><td>string</td><td>The type of event handler. The possible values are: WALLET_EVENT_HANDLER and NODE_EVENT_HANDLER.</td></tr><tr><td>event_handler_definition_ref</td><td>string</td><td>The reference path and ID of the event handler definition.</td></tr></tbody></table>
+The event handler defines the automated actions (business logic) triggered by specific events. The following example is the event handler defined in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
@@ -55,7 +53,7 @@ The event handler defines the business rules associated with an event or message
 ```
 {% endcode %}
 
-### Definitions
+### Definitions in JSON files
 
 The following example is an event definition for `event/ew-patient-nav-to-cd-next1.json`.
 

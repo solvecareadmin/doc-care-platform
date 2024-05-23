@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section provides examples on how to configure node events and Python
-  event handlers.
+description: This section provides examples on how to configure Python event handlers.
 ---
 
 # Python event handlers

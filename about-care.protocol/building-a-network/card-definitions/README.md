@@ -47,12 +47,12 @@ Each card definition is located in the `/definitions/card/` folder.
 
 * **Card data** - The information or data displayed within the card, such as texts, images, and links.
 * **Card layout** - The arrangement and organization of elements within the card, including body content style, and footer menus.
-* **Card footer** - Additional options, navigation buttons, or menus are located at the bottom of the card for user interaction and navigation.
-* **Card UI actions** - Interactive actions triggered by user interactions within the card, such as navigation, form submissions, or data updates.&#x20;
+* **Card footer** - The additional options, navigation buttons, or menus at the bottom of the card for user interaction and navigation.
+* **Card UI actions** - The actions triggered by user interactions within the card, such as navigation, form submissions, or data updates.&#x20;
 
 #### Card data
 
-Card data can include different types of information relevant to a healthcare journey. It is presented in a structured manner within the card's UI view.
+Card data can include text, images, links or different types of information relevant to a healthcare journey.
 
 {% code title="Example:" %}
 ```json
@@ -71,7 +71,7 @@ Card data can include different types of information relevant to a healthcare jo
 
 #### Card layout
 
-The card body presents the card's content, including tiles, texts, images, and functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For details on supported functions, see [Functions](functions.md).
+The card body displays the card's content, which includes tiles, texts, images, and interactive functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For details on supported functions, see [Functions](functions.md).
 
 {% code title="Example:" %}
 ```json
@@ -142,7 +142,7 @@ The card body presents the card's content, including tiles, texts, images, and f
 
 #### Card footer
 
-The card footer contains the navigation options, actions, or buttons for interacting with the card or navigating to other cards. The interactive elements can trigger specific actions, such as submitting data, saving changes, or returning to previous views.
+The card footer includes button or actions used to interact with the card itself or navigate to other related cards. These buttons or action can perform specific tasks like submitting information, saving changes, or going back to previous screens.
 
 {% code title="Example:" %}
 ```json
@@ -185,7 +185,7 @@ The card footer contains the navigation options, actions, or buttons for interac
 
 #### Card UI actions
 
-The card UI actions enable various functions, such as navigating between cards, retrieving or updating data, interacting with external systems, and validating user inputs.
+The card UI actions define user interactions within the card's content. These actions trigger functionalities like navigation, data updates, input validation, or external function calls.
 
 {% code title="Example:" %}
 ```json
