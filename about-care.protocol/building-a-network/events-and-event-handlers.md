@@ -30,14 +30,14 @@ The following example represents an event that lets users navigate from one card
 ```json
         "events": [
             {
-                "id": "ew-patient-nav-to-cd-next1",
+                "id": "ev-patient-nav-to-cd-next1",
                 "name": "W.PATIENT.NAV.CD-NEXT1",
                 "description": "Event to navigate from start card to next card",
                 "code": "W.PATIENT.NAV.CD-NEXT1",
                 "status": "Active",
                 "type": "WALLET_LOCAL",
-                "event_definition_ref": "event/ew-patient-nav-to-cd-next1.json",
-                "submit_event_handler": "ehw-patient-nav-to-cd-next1",
+                "event_definition_ref": "event/ev-patient-nav-to-cd-next1.json",
+                "submit_event_handler": "eh-w-patient-nav-to-cd-next1",
                 "node_event_handlers": [],
                 "card": "cd-start-rl-patient"
             },
@@ -52,20 +52,20 @@ The event handler defines the instructions that execute tasks based on specific 
 ```json
         "event_handlers": [
             {
-                "id": "ehw-patient-nav-to-cd-next1",
+                "id": "eh-w-patient-nav-to-cd-next1",
                 "name": "W.PATIENT.NAV.CD-NEXT1",
                 "description": "Wallet Event Handler to Navigate from Start to cd-next1",
                 "status": "Active",
-                "event": "ew-patient-nav-to-cd-next1",
+                "event": "ev-patient-nav-to-cd-next1",
                 "type": "WALLET_EVENT_HANDLER",
-                "event_handler_definition_ref": "event-handler/ehw-patient-nav-to-cd-next1.json"
+                "event_handler_definition_ref": "event-handler/eh-w-patient-nav-to-cd-next1.json"
             },
 ```
 {% endcode %}
 
 ### Definitions in JSON files
 
-The following example defines an event containing user details: `event/ew-patient-nav-to-cd-next1.json`.
+The following example defines an event containing user details: `event/ev-patient-nav-to-cd-next1.json`.
 
 {% code title="Example:" %}
 ```json
@@ -105,7 +105,7 @@ The following example defines an event containing user details: `event/ew-patien
 ```
 {% endcode %}
 
-The following example defines an event handler that sends the details to the next card in the sequence: `event-handler/ehw-patient-nav-to-cd-next1.json`.&#x20;
+The following example defines an event handler that sends the details to the next card in the sequence: `event-handler/eh-w-patient-nav-to-cd-next1.json`.&#x20;
 
 {% code title="Example:" %}
 ```json
@@ -156,8 +156,8 @@ The following examples demonstrate a node-to-node event that sends a response fr
                 "to_role": "rl-patient",
                 "event_definition_ref": "event/ev-doctor-response.json",
                 "node_event_handlers": [
-                  "eh-n-patient-save-doctor",
-                  "eh-n-patient-save-answer"
+                  "eh-n-patient-save-response",
+                  "eh-n-patient-save-doctor"
                 ]
               }
 ```
@@ -237,7 +237,30 @@ The following examples demonstrate a node-to-node event that sends a response fr
 ```
 {% endcode %}
 
-3. Create the node event handler definition that saves the answer to the patient node: `event-handler/eh-n-patient-save-answer.json`.
+3. Define the event handlers in the `input.json` file.
+
+```json
+            {
+                "id": "eh-n-patient-save-response",
+                "name": "N.PT.SAVE.RESPONSE",
+                "description": "empty",
+                "status": "Active",
+                "event": "ev-doctor-response-to-patient",
+                "type": "NODE_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-n-patient-save-response.json"
+            },
+            {
+                "id": "eh-n-patient-save-doctor",
+                "name": "N.PT.SAVE.DR",
+                "description": "empty",
+                "status": "Active",
+                "event": "ev-doctor-response-to-patient",
+                "type": "NODE_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-n-patient-save-doctor.json"
+            }
+```
+
+4. Create the node event handler definition that saves the record to the patient node: `event-handler/eh-n-patient-save-response.json`.
 
 {% code title="Example:" %}
 ```json
@@ -245,52 +268,99 @@ The following examples demonstrate a node-to-node event that sends a response fr
     "nodeEventHandlers": [
       {
         "type": "MAPPER",
-        "name": "Append payload",
+        "name": "Append SAMPLE payload",
         "order": 1,
         "dataSource": "EVENT_PAYLOAD",
         "additionalAttributes": {
-          "nodeAddress": {
+          "doctorNodeAddress": {
             "source": "EVENT",
             "value": "SENDER"
-          },
-          "name": {
-            "source": "EVENT_PAYLOAD",
-            "value": "doctorName"
-          },
-          "lastActivityAt": {
-            "source": "EVENT_PAYLOAD",
-            "value": "answeredAt"
           }
-        },
-        "excludedAttributes": [
-          "doctorName",
-          "answer",
-          "answerTitle",
-          "answeredAt",
-          "status"
-        ]
+        }
       },
       {
         "type": "VAULT_UPDATE",
         "name": "Patients",
-        "order": 1,
-        "collection": "USERS",
+        "order": 2,
+        "collection": "SAMPLE",
         "collectionVersion": 1,
         "dataSource": "HANDLER_ARGUMENTS",
         "insertIfAbsent": true,
         "searchCriteria": [
           {
             "queryMatcher": "EQUAL",
-            "fieldName": "nodeAddress",
+            "fieldName": "transactionalGuid",
             "dynamicValue": {
-              "source": "EVENT",
-              "value": "SENDER"
+              "source": "EVENT_PAYLOAD",
+              "value": "transactionalGuid"
             }
           }
         ],
-        "handlerOutput": "EVENT_PAYLOAD"
+        "handlerOutput": "PERSISTED_ENTITY"
+      },
+      {
+        "type": "MAPPER",
+        "name": "Append SAMPLE payload",
+        "order": 3,
+        "dataSource": "EVENT_PAYLOAD"
       }
     ]
   }
 ```
 {% endcode %}
+
+5. Create the node event handler that saves the doctor details to the patient node: `event-handler/eh-n-patient-save-doctor.json`
+
+```json
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append SAMPLE payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "nodeAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        },
+        "name": {
+          "source": "EVENT_PAYLOAD",
+          "value": "doctorName"
+        },
+        "lastActivityAt": {
+          "source": "EVENT_PAYLOAD",
+          "value": "answeredAt"
+        }
+      },
+      "excludedAttributes": [
+        "doctorName",
+        "answer",
+        "answerTitle",
+        "answeredAt",
+        "status"
+      ]
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Patients",
+      "order": 1,
+      "collection": "USERS",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "insertIfAbsent": true,
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "nodeAddress",
+          "dynamicValue": {
+            "source": "EVENT",
+            "value": "SENDER"
+          }
+        }
+      ],
+      "handlerOutput": "EVENT_PAYLOAD"
+    }
+  ]
+}
+```
