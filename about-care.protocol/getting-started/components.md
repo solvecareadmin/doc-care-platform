@@ -20,11 +20,11 @@ A Care.Card is a decentralized application within a network. It comprises data t
 
 ### Event definitions
 
-The events define the actions of each role in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
+The events define the data used to communicate between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
 
 ### Event handlers
 
-An event handler is a set of business rules associated with a specific event or message for each role or node within the network. It is configured to execute predefined actions in response to the event.
+An event handler is a set of instructions that execute tasks based on specific events. These tasks include updating records, transforming data, and identifying recipients for the next event.
 
 ### Python event handlers
 
