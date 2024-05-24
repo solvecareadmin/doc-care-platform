@@ -46,7 +46,18 @@ The following example represents an event that lets users navigate from one card
 
 ### Event handlers
 
-The event handler defines the instructions that execute tasks based on specific events. The following example is the event handler defined in the `input.json` file.
+The event handler defines the instructions that execute tasks based on specific events.&#x20;
+
+#### Types of event handlers
+
+* `VAULT_INSERT` – This event handler is used for inserting a record to a specific collection in the vault.
+* `VAULT_UPDATE` – This event handler is used for updating a record in a specific collection in the vault based on the dynamic search criteria.
+* `MAPPER` – This event handler is used for data transformation, such as excluding, appending, or generating data in the execution chain.
+* `NEXT_EVENT_RECIPIENT` – This event handler is used to identify the recipient for the next event.
+* `EXPRESSION_LANGUAGE` – This event handler is used to allow writing data manipulation expressions to easily access, filter, and calculate values.
+* `CUSTOM` – This event handler is used to specify a specific class that implements a legacy JAR handler.
+
+The following example is an event handler defined in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
