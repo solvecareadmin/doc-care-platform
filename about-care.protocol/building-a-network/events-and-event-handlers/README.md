@@ -44,38 +44,6 @@ The following example represents an event that lets users navigate from one card
 ```
 {% endcode %}
 
-### Event handlers
-
-The event handler defines the instructions that execute tasks based on specific events.&#x20;
-
-#### Types of event handlers
-
-* `VAULT_INSERT` – This event handler is used for inserting a record to a specific collection in the vault.
-* `VAULT_UPDATE` – This event handler is used for updating a record in a specific collection in the vault based on the dynamic search criteria.
-* `MAPPER` – This event handler is used for data transformation, such as excluding, appending, or generating data in the execution chain.
-* `NEXT_EVENT_RECIPIENT` – This event handler is used to identify the recipient for the next event.
-* `EXPRESSION_LANGUAGE` – This event handler is used to allow writing data manipulation expressions to easily access, filter, and calculate values.
-* `CUSTOM` – This event handler is used to specify a specific class that implements a legacy JAR handler.
-
-The following example is an event handler defined in the `input.json` file.
-
-{% code title="Example:" %}
-```json
-        "event_handlers": [
-            {
-                "id": "eh-w-patient-nav-to-cd-next1",
-                "name": "W.PATIENT.NAV.CD-NEXT1",
-                "description": "Wallet Event Handler to Navigate from Start to cd-next1",
-                "status": "Active",
-                "event": "ev-patient-nav-to-cd-next1",
-                "type": "WALLET_EVENT_HANDLER",
-                "event_handler_definition_ref": "event-handler/eh-w-patient-nav-to-cd-next1.json"
-            },
-```
-{% endcode %}
-
-### Definitions in JSON files
-
 The following example defines an event containing user details: `event/ev-patient-nav-to-cd-next1.json`.
 
 {% code title="Example:" %}
@@ -113,6 +81,27 @@ The following example defines an event containing user details: `event/ev-patien
     ]
   }
 }
+```
+{% endcode %}
+
+### Event handlers
+
+The event handler defines the instructions that execute tasks based on specific events. For more information about the different types of node event handlers, see [Node event handlers](node-event-handlers.md).
+
+The following example is an event handler defined in the `input.json` file.
+
+{% code title="Example:" %}
+```json
+        "event_handlers": [
+            {
+                "id": "eh-w-patient-nav-to-cd-next1",
+                "name": "W.PATIENT.NAV.CD-NEXT1",
+                "description": "Wallet Event Handler to Navigate from Start to cd-next1",
+                "status": "Active",
+                "event": "ev-patient-nav-to-cd-next1",
+                "type": "WALLET_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-w-patient-nav-to-cd-next1.json"
+            },
 ```
 {% endcode %}
 
