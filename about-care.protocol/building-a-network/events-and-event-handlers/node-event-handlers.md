@@ -28,27 +28,27 @@ description: >-
 
 It uses "source" and "value" fields to link data. The actual value can be determined dynamically based on the information in the "source" field. Here are the possible values:
 
-| Source              | Possible values                                                 | Description                                                                                    |
-| ------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `CONSTANT`          | Any value                                                       | The constant propagates the value field as a result.                                           |
-| `GENERATED`         | \[UUID, CURRENT\_TIMESTAMP]                                     | It generates a UUID or timestamp.                                                              |
-| `EVENT`             | \[`SENDER`, `RECIPIENT`, `CODE`, `TIMESTAMP`, `CORRELATION_ID`] | It gets the value of the original event sender, recipient, code, timestamp, or correlation ID. |
-| `EVENT_PAYLOAD`     | Attribute name                                                  | It gets the value of the attribute in the event payload.                                       |
-| `HANDLER_ARGUMENTS` | Attribute name                                                  | It gets the value of the attribute in the handler arguments.                                   |
+| Source              | Possible values                                              | Description                                                                                    |
+| ------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| `CONSTANT`          | Any value                                                    | The constant propagates the value field as a result.                                           |
+| `GENERATED`         | `UUID`, `CURRENT_TIMESTAMP`                                  | It generates a UUID or timestamp.                                                              |
+| `EVENT`             | `SENDER`, `RECIPIENT`, `CODE`, `TIMESTAMP`, `CORRELATION_ID` | It gets the value of the original event sender, recipient, code, timestamp, or correlation ID. |
+| `EVENT_PAYLOAD`     | Attribute name                                               | It gets the value of the attribute in the event payload.                                       |
+| `HANDLER_ARGUMENTS` | Attribute name                                               | It gets the value of the attribute in the handler arguments.                                   |
 
 ### Handler definition examples
 
 #### Vault Insert handler
 
-| Parameters        | Data type                                                                                     | Description                                                                |
-| ----------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| type              | GenericHandlerType \[VAULT\_INSERT]                                                           | The handler type.                                                          |
-| order             | Integer                                                                                       | The order of the handler in the execution chain.                           |
-| name              | String                                                                                        | The name of the handler which is used for logging.                         |
-| collection        | String                                                                                        | The name of the vault collection.                                          |
-| collectionVersion | Integer                                                                                       | The version of the vault collection.                                       |
-| dataSource        | `GenericHandlerDataSource` \[`EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`]                   | The data source that provides the document to be into the collection.      |
-| handlerOutput     | `GenericHandlerDataSource` \[`EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY`] | The handler output that will be passed as an argument to the next handler. |
+| Parameters        | Data type / Values                                                                          | Description                                                                |
+| ----------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| type              | `VAULT_INSERT`                                                                              | The handler type.                                                          |
+| order             | Integer                                                                                     | The order of the handler in the execution chain.                           |
+| name              | String                                                                                      | The name of the handler which is used for logging.                         |
+| collection        | String                                                                                      | The name of the vault collection.                                          |
+| collectionVersion | Integer                                                                                     | The version of the vault collection.                                       |
+| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                               | The data source that provides the document to be into the collection.      |
+| handlerOutput     | Generic Handler Data Source `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY` | The handler output that will be passed as an argument to the next handler. |
 
 {% code title="Example:" %}
 ```json
@@ -66,17 +66,17 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 
 #### Vault Update handler
 
-| Parameters        | Data type                                                                                         | Description                                                                                                                                             |
-| ----------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type              | GenericHandlerType \[VAULT\_UPDATE]                                                               | The handler type.                                                                                                                                       |
-| order             | Integer                                                                                           | The order of the handler in the execution chain.                                                                                                        |
-| name              | String                                                                                            | The name of the handler which is used for logging.                                                                                                      |
-| collection        | String                                                                                            | The name of the vault collection.                                                                                                                       |
-| collectionVersion | Integer                                                                                           | The version of the vault collection.                                                                                                                    |
-| dataSource        | `GenericHandlerDataSource` \[ `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS` ]                     | The data source that provides the document to be into the collection.                                                                                   |
-| handlerOutput     | `GenericHandlerDataSource` \[ `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY` ] | The handler output will be passed as an argument to the next handler.                                                                                   |
-| insertIfAbsent    | Boolean                                                                                           | It defines a flag that inserts the document if it does not exist in the collection, based on the search criteria. The value is set to false by default. |
-| searchCriteria    | Array of `SearchQueryFilter`                                                                      | The search criteria to find the document to be updated.                                                                                                 |
+| Parameters        | Data type / Values                                                 | Description                                                                                                                                             |
+| ----------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| type              | `VAULT_UPDATE`                                                     | The handler type.                                                                                                                                       |
+| order             | Integer                                                            | The order of the handler in the execution chain.                                                                                                        |
+| name              | String                                                             | The name of the handler which is used for logging.                                                                                                      |
+| collection        | String                                                             | The name of the vault collection.                                                                                                                       |
+| collectionVersion | Integer                                                            | The version of the vault collection.                                                                                                                    |
+| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                      | The data source that provides the document to be into the collection.                                                                                   |
+| handlerOutput     | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY`  | The handler output will be passed as an argument to the next handler.                                                                                   |
+| insertIfAbsent    | Boolean                                                            | It defines a flag that inserts the document if it does not exist in the collection, based on the search criteria. The value is set to false by default. |
+| searchCriteria    | Array of `SearchQueryFilter`                                       | The search criteria to find the document to be updated.                                                                                                 |
 
 {% code title="Example:" %}
 ```json
@@ -104,15 +104,15 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 
 #### Data Transformation handler
 
-| Parameters           | Data type                                                                                                                                                                      | Description                                                           |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| type                 | GenericHandlerType \[VAULT\_UPDATE]                                                                                                                                            | The handler type.                                                     |
-| order                | Integer                                                                                                                                                                        | The order of the handler in the execution chain.                      |
-| name                 | String                                                                                                                                                                         | The name of the handler which is used for logging.                    |
-| dataSource           | `GenericHandlerDataSource` \[ `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS` ]                                                                                                  | The data source that provides the document to be into the collection. |
-| handlerOutput        | `GenericHandlerDataSource` \[ `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY` ]                                                                              | The handler output will be passed as an argument to the next handler. |
-| excludedAttributes   | Array of strings                                                                                                                                                               | A set of attributes to be excluded from the input data.               |
-| additionalAttributes | <p>Map of &#x3C;String, <code>DynamicHandlerValue></code></p><p>(see <a href="node-event-handlers.md#dynamic-handler-value-dynamichandlervalue">Dynamic handler value</a>)</p> | A map of attributes with dynamic values calculated in the runtime.    |
+| Parameters           | Data type / Values                                                                                                                                              | Description                                                           |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| type                 | `MAPPER`                                                                                                                                                        | The handler type.                                                     |
+| order                | Integer                                                                                                                                                         | The order of the handler in the execution chain.                      |
+| name                 | String                                                                                                                                                          | The name of the handler which is used for logging.                    |
+| dataSource           | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                                                                                   | The data source that provides the document to be into the collection. |
+| handlerOutput        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY`                                                                                               | The handler output will be passed as an argument to the next handler. |
+| excludedAttributes   | Array of strings                                                                                                                                                | A set of attributes to be excluded from the input data.               |
+| additionalAttributes | <p>Map of <code>DynamicHandlerValue</code></p><p>(see <a href="node-event-handlers.md#dynamic-handler-value-dynamichandlervalue">Dynamic handler value</a>)</p> | A map of attributes with dynamic values calculated in the runtime.    |
 
 {% code title="Example:" %}
 ```json
@@ -144,12 +144,12 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 
 #### Next Event Recipient handler
 
-| Parameters       | Data type                                                                                                                                                | Description                                                           |
+| Parameters       | Data type / Values                                                                                                                                       | Description                                                           |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| type             | GenericHandlerType \[VAULT\_UPDATE]                                                                                                                      | The handler type.                                                     |
+| type             | `NEXT_EVENT_RECIPIENT`                                                                                                                                   | The handler type.                                                     |
 | order            | Integer                                                                                                                                                  | The order of the handler in the execution chain.                      |
 | name             | String                                                                                                                                                   | The name of the handler which is used for logging.                    |
-| handlerOutput    | `GenericHandlerDataSource` \[ `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`]                                                                             | The handler output will be passed as an argument to the next handler. |
+| handlerOutput    | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                                                                            | The handler output will be passed as an argument to the next handler. |
 | recipientAddress | <p><code>DynamicHandlerValue</code></p><p>(see <a href="node-event-handlers.md#dynamic-handler-value-dynamichandlervalue">Dynamic handler value</a>)</p> | The dynamic value represents the recipient of the next event.         |
 
 {% code title="Example:" %}
