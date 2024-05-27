@@ -86,7 +86,7 @@ The following example defines an event containing user details: `event/ev-patien
 
 ### Event handlers
 
-The event handler defines the instructions that execute tasks based on specific events. For more information about the different types of node event handlers, see [Node event handlers](node-event-handlers.md).
+The event handler defines the instructions that execute tasks based on specific events.
 
 The following example is an event handler defined in the `input.json` file.
 
@@ -139,7 +139,7 @@ The following example defines an event handler that sends the details to the nex
 
 ### Use case example
 
-The following examples demonstrate a node-to-node event that sends a response from the doctor to the patient.
+The following examples demonstrate a node-to-node event that sends a response from the doctor to the patient. For information on the different types of node event handlers, see [Node event handlers](node-event-handlers.md).
 
 1. Define the event in the `input.json` file.
 

@@ -14,7 +14,7 @@ description: This section provides an overview of the steps in creating a networ
 * In the network settings, fill in the [author details and supported countries](network-configuration.md#author-details-and-countries).
 * Configure the [join network settings](network-configuration.md#join-network-settings) and [solve token usage](network-configuration.md#solve-token-settings).
 * Add the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journeys).
-* Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers/#events), and [event handlers](events-and-event-handlers/#event-handlers).
+* Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers.md#events), and [event handlers](events-and-event-handlers.md#event-handlers).
 * Save and validate the `input.json` file.
 
 ### Define the data structure
@@ -25,7 +25,7 @@ description: This section provides an overview of the steps in creating a networ
 ### Create the definitions for cards, events, and event handlers
 
 * Define the [card structure](card-definitions/#card-definition-structure).
-* Create the event and event handler [definitions](events-and-event-handlers/#definitions).
+* Create the event and event handler [definitions](events-and-event-handlers.md#definitions).
 
 ### Configure Python event handlers
 
