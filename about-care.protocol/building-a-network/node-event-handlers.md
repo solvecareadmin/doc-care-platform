@@ -40,15 +40,15 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 
 #### Vault Insert handler
 
-| Parameters        | Data type / Values                                              | Description                                                                    |
-| ----------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| type              | `VAULT_INSERT`                                                  | The handler type.                                                              |
-| order             | Integer                                                         | The order of the handler in the execution chain.                               |
-| name              | String                                                          | The name of the handler which is used for logging.                             |
-| collection        | String                                                          | The name of the vault collection.                                              |
-| collectionVersion | Integer                                                         | The version of the vault collection.                                           |
-| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                   | The data source that provides the document to be inserted into the collection. |
-| handlerOutput     | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY` | The handler output that will be passed as an argument to the next handler.     |
+| Parameters        | Data type / Values                                              | Description                                                                |
+| ----------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| type              | `VAULT_INSERT`                                                  | The handler type.                                                          |
+| order             | Integer                                                         | The order of the handler in the execution chain.                           |
+| name              | String                                                          | The name of the handler which is used for logging.                         |
+| collection        | String                                                          | The name of the vault collection.                                          |
+| collectionVersion | Integer                                                         | The version of the vault collection.                                       |
+| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                   | The data source of the record which will be inserted into the collection.  |
+| handlerOutput     | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY` | The handler output that will be passed as an argument to the next handler. |
 
 {% code title="Example:" %}
 ```json
@@ -73,7 +73,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 | name              | String                                                             | The name of the handler which is used for logging.                                                                                                     |
 | collection        | String                                                             | The name of the vault collection.                                                                                                                      |
 | collectionVersion | Integer                                                            | The version of the vault collection.                                                                                                                   |
-| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                      | The data source that provides the document to be inserted into the collection.                                                                         |
+| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                      | The data source from which the record changes (diffs) will be retrieved.                                                                               |
 | handlerOutput     | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY`  | The handler output that will be passed as an argument to the next handler.                                                                             |
 | insertIfAbsent    | Boolean                                                            | It defines a flag that inserts the document if it does not exist in the collection based on the search criteria. The value is set to false by default. |
 | searchCriteria    | Array of `SearchQueryFilter`                                       | The search criteria to find the document to be updated.                                                                                                |
@@ -109,7 +109,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 | type                 | `MAPPER`                                                                                                                                                        | The handler type.                                                          |
 | order                | Integer                                                                                                                                                         | The order of the handler in the execution chain.                           |
 | name                 | String                                                                                                                                                          | The name of the handler which is used for logging.                         |
-| dataSource           | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                                                                                   | The data source that provides the document to be into the collection.      |
+| dataSource           | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                                                                                   | The data source for the unmapped data.                                     |
 | handlerOutput        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`, `PERSISTED_ENTITY`                                                                                               | The handler output that will be passed as an argument to the next handler. |
 | excludedAttributes   | Array of strings                                                                                                                                                | A set of attributes to be excluded from the input data.                    |
 | additionalAttributes | <p>Map of <code>DynamicHandlerValue</code></p><p>(see <a href="node-event-handlers.md#dynamic-handler-value-dynamichandlervalue">Dynamic handler value</a>)</p> | A map of attributes with dynamic values calculated at runtime.             |
@@ -188,7 +188,7 @@ Here are the parameters in the event handler definition:
 | type               | `EXPRESSION_LANGUAGE`                                                                         | The handler type.                                                                     |
 | order              | Integer                                                                                       | The order of the handler in the execution chain.                                      |
 | name               | String                                                                                        | The name of the handler which is used for logging.                                    |
-| dataSource         | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                 | The data source that provides the document to be inserted into the collection.        |
+| dataSource         | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                                 | The data source of the record which will be inserted into the collection.             |
 | computedAttributes | Map of expressions, where the key is a variable name, and the value is the expression itself. | The handler executes the expression and puts the value inside the specified variable. |
 
 {% code title="Example 1:" %}
