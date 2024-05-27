@@ -40,15 +40,15 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 
 #### Vault Insert handler
 
-| Parameters        | Data type / Values                                                                          | Description                                                                |
-| ----------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| type              | `VAULT_INSERT`                                                                              | The handler type.                                                          |
-| order             | Integer                                                                                     | The order of the handler in the execution chain.                           |
-| name              | String                                                                                      | The name of the handler which is used for logging.                         |
-| collection        | String                                                                                      | The name of the vault collection.                                          |
-| collectionVersion | Integer                                                                                     | The version of the vault collection.                                       |
-| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                                               | The data source that provides the document to be into the collection.      |
-| handlerOutput     | Generic Handler Data Source `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY` | The handler output that will be passed as an argument to the next handler. |
+| Parameters        | Data type / Values                                              | Description                                                                    |
+| ----------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| type              | `VAULT_INSERT`                                                  | The handler type.                                                              |
+| order             | Integer                                                         | The order of the handler in the execution chain.                               |
+| name              | String                                                          | The name of the handler which is used for logging.                             |
+| collection        | String                                                          | The name of the vault collection.                                              |
+| collectionVersion | Integer                                                         | The version of the vault collection.                                           |
+| dataSource        | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS`                   | The data source that provides the document to be inserted into the collection. |
+| handlerOutput     | `EMPTY`, `EVENT_PAYLOAD`, `HANDLER_ARGUMENTS, PERSISTED_ENTITY` | The handler output that will be passed as an argument to the next handler.     |
 
 {% code title="Example:" %}
 ```json
