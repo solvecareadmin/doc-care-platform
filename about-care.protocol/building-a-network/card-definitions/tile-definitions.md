@@ -289,7 +289,7 @@ This tile represents option selectors as radio buttons in horizontal format.
 
 ### Tile6a
 
-This tile represents options selectors as radio buttons in vertical format.
+This tile represents option selectors as radio buttons in vertical format.
 
 | Configurations                                                                                                                                                                                                                                                                                                                            | Preview                                                                     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -431,9 +431,9 @@ This tile represents a multi-option selector as check boxes in vertical format.
 
 This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra option for subtitle.&#x20;
 
-| Configurations                                                                                             | Preview                                  |
-| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| <p>For subtitle color handling:</p><ul><li>border color: hex value</li><li>text color: hex value</li></ul> | ![](../../../.gitbook/assets/tile7b.png) |
+| Configurations                                                                                                                                                                              | Preview                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| <p>For subtitle color handling:</p><ul><li>border color: hex value</li><li>text color: hex value</li></ul><p>In the example, the subtitle is shown as a number next to the title label.</p> | ![](../../../.gitbook/assets/tile7b.png) |
 
 {% code title="Example:" %}
 ```json
