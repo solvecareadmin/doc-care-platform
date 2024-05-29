@@ -24,3 +24,14 @@
   * [Transactional data](care.protocol-handbook/building-a-network/transactional-data.md)
 * [Testing the Network](care.protocol-handbook/testing-the-network.md)
 * [Publishing the Network](care.protocol-handbook/publishing-the-network.md)
+
+## Care.Wallet User Manual
+
+* [Overview](care.wallet-user-manual/overview.md)
+* [User Access](care.wallet-user-manual/user-access.md)
+* [Care.Pilot](care.wallet-user-manual/care.pilot.md)
+* [Care.Circle](care.wallet-user-manual/care.circle.md)
+* [Care.Ledger](care.wallet-user-manual/care.ledger.md)
+* [Care.Vault](care.wallet-user-manual/care.vault.md)
+* [SOLVE token](care.wallet-user-manual/solve-token.md)
+* [Care.Trials](care.wallet-user-manual/care.trials.md)
