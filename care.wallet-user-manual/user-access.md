@@ -11,7 +11,7 @@
 
 </div>
 
-3. Select a registration method, and then enter your details.
+3. Select a registration method, enter your details, then tap **Next**.
 
 <div align="center" data-full-width="true">
 
@@ -51,7 +51,7 @@
 
 </div>
 
-7. Scan your fingerprint or use Face ID.
+7. Scan your fingerprint or use your Face ID.
 8. Wait a few seconds to create your account.
 
 {% hint style="info" %}
@@ -77,13 +77,13 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 </div>
 
-4. If biometrics is enabled, scan your fingerprint or use Face ID.
+4. If biometrics is enabled, scan your fingerprint or use your Face ID.
 5. Wait a few seconds for the home screen to load.
 
 ### Resetting your passcode
 
 1. Open the Care.Wallet app from your mobile device.
-2. In the "Enter your Passcode" screen, tap "**Forgot your Passcode?**".
+2. In the "Enter your Passcode" screen, tap "**Forgot your passcode?**".
 
 <div align="center">
 
@@ -110,7 +110,11 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 ### Saving your recovery phrase
 
-1. Open the Care.Wallet app from your mobile device.
+{% hint style="info" %}
+If you lose your mobile device or uninstall the app, you can use the recovery phrase to restore your access to Care.Wallet.
+{% endhint %}
+
+1. Sign in to your Care.Wallet app.
 2. From the Manage Networks screen, tap **Save your Recovery Phrase**.
 
 <div align="center">
