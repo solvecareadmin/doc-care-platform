@@ -43,7 +43,7 @@
 
 </div>
 
-6. If you want to use biometrics to sign in, tap **Allow**.
+6. Allow the app to use biometrics for added security when accessing your account.
 
 <div align="center">
 
@@ -51,7 +51,7 @@
 
 </div>
 
-7. Scan your fingerprint or use your Face ID.
+7. Use fingerprint scan or facial recognition.
 8. Wait a few seconds to create your account.
 
 {% hint style="info" %}
@@ -77,7 +77,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 </div>
 
-4. If biometrics is enabled, scan your fingerprint or use your Face ID.
+4. If biometrics is enabled, use fingerprint scan or facial recognition.
 5. Wait a few seconds for the home screen to load.
 
 ### Resetting your passcode
@@ -123,7 +123,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 
 </div>
 
-3. Allow access to view the Recovery Phrase.
+3. Allow access to view the recovery phrase.
 
 <div align="center">
 
