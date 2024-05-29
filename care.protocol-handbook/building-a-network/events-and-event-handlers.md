@@ -139,7 +139,7 @@ The following example defines an event handler that sends the details to the nex
 
 ### Use case example
 
-The following examples demonstrate a node-to-node event that sends a response from the doctor to the patient. For information on the different types of node event handlers, see [Node event handlers](node-event-handlers.md).
+The following examples demonstrate a Node-to-Node event that sends a response from the doctor to the patient. For information on the different types of node event handlers, see [Node event handlers](node-event-handlers.md).
 
 1. Define the event in the `input.json` file.
 

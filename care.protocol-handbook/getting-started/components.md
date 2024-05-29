@@ -12,7 +12,7 @@ The `input.json` file is a hierarchical structure of objects defined within a ne
 
 ### Care Data Node
 
-The Care Data Node (CDN) serves as the network's central database for storing and processing data files. It additionally facilitates data exchange with external client systems, including electronic medical records, claims systems, member systems, and payment systems.
+The Care Data Node (CDN) serves as the network's central database for storing and processing data files. It facilitates data exchange with external client systems, including electronic medical records, claims systems, member systems, and payment systems.
 
 ### Care.Card definitions
 
@@ -20,7 +20,7 @@ A Care.Card is an interactive module encapsulating multiple data types, user int
 
 ### Event definitions
 
-The events define the interactions between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
+The events define the interactions and communication between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
 
 ### Event handlers
 

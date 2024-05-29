@@ -12,7 +12,7 @@ All card definitions must be included in the `input.json` file.
 
 ### Cards
 
-A card contains data types, user interface elements, and interactive functions triggered by events.
+A card contains multiple data types, user interface elements, and interactive functions triggered by events.
 
 <table><thead><tr><th width="230">Field Name</th><th width="158">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the card.</td></tr><tr><td>name</td><td>string</td><td>The name of the card.</td></tr><tr><td>description</td><td>string</td><td>The description of the card.</td></tr><tr><td>status</td><td>string</td><td>The status of the card is set to Active.</td></tr><tr><td>card_definition_ref</td><td>string</td><td>The reference to the UI component of the card.</td></tr><tr><td>side</td><td>string</td><td>The side on which data is presented.</td></tr><tr><td>role</td><td>string</td><td>The role ID is referenced in the card.</td></tr><tr><td>transaction_data_ref</td><td>string</td><td>The reference to the transaction data used upon initialization.</td></tr><tr><td>journey</td><td>string</td><td>The journey to which the card belongs.</td></tr><tr><td>outgoing_events</td><td>array</td><td>The events or actions triggered by the card.</td></tr><tr><td>pre_rendering_events</td><td>array</td><td>The events or actions used to initialize the card.</td></tr></tbody></table>
 
