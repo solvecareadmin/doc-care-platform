@@ -16,11 +16,11 @@ The Care Data Node (CDN) serves as the network's central database for storing an
 
 ### Care.Card definitions
 
-A Care.Card is a decentralized application within a network. It comprises data types, user interface elements, and interactive functions that respond to events. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
+A Care.Card is an interactive module encapsulating multiple data types, user interface elements, and interoperable functions. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
 
 ### Event definitions
 
-The events define the data used to communicate between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
+The events define the interactions between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
 
 ### Event handlers
 
