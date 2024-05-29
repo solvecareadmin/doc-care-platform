@@ -51,17 +51,11 @@
 
 </div>
 
-6. Scan your fingerprint or use Face ID.
-7. Save your recovery phrase.&#x20;
-
-<div align="center">
-
-<figure><img src="../.gitbook/assets/save-now-recovery-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
+7. Scan your fingerprint or use Face ID.
+8. Wait a few seconds to create your account.
 
 {% hint style="info" %}
-Use your recovery phrase to access your Care.Wallet if you need to sign in on another device.
+Save your recovery phrase and keep it in a safe place. For complete instructions, see [Saving your recovery phrase](user-access.md#saving-your-recovery-phrase).
 {% endhint %}
 
 ### Signing in to Care.Wallet
@@ -84,10 +78,7 @@ Use your recovery phrase to access your Care.Wallet if you need to sign in on an
 </div>
 
 4. If biometrics is enabled, scan your fingerprint or use Face ID.
-
-{% hint style="info" %}
-It may take a few seconds for the home screen to load.&#x20;
-{% endhint %}
+5. Wait a few seconds for the home screen to load.
 
 ### Resetting your passcode
 
@@ -100,7 +91,7 @@ It may take a few seconds for the home screen to load.&#x20;
 
 </div>
 
-3. Select the method you used during sign up.&#x20;
+3. Select the method you used during sign-up.&#x20;
 
 <div align="center">
 
@@ -108,8 +99,8 @@ It may take a few seconds for the home screen to load.&#x20;
 
 </div>
 
-3. Enter the one-time code sent to you, then tap **Next**.
-4. Set up a new passcode.
+4. Enter the one-time code sent to you, then tap **Next**.
+5. Set up a new passcode.
 
 <div align="center">
 
@@ -136,8 +127,8 @@ It may take a few seconds for the home screen to load.&#x20;
 
 </div>
 
-3. Enter your passcode, then tap **Next**.
-4. Copy the phrase or write it down.
+4. Enter your passcode, then tap **Next**.
+5. Copy the phrase or write it down.
 
 <div align="center">
 
