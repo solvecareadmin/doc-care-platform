@@ -122,3 +122,5 @@ Participate in surveys and get updates from the community.
 <figure><img src="../.gitbook/assets/care-pilot-engage.png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Select a voting poll where you want to participate.
+
+<figure><img src="../.gitbook/assets/care-pilot-engage-vote.png" alt="" width="188"><figcaption></figcaption></figure>
