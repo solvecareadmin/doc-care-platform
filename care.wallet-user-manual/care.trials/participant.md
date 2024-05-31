@@ -17,12 +17,12 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-answer-5-questions.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Review and agree to the terms and conditions and privacy policy.
+7. Review and agree to the terms and conditions and privacy policy.
 
 <figure><img src="../../.gitbook/assets/care-trials-profile-final-step.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Tap **Submit**.
-6. Wait up to 5 minutes to search for available trials near you.
+8. Tap **Submit**.
+9. Wait up to 5 minutes to search for available trials near you.
 
 ### Swiping matched trials
 
@@ -36,7 +36,7 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-swipe-like-skip-previous.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Like the trial you want to participate in. You can also skip or go back to the previous trial.
+5. Like the trial you want to participate in. You can also skip or go back to the previous trial.
 
 ### Uploading your medical records and ID
 
@@ -50,12 +50,12 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-upload-records.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Select the type of attachment you want to upload.
+5. Select the type of attachment you want to upload.
 
 <figure><img src="../../.gitbook/assets/care-trials-upload-records-submit.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Select a file from your device or take a photo.
-5. Tap **Upload**.
+6. Select a file from your device or take a photo.
+7. Tap **Upload**.
 
 ### Submitting records for review or verification
 
@@ -74,7 +74,7 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-records-review-payment.png" alt="" width="188"><figcaption></figcaption></figure>
 
-6. Confirm your payment.
+7. Confirm your payment.
 
 ### Viewing records history
 

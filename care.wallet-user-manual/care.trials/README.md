@@ -22,7 +22,7 @@ Participate in clinical trials to help discover new treatments and contribute to
 
 <figure><img src="../../.gitbook/assets/care-trials-select-role.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Grant access to your contact information.&#x20;
+4. Grant access to your profile information.&#x20;
 
 <figure><img src="../../.gitbook/assets/care-trials-consent.png" alt="" width="188"><figcaption></figcaption></figure>
 
