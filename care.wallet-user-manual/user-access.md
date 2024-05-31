@@ -144,7 +144,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 
 1. Open the Care.Wallet app from your mobile device.
 2. Tap **I already have a Care.Wallet**.
-3. Enter the recovery phrase.
+3. Enter your recovery phrase.
 
 <figure><img src="../.gitbook/assets/recover-access.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -153,3 +153,4 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 6. Allow the app to use biometrics for added security when accessing your account.
 7. Use fingerprint scan or facial recognition.
 8. Wait a few seconds for the home screen to load.
+

@@ -1,5 +1,9 @@
 # Care.Pilot
 
+## Welcome aboard!
+
+Start your journey to better health, connect with your loved ones, and engage with the community.
+
 ## Learn about Care.Wallet
 
 Watch tutorial videos on how to use the features.
