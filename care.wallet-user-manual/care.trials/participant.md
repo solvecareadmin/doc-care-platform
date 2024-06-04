@@ -34,7 +34,7 @@
 
 4. Swipe through available trials.&#x20;
 
-<figure><img src="../../.gitbook/assets/care-trials-swipe-like-skip-previous.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/care-trials-swipe-like-skip-previous (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 5. Like the trial you want to participate in. You can also skip or go back to the previous trial.
 
@@ -66,7 +66,7 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-select-records-review.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Tap the record or ID you want to submit.
+5. Select the record or ID you want to submit.
 
 <figure><img src="../../.gitbook/assets/care-trials-records-pending-review.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-select-records-history.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Tap the record or ID that you want to view.&#x20;
+5. Select the record or ID that you want to view.&#x20;
 
 <figure><img src="../../.gitbook/assets/care-trials-records-history.png" alt="" width="188"><figcaption></figcaption></figure>
 

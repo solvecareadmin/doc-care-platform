@@ -5,19 +5,37 @@
 1. Sign in to the Care.Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Start Here**.
+
+<figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
+
 4. Tap **Activate Site**.
 5. Tap **Step 1: Request site code.**
-6. Enter the Trial ID and the email address where you want the activation code to be sent.
-7. Tap **Request code**. Wait for the activation code to be sent to your email.
-8. Tap **Step 2: Activate site role**.
-9. Enter the activation code you received in Step 1.
-10. Tap **Activate Site**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-request-site-code.png" alt="" width="188"><figcaption></figcaption></figure>
+
+4. Enter the Trial ID and the email address where you want the activation code to be sent.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-enter-trial-id-email.png" alt="" width="188"><figcaption></figcaption></figure>
+
+4. Tap **Request code**. Wait for the activation code to be sent to your email.
+5. Tap **Step 2: Activate site role**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-activate-site-role.png" alt="" width="188"><figcaption></figcaption></figure>
+
+4. Enter the activation code sent to your email.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-activate-site.png" alt="" width="188"><figcaption></figcaption></figure>
+
+4. Tap **Activate Site**.
 
 ### Buying leads
 
 1. Sign in to the Care.Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **See Your Matches**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-see-your-matches.png" alt="" width="188"><figcaption></figcaption></figure>
+
 4. Swipe through matched leads.
 5. Like the lead you want buy. You can also skip or go back to the previous lead.
 
@@ -30,8 +48,22 @@ In Care.Trials, a lead is a potential participant in clinical trials. Make sure 
 1. Sign in to the Care.Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Start Here**.
+
+<figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
+
 4. In the "Active site" list, select the trial you want to update.
-5. Fill in the details you want to modify, then tap **Update trial info**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-active-site.png" alt="" width="188"><figcaption></figcaption></figure>
+
+5. Select **Update trial info**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-update-trial-info.png" alt="" width="188"><figcaption></figcaption></figure>
+
+6. Fill in the details you want to modify.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-update-trial-info-save.png" alt="" width="188"><figcaption></figcaption></figure>
+
+7. Tap **Update**.
 
 ### Buying campaigns
 
@@ -42,9 +74,15 @@ You must upgrade your plan in order to buy campaigns.
 1. Sign in to the Care.Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Start Here**.
-4. In the Active site list, select the trial you want to update.
+4. In the "Active site" list, select the trial you want to update.
 5. Tap **Buy campaign**.&#x20;
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-buy-campaign.png" alt="" width="188"><figcaption></figcaption></figure>
+
 6. View each campaign card to see more details.&#x20;
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-buy-campaign-details.png" alt="" width="188"><figcaption></figcaption></figure>
+
 7. Tap **Buy Now**, then confirm your payment.
 
 ### Requesting budget
@@ -54,8 +92,22 @@ You must upgrade your plan in order to buy campaigns.
 3. Tap **Start Here**.
 4. In the "Active site" list, select the trial you want to update.
 5. Tap **Track Budget > Request budget**.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-track-budget.png" alt="" width="188"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-site-budget.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
 6. Enter the amount, then add a comment.
-7. Tap **Request**.
+
+<figure><img src="../../.gitbook/assets/care-trials-sa-request-budget.png" alt="" width="188"><figcaption></figcaption></figure>
+
+6. Tap **Request**.
 
 ### Checking statistics
 

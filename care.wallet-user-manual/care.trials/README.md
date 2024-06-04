@@ -9,7 +9,7 @@ Participate in clinical trials to help discover new treatments and contribute to
 * **Participants** — When you join the Care.Trials network as a participant, you will have access to available trials that match your profile. Use swiping to like or skip matched trials.
 * **Site Admin** — The site admin helps coordinate clinical trials in a specific site location. In the Care.Trials network, the site admin can view leads and interact with the participants to collect medical records and set appointments for screening.
 * **Trial Admin** — The trial admin oversees the clinical trials in all sites. In the Care.Trials network, the trial admin can activate trials and set the budget for a trial site.
-* **Nurse** — The nurse in the Care.Trials network can review the participant's ID and medical records.
+* **Nurse** — The nurse in the Care.Trials network can verify and review the participant's ID and medical records.
 
 ## Joining the Care.Trials network
 

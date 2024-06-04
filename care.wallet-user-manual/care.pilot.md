@@ -6,8 +6,6 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ## Learn about Care.Wallet
 
-Watch tutorial videos on how to use the features.
-
 1. Sign in to your Care.Wallet app.
 2. From the Care.Pilot screen, tap **Learn**.
 
@@ -16,6 +14,8 @@ Watch tutorial videos on how to use the features.
 3. Select the topic you want to learn about.
 
 <figure><img src="../.gitbook/assets/care-pilot-welcome.png" alt="" width="188"><figcaption></figcaption></figure>
+
+4. Watch the tutorial videos on how to use the features.
 
 ## Manage your records
 
