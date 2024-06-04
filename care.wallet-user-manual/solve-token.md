@@ -1,2 +1,0 @@
-# SOLVE token
-

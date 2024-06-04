@@ -38,4 +38,4 @@
 * [Care.Circle](care.wallet-user-manual/care.circle.md)
 * [Care.Ledger](care.wallet-user-manual/care.ledger.md)
 * [Care.Vault](care.wallet-user-manual/care.vault.md)
-* [SOLVE token](care.wallet-user-manual/solve-token.md)
+* [SOLVE tokens](care.wallet-user-manual/solve-tokens.md)
