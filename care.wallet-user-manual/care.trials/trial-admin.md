@@ -75,15 +75,15 @@
 
 </div>
 
-6. To approve the request, tap **Set Budget**.
+7. To approve the request, tap **Set Budget**.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-set-budget.png" alt="" width="188"><figcaption></figcaption></figure>
 
-7. Enter the amount in SOLVE, then add a comment.
+8. Enter the amount in SOLVE, then add a comment.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-set-budget-submit.png" alt="" width="188"><figcaption></figcaption></figure>
 
-8. Tap **Submit**.
+9. Tap **Submit**.
 
 ### Checking the site statistics
 

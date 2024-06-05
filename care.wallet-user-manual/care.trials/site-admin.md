@@ -13,20 +13,20 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-request-site-code.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Enter the Trial ID and the email address where you want the activation code to be sent.
+6. Enter the Trial ID and the email address where you want the activation code to be sent.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-enter-trial-id-email.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Tap **Request code**. Wait for the activation code to be sent to your email.
-5. Tap **Step 2: Activate site role**.
+7. Tap **Request code**. Wait for the activation code to be sent to your email.
+8. Tap **Step 2: Activate site role**.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-activate-site-role.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Enter the activation code sent to your email.
+9. Enter the activation code sent to your email.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-activate-site (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Tap **Activate Site**.
+10. Tap **Activate Site**.
 
 ### Buying leads
 
