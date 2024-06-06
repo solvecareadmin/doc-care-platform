@@ -7,7 +7,7 @@
 
 <figure><img src="../.gitbook/assets/cw-bottom-menu-vault.png" alt="" width="375"><figcaption></figcaption></figure>
 
-3.  Do any of the following:
+3.  Do either of the following:
 
     * Use the search bar to filter the list.&#x20;
 

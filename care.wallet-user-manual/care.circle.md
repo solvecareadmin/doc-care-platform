@@ -66,7 +66,7 @@ Send mood cards and survey questions to your Care.Circle members to check in on 
 
 <figure><img src="../.gitbook/assets/care-circle-hayft.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4.  Select any of the following:
+4.  Select either of the following:
 
     * Mood — Select at least two mood cards.
 
