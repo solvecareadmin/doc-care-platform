@@ -6,7 +6,7 @@ You can download the app from the Apple App Store® or Google Play™ store.
 
 ### Components of the mobile app&#x20;
 
-* **Care.Pilot** is an all-in-one portal that lets you take charge of your health, connect with your loved ones, and engage with the community.&#x20;
+* **Care.Pilot** is an all-in-one health portal that helps you manage medical records and appointments, stay connected with your loved ones, and engage with the community.&#x20;
 * **Care.Trials** is an AI-powered service that lets you search and join clinical trials that match your profile. The administrator for clinical trials can view matched patients and coordinate the trials.&#x20;
 * **Care.Circle** is a private group of Care.Wallet users where you can share updates about your health. It lets you build a support system with your loved ones, friends, and care providers.&#x20;
 * **Care.Ledger** is a collection of records that lets you view the history of events, such as sent and received cards. You can also share your records with other Care.Wallet users.&#x20;
