@@ -52,7 +52,7 @@
 </div>
 
 7. Use fingerprint scan or facial recognition.
-8. Wait a few seconds to create your account.
+8. Wait a few seconds for your account to be created.
 
 {% hint style="info" %}
 Save your recovery phrase and keep it in a safe place. For complete instructions, see [Saving your recovery phrase](user-access.md#saving-your-recovery-phrase).

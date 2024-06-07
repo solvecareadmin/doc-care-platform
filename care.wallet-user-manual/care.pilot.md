@@ -53,7 +53,7 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 <figure><img src="../.gitbook/assets/care-pilot-share-records.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Tap **Share**.
+6. Tap **Share**.
 
 ### Viewing shared records
 
