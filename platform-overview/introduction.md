@@ -8,7 +8,7 @@
 
 **Care.Network** is a digital network of various healthcare roles, such as doctors, nurses, pharmacists, and other care providers. The network is built to provide personalized healthcare services to its members. Each Care.Network operates based on a specific set of rules defined in a Care.Protocol.&#x20;
 
-**Care.Protocol** is the governance framework that defines the set of rules for data exchange and communication within a Care.Network.
+**Care.Protocol** is the governance framework that establishes the rules for data exchange and communication within a Care.Network. Additionally, it can also be configured to ensure interoperability between Care.Networks and Care.Wallet.
 
 **Care.Wallet** is a mobile application that functions as a personal healthcare assistant. It manages various aspects of a user's healthcare journey, including health record storage, appointment booking, and payment processing.&#x20;
 
