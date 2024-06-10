@@ -4,7 +4,7 @@ description: >-
   definitions.
 ---
 
-# Tile definitions
+# Tile Definitions
 
 ### Tile0 - Text Label
 
@@ -723,7 +723,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with a scrollable 
 ```
 {% endcode %}
 
-### Tile12 - Dropdown List Selector
+### Tile12 - Dropdown Option Selector
 
 This tile represents a dropdown selector for a list of options.
 

@@ -4,7 +4,7 @@ description: >-
   some practical examples.
 ---
 
-# Events and event handlers
+# Events and Event Handlers
 
 {% hint style="info" %}
 All event and event handler definitions must be included in the `input.json` file.
@@ -112,7 +112,7 @@ The following example defines an event handler that sends the details to the nex
 {
     "walletEventHandler": [
         {
-            "refId": "ew-patient-nav-to-cd-next1",
+            "refId": "eh-w-patient-nav-to-cd-next1",
             "walletEvents": [
                 {
                     "actions": [
@@ -128,7 +128,7 @@ The following example defines an event handler that sends the details to the nex
                         }
                     ],
                     "postAction": "cd-next2",
-                    "refId": "ew-patient-nav-to-cd-next1"
+                    "refId": "eh-w-patient-nav-to-cd-next1"
                 }
             ]
         }
