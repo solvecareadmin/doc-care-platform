@@ -2,7 +2,7 @@
 description: This section provides examples on how to configure Python event handlers.
 ---
 
-# Python event handlers
+# Python Event Handlers
 
 The Python event handler contains a set of base classes that provide an interface to the platform's core components, such as Vault, Wallet, Node, and Care Data Node (CDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
 
@@ -54,6 +54,15 @@ class Vault:
     def search(self, collection: str, filters: List) -> List:
         vault = self.context.getVaultStorage(collection)
         return vault.search(filters)
+
+class Node:
+
+    def __init__(self, context: HandlerExecutionContext):
+        self.context = context
+
+    def info(self) -> NodeInfo:
+        return self.context.getNodeInfo()
+
 
 def execute(ctx: HandlerExecutionContext) -> Map:
     result = HashMap(arguments())
