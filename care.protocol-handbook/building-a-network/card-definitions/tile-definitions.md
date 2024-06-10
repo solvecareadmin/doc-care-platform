@@ -618,9 +618,9 @@ This tile represents an option selector.
 ```
 {% endcode %}
 
-### Tile10a - Toggle
+### Tile10a - Toggle Switch
 
-This tile represents a toggle option.
+This tile represents a toggle switching button, such as "on" or "off".
 
 | Configurations                                                                                                                                                                                                                                                                                                              | Preview                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -664,7 +664,7 @@ This tile represents a toggle option.
 
 ### Tile11 - Title and Text
 
-This tile represents a title and a text.
+This tile represents two rows with a title and a subtitle text.
 
 | Configurations                                                                                                                                              | Preview                                                                     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -694,7 +694,7 @@ This tile represents a title and a text.
 
 ### Tile11a - Title and Scrollable Text
 
-This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable subtitle text.
+This tile is the same as [Tile11](tile-definitions.md#tile11) with a scrollable subtitle text.
 
 | Configurations                                                                                                                                                                                                             | Preview                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -725,7 +725,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable su
 
 ### Tile12 - Dropdown List Selector
 
-This tile represents a dropdown list selector.
+This tile represents a dropdown selector for a list of options.
 
 | Configurations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Preview                                                                     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -759,7 +759,7 @@ This tile represents a dropdown list selector.
 
 ### Tile14 - Clickable Tile
 
-This tile represents an action clickable tile.
+This tile represents a clickable tile that triggers an action.
 
 | Configurations                                                                                                                                                                                                                                         | Preview                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
@@ -787,7 +787,7 @@ This tile represents an action clickable tile.
 
 ### Tile14a - Clickable Tile with Subtitle
 
-This tile is the same as [Tile14](tile-definitions.md#tile14) with subtitle.
+This tile is the same as [Tile14](tile-definitions.md#tile14) with a subtitle.
 
 | Configurations                                                                                                                                                        | Preview                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -855,7 +855,7 @@ This tile represents clickable images to select an option or trigger an action.
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | <ul><li>options: key and list</li><li>key: <code>{answer5}</code> - The selected option from the list is set to key <code>answer5</code> that will be used and sent through an event.</li><li>image: text and isURL</li><li>isURL: true or false</li></ul> | <img src="../../../.gitbook/assets/tile17 (1).png" alt="" data-size="original"> |
 
-{% code title="" %}
+{% code title="Example:" %}
 ```json
 {
             "id":"Tile17",
@@ -918,7 +918,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | <ul><li>subtitle text: reference to the title that displays below the image</li><li>align: START, CENTER, or END</li><li>text color: hex value</li><li>border color: hex value</li><li>uiAction: for example, "action17a2"</li></ul> | <img src="../../../.gitbook/assets/tile17a (1).png" alt="" data-size="original"> |
 
-{% code title="Tile definition" %}
+{% code title="Tile definition example:" %}
 ```json
 {
                         "id": "Tile17a",
@@ -975,7 +975,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
 ```
 {% endcode %}
 
-{% code title="cardUIAction" %}
+{% code title="cardUIAction example:" %}
 ```json
 "action17a2": {
             "action": [
