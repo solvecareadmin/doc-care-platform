@@ -6,9 +6,9 @@ description: >-
 
 # Tile definitions
 
-### Tile0
+### Tile0 - Text Label
 
-This tile represents a text.&#x20;
+This tile represents a text label in a single row.
 
 <table><thead><tr><th width="324">Configurations</th><th>Preview</th></tr></thead><tbody><tr><td><ul><li>style: Regular or Bold</li><li>align: START (left), CENTER, END (right) or JUSTIFY</li><li>border color: hex value</li><li>text color: hex value</li></ul></td><td><img src="../../../.gitbook/assets/tile0.png" alt=""><br></td></tr></tbody></table>
 
@@ -32,9 +32,9 @@ This tile represents a text.&#x20;
 ```
 {% endcode %}
 
-### Tile0a
+### Tile0a - Two Text Labels
 
-This tile represents two texts.
+This tile represents two texts labels in a single row.
 
 | Configurations                                                                                                                                             | Preview                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -64,7 +64,7 @@ This tile represents two texts.
 ```
 {% endcode %}
 
-### Tile1
+### Tile1 - Text Input
 
 This tile represents a text input for a specific key.
 
@@ -96,9 +96,9 @@ This tile represents a text input for a specific key.
 ```
 {% endcode %}
 
-### Tile1a
+### Tile1a - Two Rows with Text Input
 
-&#x20;This tile represents two rows with a text input for a specific key.
+This tile represents two rows: the first containing a text label and the second containing a text input for a specific key.
 
 | Configurations                                                                                                                                                                                                                                                                                                                                                                                                 | Preview                                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -140,7 +140,7 @@ This tile represents a text input for a specific key.
 ```
 {% endcode %}
 
-### Tile2
+### Tile2 - Text Input with Tooltip
 
 This tile represents a text input for a specific key with tooltip.
 
@@ -175,9 +175,9 @@ This tile represents a text input for a specific key with tooltip.
 ```
 {% endcode %}
 
-### Tile3
+### Tile3 - Date Selector
 
-This tile represents a date selection for a specific key.
+This tile represents a date selector for a specific key.
 
 | Configurations                                                                                                                                                                                                                                                                                                                                                                                     | Preview                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -208,9 +208,9 @@ This tile represents a date selection for a specific key.
 ```
 {% endcode %}
 
-### Tile5
+### Tile5 - Stepper
 
-This tile represents a stepper for a specific key.
+This tile represents a stepper to adjust the value for a specific key.
 
 | Configurations                                                                                                                                                                                                                                                                                                                                                                | Preview                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -241,7 +241,7 @@ This tile represents a stepper for a specific key.
 ```
 {% endcode %}
 
-### Tile6
+### Tile6 - Horizontal Radio Buttons
 
 This tile represents option selectors as radio buttons in horizontal format.
 
@@ -287,7 +287,7 @@ This tile represents option selectors as radio buttons in horizontal format.
 ```
 {% endcode %}
 
-### Tile6a
+### Tile6a - Vertical Radio Buttons
 
 This tile represents option selectors as radio buttons in vertical format.
 
@@ -333,9 +333,9 @@ This tile represents option selectors as radio buttons in vertical format.
 ```
 {% endcode %}
 
-### Tile7
+### Tile7 - Horizontal Checkboxes
 
-This tile represents a multi-option selector as check boxes in horizontal format.
+This tile represents a multi-option selector as checkboxes in horizontal format.
 
 | Configurations                                                                                                                                                                                                                                                                                              | Preview                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -380,9 +380,9 @@ This tile represents a multi-option selector as check boxes in horizontal format
 ```
 {% endcode %}
 
-### Tile7a
+### Tile7a - Vertical Checkboxes
 
-This tile represents a multi-option selector as check boxes in vertical format.
+This tile represents a multi-option selector as checkboxes in vertical format.
 
 | Configurations                                                                                                                                                                                                                                                           | Preview                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
@@ -427,9 +427,9 @@ This tile represents a multi-option selector as check boxes in vertical format.
 ```
 {% endcode %}
 
-### Tile7b
+### Tile7b - Vertical Checkboxes with Subtitle
 
-This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra option for subtitle.&#x20;
+This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra option for a subtitle label, such as displaying the count in numbers.&#x20;
 
 | Configurations                                                                                                                                                                              | Preview                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -483,7 +483,7 @@ This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra opti
 ```
 {% endcode %}
 
-### Tile8
+### Tile8 - Scrollable Table
 
 This tile represents a scrollable table grid.
 
@@ -530,7 +530,7 @@ This tile represents a scrollable table grid.
 ```
 {% endcode %}
 
-### Tile9
+### Tile9 - Scrollable Table without Title Label
 
 This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 
@@ -574,7 +574,7 @@ This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 ```
 {% endcode %}
 
-### Tile10
+### Tile10 - Option Selector
 
 This tile represents an option selector.
 
@@ -618,7 +618,7 @@ This tile represents an option selector.
 ```
 {% endcode %}
 
-### Tile10a
+### Tile10a - Toggle
 
 This tile represents a toggle option.
 
@@ -662,7 +662,7 @@ This tile represents a toggle option.
 ```
 {% endcode %}
 
-### Tile11
+### Tile11 - Title and Text
 
 This tile represents a title and a text.
 
@@ -692,7 +692,7 @@ This tile represents a title and a text.
 ```
 {% endcode %}
 
-### Tile11a
+### Tile11a - Title and Scrollable Text
 
 This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable subtitle text.
 
@@ -723,7 +723,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with scrollable su
 ```
 {% endcode %}
 
-### Tile12
+### Tile12 - Dropdown List Selector
 
 This tile represents a dropdown list selector.
 
@@ -757,7 +757,7 @@ This tile represents a dropdown list selector.
 ```
 {% endcode %}
 
-### Tile14
+### Tile14 - Clickable Tile
 
 This tile represents an action clickable tile.
 
@@ -785,7 +785,7 @@ This tile represents an action clickable tile.
 ```
 {% endcode %}
 
-### Tile14a
+### Tile14a - Clickable Tile with Subtitle
 
 This tile is the same as [Tile14](tile-definitions.md#tile14) with subtitle.
 
@@ -819,7 +819,7 @@ This tile is the same as [Tile14](tile-definitions.md#tile14) with subtitle.
 ```
 {% endcode %}
 
-### Tile16
+### Tile16 - Image Tile
 
 This tile represents an image that can be loaded locally or from a URL.
 
@@ -847,9 +847,9 @@ This tile represents an image that can be loaded locally or from a URL.
 ```
 {% endcode %}
 
-### Tile17
+### Tile17 - Clickable Image Grid
 
-This tile represents selectable images.
+This tile represents clickable images to select an option or trigger an action.
 
 | Configurations                                                                                                                                                                                                                                             | Preview                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -910,7 +910,7 @@ This tile represents selectable images.
 ```
 {% endcode %}
 
-### Tile17a
+### Tile17a - Clickable Image Row
 
 This tile represents clickable images in a single row. Clicking the image navigates the user to a target location.
 
@@ -989,7 +989,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
 ```
 {% endcode %}
 
-### SmartTile1
+### SmartTile1 - Input Validation Tile
 
 This tile is an input field that is used to implement checks, such as "field format" and "field value".
 
