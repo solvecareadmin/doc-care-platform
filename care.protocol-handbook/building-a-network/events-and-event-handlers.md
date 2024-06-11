@@ -180,7 +180,7 @@ In this example, a patient submits answers from the health questions card and th
             {
                 "id": "ev-n-broad-health-questions-na",
                 "name": "W.BROAD.H.QUESTIONS.NA",
-                "description": "Broadcast health questions from Participants to rl-netadmin",
+                "description": "Broadcast health questions from Patients to rl-netadmin",
                 "code": "W.BROAD.H.QUESTIONS.NA",
                 "status": "Active",
                 "type": "NODE_TO_ROLE",
@@ -201,7 +201,7 @@ In this example, a patient submits answers from the health questions card and th
 ```json
 {
     "definition": {
-        "description": "Save H_QUESTIONS at Participants",
+        "description": "Save H_QUESTIONS at Patients",
         "name": "W-BROAD-H-QUESTIONS",
         "resource": "W-BROAD-H-QUESTIONS",
         "type": "EVENT_DATA"
@@ -304,7 +304,7 @@ In this example, a patient submits answers from the health questions card and th
             {
                 "id": "eh-ev-n-broad-health-questions-na",
                 "name": "eh-ev-n-broad-health-questions-na",
-                "description": "Broadcast H_QUESTIONS from Participants to rl-netadmin",
+                "description": "Broadcast H_QUESTIONS from Patients to rl-netadmin",
                 "status": "Active",
                 "event": "ev-n-broad-health-questions-na",
                 "type": "NODE_EVENT_HANDLER",
@@ -361,9 +361,9 @@ In this example, a patient submits answers from the health questions card and th
         },
         {
             "type": "VAULT_UPDATE",
-            "name": "PARTICIPANT_ANSWERS",
+            "name": "PATIENT_ANSWERS",
             "order": 2,
-            "collection": "PARTICIPANT_ANSWERS",
+            "collection": "PATIENT_ANSWERS",
             "collectionVersion": 1,
             "dataSource": "HANDLER_ARGUMENTS",
             "insertIfAbsent": true,
