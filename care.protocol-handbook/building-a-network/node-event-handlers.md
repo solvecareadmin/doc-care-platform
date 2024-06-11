@@ -4,9 +4,9 @@ description: >-
   definitions, parameters, and examples.
 ---
 
-# Node event handlers
+# Node Event Handlers
 
-### Types of event handlers
+### Types of node event handlers
 
 * `VAULT_INSERT` – This event handler is used to insert a record into a specific collection in the vault.
 * `VAULT_UPDATE` – This event handler is used to update a record in a specific collection in the vault based on the dynamic search criteria.

@@ -56,7 +56,6 @@ class Vault:
         return vault.search(filters)
 
 class Node:
-
     def __init__(self, context: HandlerExecutionContext):
         self.context = context
 
@@ -72,8 +71,6 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 {% endcode %}
 
 ### Use case example
-
-The following examples show how to send an event from CDN to Care.Wallet.
 
 1. Define the event in the `input.json` file.
 
