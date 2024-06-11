@@ -171,24 +171,24 @@ In this example, a patient submits answers from the health questions card, and s
                 "type": "WALLET_TO_NODE",
                 "event_definition_ref": "event/ev-w-broad-health-questions.json",
                 "submit_event_handler": "eh-ev-w-broad-health-questions",
-                "next_event": "ev-w-broad-health-questions-save",
+                "next_event": "ev-w-broad-health-questions-na",
                 "node_event_handlers": [
-                    "eh-ev-w-broad-health-questions", "eh-n-patient-process-py"
+                    "eh-ev-w-broad-health-questions-na", "eh-n-patient-process-py"
                 ],
                 "card": "cd-health-questions"
             },
             {
-                "id": "ev-n-broad-health-questions-save",
-                "name": "W.BROAD.H.QUESTIONS.DR",
-                "description": "Broadcast health questions from Participants",
-                "code": "W.BROAD.H.QUESTIONS.DR",
+                "id": "ev-n-broad-health-questions-na",
+                "name": "W.BROAD.H.QUESTIONS.NA",
+                "description": "Broadcast health questions from Participants to rl-netadmin",
+                "code": "W.BROAD.H.QUESTIONS.NA",
                 "status": "Active",
                 "type": "NODE_TO_ROLE",
-                "event_definition_ref": "event/ev-n-broad-health-questions-save.json",
+                "event_definition_ref": "event/ev-n-broad-health-questions-na.json",
                 "from_role": "rl-patient",
-                "to_role": "rl-doctor",
+                "to_role": "rl-netadmin",
                 "node_event_handlers": [
-                    "eh-ev-n-broad-health-questions-save"
+                    "eh-ev-n-broad-health-questions-na"
                 ],
                 "card": "cd-health-questions"
             },
@@ -306,7 +306,7 @@ In this example, a patient submits answers from the health questions card, and s
                 "name": "eh-ev-n-broad-health-questions-na",
                 "description": "Broadcast H_QUESTIONS from Participants to rl-netadmin",
                 "status": "Active",
-                "event": "eh-ev-n-broad-health-questions-na",
+                "event": "ev-n-broad-health-questions-na",
                 "type": "NODE_EVENT_HANDLER",
                 "event_handler_definition_ref": "event-handler/eh-ev-n-broad-health-questions-na.json"
             }
@@ -335,7 +335,7 @@ In this example, a patient submits answers from the health questions card, and s
                             ]
                         }
                     ],
-                    "postAction": "cd-patient-h-questions-done",
+                    "postAction": "cd-health-questions-done",
                     "refId": "ev-w-broad-health-questions"
                 } 
             ]
