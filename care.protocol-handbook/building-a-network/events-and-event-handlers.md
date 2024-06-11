@@ -88,6 +88,11 @@ The following example defines an event containing user details: `event/ev-patien
 
 The event handler defines the instructions that execute tasks based on specific events, such as navigation and data manipulation.
 
+### Types of event handlers
+
+* `WALLET_EVENT_HANDLER` — This event handler is defined in JSON and can be used to navigate between cards, submit data, or retrieve data.
+* `NODE_EVENT_HANDLER` — This event handler is defined in either JSON or Python and can be used to search, retrieve, update, or save data. To learn more about the different types of node event handlers, see [Node Event Handlers](node-event-handlers.md) and [Python Event Handlers](python-event-handlers.md).
+
 | Field Name                      | Value Type | Description                                                                                         |
 | ------------------------------- | ---------- | --------------------------------------------------------------------------------------------------- |
 | id                              | string     | The unique ID of the event handler.                                                                 |
@@ -98,12 +103,7 @@ The event handler defines the instructions that execute tasks based on specific 
 | type                            | string     | The type of event handler. The possible values are: WALLET\_EVENT\_HANDLER and NODE\_EVENT\_HANDLER |
 | event\_handler\_definition\_ref | string     | The reference path and ID of the event handler definition.                                          |
 
-### Types of event handlers
-
-* `WALLET_EVENT_HANDLER` — This event handler is defined in JSON and can be used to navigate between cards, submit data, or retrieve data.
-* `NODE_EVENT_HANDLER` — This event handler is defined in either JSON or Python and can be used to search, retrieve, update, or save data. To learn more about the different types of node event handlers, see [Node Event Handlers](node-event-handlers.md) and [Python Event Handlers](python-event-handlers.md).
-
-The following example is a wallet event handler defined in the `input.json` file.
+The following example is the wallet event handler for navigating to the next card, as defined in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
