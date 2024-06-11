@@ -1,10 +1,10 @@
 ---
 description: >-
-  This section describes the card definitions used within the network, including
-  card data, card layout, card footer, and card UI actions.
+  This section describes the structure of card definitions, including card data,
+  card layout, card footer, and card UI actions.
 ---
 
-# Card definitions
+# Card Definitions
 
 {% hint style="info" %}
 All card definitions must be included in the `input.json` file.

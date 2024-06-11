@@ -6,7 +6,7 @@ The Care Data Node (CDN) is responsible for storing and exchanging data files wi
 
 ### Data definition file
 
-The data definition file (DDF) contains the model and structure for organizing data in CDN. This file is used in CDN to process incoming data files and generate events for distribution to Care.Nodes. The DDF and CSV files are uploaded to the Amazon S3 bucket where CDN is stored. For information on how to upload the files, see [Upload data definition file](../publishing-the-network.md#upload-data-definition-file-ddf) and [Upload CSV](../publishing-the-network.md#upload-csv).&#x20;
+The data definition file (DDF) contains the model and structure for organizing data in CDN. This file is used in CDN to process incoming data files and generate events for distribution to Care.Nodes. The DDF and raw CSV files are uploaded to the environment repository for processing with CDN. For information on how to upload the files, see [Upload data definition file](../publishing-the-network.md#upload-data-definition-file-ddf) and [Upload CSV](../publishing-the-network.md#upload-csv).&#x20;
 
 #### Sample file structure
 

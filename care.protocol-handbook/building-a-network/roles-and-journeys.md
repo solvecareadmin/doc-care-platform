@@ -1,10 +1,10 @@
 ---
 description: >-
-  This section describes the details of user roles and journeys or user flows
-  within the network.
+  This section describes the definition structure of user roles and journeys in
+  a network.
 ---
 
-# Roles and journeys
+# Roles and Journeys
 
 ### Roles
 
