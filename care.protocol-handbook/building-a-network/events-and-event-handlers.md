@@ -10,7 +10,7 @@ description: >-
 All event and event handler definitions must be included in the `input.json` file.
 {% endhint %}
 
-### Events
+## Events
 
 An event represents the actions that occur based on user interactions within a network. It defines the data used to communicate between roles or nodes in the network, such as sending and receiving information.&#x20;
 
@@ -84,7 +84,7 @@ The following example defines an event containing user details: `event/ev-patien
 ```
 {% endcode %}
 
-### Event handlers
+## Event handlers
 
 The event handler defines the instructions that execute tasks based on specific events, such as navigation and data manipulation.
 
@@ -100,8 +100,8 @@ The event handler defines the instructions that execute tasks based on specific 
 
 ### Types of event handlers
 
-* `WALLET_EVENT_HANDLER` — This event handler is defined in JSON, which can be used to navigate between cards, and to submit or retrieve data.
-* `NODE_EVENT_HANDLER` — This event handler is defined in either JSON or Python, which can be used to search, retrieve, update, or save data. To learn more about the different types of node event handlers, see [Node event handlers](node-event-handlers.md) and [Python event handlers](python-event-handlers.md).
+* `WALLET_EVENT_HANDLER` — This event handler is defined in JSON and can be used to navigate between cards, submit data, or retrieve data.
+* `NODE_EVENT_HANDLER` — This event handler is defined in either JSON or Python and can be used to search, retrieve, update, or save data. To learn more about the different types of node event handlers, see [Node Event Handlers](node-event-handlers.md) and [Python Event Handlers](python-event-handlers.md).
 
 The following example is a wallet event handler defined in the `input.json` file.
 
@@ -144,6 +144,338 @@ The following example is an event handler definition in a JSON file that sends t
                     ],
                     "postAction": "cd-next2",
                     "refId": "ev-patient-nav-to-cd-next1"
+                }
+            ]
+        }
+    ]
+}
+```
+{% endcode %}
+
+## Use case examples
+
+### A. Submitting health questions
+
+In this example, a patient submits answers from the health questions card, and saves the data.
+
+1. Define the events in the `input.json` file.
+
+{% code title="Example:" %}
+```json
+            {
+                "id": "ev-w-broad-health-questions",
+                "name": "W.BROAD.H.QUESTIONS",
+                "description": "Submit health questions",
+                "code": "W.BROAD.H.QUESTIONS",
+                "status": "Active",
+                "type": "WALLET_TO_NODE",
+                "event_definition_ref": "event/ev-w-broad-health-questions.json",
+                "submit_event_handler": "eh-ev-w-broad-health-questions",
+                "next_event": "ev-w-broad-health-questions-save",
+                "node_event_handlers": [
+                    "eh-ev-w-broad-health-questions", "eh-n-patient-process-py"
+                ],
+                "card": "cd-health-questions"
+            },
+            {
+                "id": "ev-n-broad-health-questions-save",
+                "name": "W.BROAD.H.QUESTIONS.DR",
+                "description": "Broadcast health questions from Participants",
+                "code": "W.BROAD.H.QUESTIONS.DR",
+                "status": "Active",
+                "type": "NODE_TO_ROLE",
+                "event_definition_ref": "event/ev-n-broad-health-questions-save.json",
+                "from_role": "rl-patient",
+                "to_role": "rl-doctor",
+                "node_event_handlers": [
+                    "eh-ev-n-broad-health-questions-save"
+                ],
+                "card": "cd-health-questions"
+            },
+```
+{% endcode %}
+
+2. Create the event definition with the data used in the patient health questions: `event/ev-w-broad-health-questions.json`.
+
+{% code title="Example:" %}
+```json
+{
+    "definition": {
+        "description": "Save H_QUESTIONS at Participants",
+        "name": "W-BROAD-H-QUESTIONS",
+        "resource": "W-BROAD-H-QUESTIONS",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Symptoms",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Symptoms",
+                "order": 1
+            },
+            {
+                "name": "History",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "History",
+                "order": 1
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "Gender",
+                "order": 1
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 8
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ],
+        "primary_key": "false"
+    }
+}
+```
+{% endcode %}
+
+3. Define the event handlers in the `input.json` file.
+
+{% code title="Example:" %}
+```json
+            {
+                "id": "eh-ev-w-broad-health-questions",
+                "name": "eh-ev-w-broad-health-questions",
+                "description": "Submit H_Questions",
+                "status": "Active",
+                "event": "ev-w-broad-health-questions",
+                "type": "WALLET_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-ev-w-broad-health-questions.json"
+            },
+            {
+                "id": "eh-ev-n-broad-health-questions-na",
+                "name": "eh-ev-n-broad-health-questions-na",
+                "description": "Broadcast H_QUESTIONS from Participants to rl-netadmin",
+                "status": "Active",
+                "event": "eh-ev-n-broad-health-questions-na",
+                "type": "NODE_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-ev-n-broad-health-questions-na.json"
+            }
+```
+{% endcode %}
+
+4. Create the event handler definition that submits the health questions: `event-handler/eh-ev-w-broad-health-questions.json`.
+
+{% code title="Example:" %}
+```json
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-w-broad-health-questions",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-patient-h-questions-done",
+                    "refId": "ev-w-broad-health-questions"
+                } 
+            ]
+        }
+    ]
+}
+```
+{% endcode %}
+
+5. Create the event handler definition that saves the data: `event-handler/eh-ev-n-broad-health-questions-na.json`.
+
+{% code title="Example:" %}
+```json
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to H_QUESTIONS payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "PARTICIPANT_ANSWERS",
+            "order": 2,
+            "collection": "PARTICIPANT_ANSWERS",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "senderNodeAddress",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "senderNodeAddress"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}
+```
+{% endcode %}
+
+### B. Getting the list of Doctors
+
+In this example, the wallet retrieves the list of Doctors from a data collection and displays it on the card.
+
+1. Define the event in the `input.json` file.
+
+{% code title="Example:" %}
+```json
+            {
+                "id": "ev-get-list-doctors",
+                "name": "W.GET.LIST.N.DR",
+                "code": "W.GET.LIST.N.DR",
+                "description": "Get Doctors List",
+                "status": "Active",
+                "type": "WALLET_FROM_NODE",
+                "event_definition_ref": "event/ev-get-list-doctors.json",
+                "submit_event_handler": "eh-ev-get-list-doctors",
+                "node_event_handlers": [],
+                "card": "cd-available-doctors"
+            }
+```
+{% endcode %}
+
+2. Create the event definition with the source of data: `event/ev-get-list-doctors.json`.
+
+{% code title="Example:" %}
+```json
+{
+    "definition": {
+        "description": "Get Doctors List",
+        "name": "Get Doctors List",
+        "resource": "Get Doctors List",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}
+```
+{% endcode %}
+
+3. Define the event handler in the `input.json` file.
+
+{% code title="Example:" %}
+```json
+            {
+                "id": "eh-ev-get-list-doctors",
+                "name": "eh-ev-get-list-doctors",
+                "description": "eh-ev-get-list-doctors",
+                "status": "Active",
+                "event": "ev-get-list-doctors",
+                "type": "WALLET_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-ev-get-list-doctors.json"
+            } 
+```
+{% endcode %}
+
+4. Create the event handler definition that gets the data from the data collection: `event-handler/eh-ev-get-list-doctors.json`.
+
+{% code title="Example:" %}
+```json
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-get-list-doctors",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/DOCTORS_P"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "ev-get-list-doctors"
                 }
             ]
         }

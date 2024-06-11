@@ -10,7 +10,7 @@ description: >-
 All card definitions must be included in the `input.json` file.
 {% endhint %}
 
-### Cards
+## Cards
 
 A card contains multiple data types, user interface elements, and interactive functions triggered by events.
 
@@ -39,7 +39,7 @@ A card contains multiple data types, user interface elements, and interactive fu
 ```
 {% endcode %}
 
-### Card definition structure
+## Card definition structure
 
 {% hint style="info" %}
 Each card definition is located in the `/definitions/card/` folder.
@@ -50,7 +50,7 @@ Each card definition is located in the `/definitions/card/` folder.
 * **Card footer** - The additional options, navigation buttons, or menus at the bottom of the card for user interaction and navigation.
 * **Card UI actions** - The actions triggered by user interactions within the card, such as navigation, form submissions, or data updates.&#x20;
 
-#### Card data
+### Card data
 
 Card data can include text, images, links or different types of information relevant to a healthcare journey.
 
@@ -69,7 +69,7 @@ Card data can include text, images, links or different types of information rele
 ```
 {% endcode %}
 
-#### Card layout
+### Card layout
 
 The card body displays the card's content, which includes tiles, texts, images, and interactive functions. For information on supported tile definitions, see [Tile definitions](tile-definitions.md). For details on supported functions, see [Functions](functions.md).
 
@@ -140,7 +140,7 @@ The card body displays the card's content, which includes tiles, texts, images, 
 ```
 {% endcode %}
 
-#### Card footer
+### Card footer
 
 The card footer includes buttons or actions used to interact with the card itself or navigate to other related cards. These buttons or actions can perform specific tasks like submitting information, saving changes, or going back to previous screens.
 
@@ -183,7 +183,7 @@ The card footer includes buttons or actions used to interact with the card itsel
 ```
 {% endcode %}
 
-#### Card UI actions
+### Card UI actions
 
 The card UI actions define user interactions within the card's content. These actions trigger functionalities like navigation, data updates, input validation, or external function calls.
 
