@@ -154,9 +154,9 @@ The following example is an event handler definition in a JSON file that sends t
 
 ## Use case examples
 
-### A. Submitting health questions
+### Submitting health questions
 
-In this example, a patient submits answers from the health questions card, and saves the data.
+In this example, a patient submits answers from the health questions card and the data is saved in a collection.
 
 1. Define the events in the `input.json` file.
 
@@ -345,7 +345,7 @@ In this example, a patient submits answers from the health questions card, and s
 ```
 {% endcode %}
 
-5. Create the event handler definition that saves the data: `event-handler/eh-ev-n-broad-health-questions-na.json`.
+5. Create the node event handler definition that saves the data: `event-handler/eh-ev-n-broad-health-questions-na.json`.
 
 {% code title="Example:" %}
 ```json
@@ -384,7 +384,7 @@ In this example, a patient submits answers from the health questions card, and s
 ```
 {% endcode %}
 
-### B. Getting the list of Doctors
+### Getting the list of Doctors
 
 In this example, the wallet retrieves the list of Doctors from a data collection and displays it on the card.
 
@@ -452,7 +452,7 @@ In this example, the wallet retrieves the list of Doctors from a data collection
 ```
 {% endcode %}
 
-4. Create the event handler definition that gets the data from the data collection: `event-handler/eh-ev-get-list-doctors.json`.
+4. Create the wallet event handler definition that gets the data from the data collection: `event-handler/eh-ev-get-list-doctors.json`.
 
 {% code title="Example:" %}
 ```json
