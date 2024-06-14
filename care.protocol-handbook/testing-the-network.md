@@ -10,7 +10,7 @@ Before testing and publishing the network, make sure that:
 * [ ] The DDF and CSV files are ready for upload.
 * [ ] You have the test environment details where you want to publish the protocol. For information on how to publish a network, see [Publishing the Network](publishing-the-network.md).
 
-### Testing the app using BrowserStack
+### Testing the network app using BrowserStack
 
 1. Open a web browser, and then go to [https://www.browserstack.com/](https://www.browserstack.com/).
 2. Sign in to your account.

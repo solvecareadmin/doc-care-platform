@@ -8,7 +8,7 @@ description: We recommend using Postman to perform the steps for publishing the 
 To get the authorization and environment details, contact [care.support@solve.care](mailto:care.support@solve.care)_._
 {% endhint %}
 
-### Fetch MainNet authorization token
+## Fetch MainNet authorization token
 
 Initiate a request with the appropriate details for your environment.
 
@@ -35,7 +35,7 @@ pm.globals.set("networkId", "dev-network-xxx");
 ```
 {% endcode %}
 
-### Fetch network authorization token
+## Fetch network authorization token
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -45,7 +45,7 @@ https://{{eks-env}}/nom/oauth/token?grant_type=exchange_token&exchange_token={{n
 ```
 {% endcode %}
 
-### Get sponsor address
+## Get sponsor address
 
 <mark style="color:green;">**GET**</mark>
 
@@ -64,7 +64,7 @@ pm.globals.set("sponsorWalletAddress", node.scAddress);
 ```
 {% endcode %}
 
-### Upload the zip file
+## Upload the protocol package (zip file)
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -74,7 +74,7 @@ https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/restore/
 ```
 {% endcode %}
 
-### Publish the zip file
+## Publish the protocol package (zip file)
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -100,7 +100,22 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 ```
 {% endcode %}
 
-### Upload data definition file (DDF)
+## Get publishing state
+
+<mark style="color:green;">**GET**</mark>
+
+{% code title="Example:" overflow="wrap" %}
+```bash
+curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/{{networkVersion}}' \
+--header 'Authorization: Bearer {{networkAuthorCANToken}}'
+```
+{% endcode %}
+
+## Update CDN
+
+Upload the CSV file with the same attributes as the uploaded DDF in the input folder of the Amazon S3 bucket. If necessary, delete existing data.
+
+### Uploading data definition file (DDF)
 
 The data definition file contains the model and structure for organizing data in CDN.
 
@@ -108,11 +123,11 @@ The data definition file contains the model and structure for organizing data in
 
 {% code overflow="wrap" %}
 ```url
-https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
+https://{{eks-env}}/{{network-id}}/data-node/v1/ddf
 ```
 {% endcode %}
 
-#### Searching data
+### Searching data
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -120,24 +135,24 @@ https://{{eks-env}}/{{network-id}}/data-node/v1/ddf?status=ACTIVE
 https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_search
 ```
 
-{% code title="" %}
+{% code title="Example:" %}
 ```bash
 curl --location 'https://elasticsearch/us-doctors-sample/_search' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
+--header 'Authorization: Basic ZWxhc3RpYzpweFkwMXNQTXMyZTRTdFp3M2U1MjU5N3U=' \
 --data '{
+
 "query": {
+
 "match_all": {}
+
 }
+
 }'
 ```
 {% endcode %}
 
-### Upload CSV
-
-Upload the CSV file with the same attributes as the uploaded DDF in the input folder of the Amazon S3 bucket. If necessary, delete existing data.
-
-#### Deleting existing data from CDN
+### Deleting existing data from CDN
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -147,24 +162,22 @@ https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_delete_by_qu
 
 {% code title="Example:" %}
 ```bash
-curl --location 'https://elasticsearch/us-doctors-sample/_delete_by_query' \
+curl --location 'https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_delete_by_query' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
+--header 'Authorization: Basic ZWxhc3RpYzpweFkwMXNQTXMyZTRTdFp3M2U1MjU5N3U=' \
 --data '{
+
 "query": {
+
 "match_all": {}
+
 }
+
 }'
-Body
-{
-"query": {
-"match_all": {}
-}
-}
 ```
 {% endcode %}
 
-#### Checking the count
+### Checking the count
 
 ```
 https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_count
@@ -174,31 +187,18 @@ https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_count
 
 {% code title="Example:" %}
 ```bash
-curl --location 'https://elasticsearch/us-doctors-sample/_count' \
+curl --location --globoff 'https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_count' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic ZWxhc3RpYzo5UlBJMTMzNFNydHBOMzI1NFNRcjd4clI=' \
 --data '{
+
 "query": {
+
 "match_all": {}
+
 }
+
 }'
-Body:
-{
-"query": {
-"match_all": {}
-}
-}
-```
-{% endcode %}
-
-### Get publishing state
-
-<mark style="color:green;">**GET**</mark>
-
-{% code title="Example:" overflow="wrap" %}
-```bash
-curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/{{networkVersion}}' \
---header 'Authorization: Bearer {{networkAuthorCANToken}}'
 ```
 {% endcode %}
 
