@@ -6,7 +6,7 @@ description: >-
 
 # Roles and Journeys
 
-### Roles
+## Roles
 
 A role is a fundamental element of Care.Protocol that represents a specific participant type, such as patients or doctors. Each role is defined with the corresponding cards and events.
 
@@ -40,7 +40,7 @@ A role is a fundamental element of Care.Protocol that represents a specific part
 ```
 {% endcode %}
 
-### Journeys
+## Journeys
 
 A journey is a sequence of interconnected cards, defining a specific workflow for a role or network.
 

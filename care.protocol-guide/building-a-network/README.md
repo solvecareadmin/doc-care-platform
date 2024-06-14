@@ -4,7 +4,7 @@ description: This section provides an overview of the steps in creating a networ
 
 # Building a Network
 
-### Define the structure of the `input.json` file
+## Define the structure of the `input.json` file
 
 {% hint style="warning" %}
 **Note:** Based on the protocol requirements, ensure each value follows the specified format.&#x20;
@@ -17,17 +17,17 @@ description: This section provides an overview of the steps in creating a networ
 * Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers.md#events), and [event handlers](events-and-event-handlers.md#event-handlers).
 * Save and validate the `input.json` file.
 
-### Define the data structure
+## Define the data structure
 
 * Create a [data definition file](care-data-node.md#data-definition-file).
 * Define the [transactional data](transactional-data.md) structure.
 
-### Create the definitions for cards, events, and event handlers
+## Create the definitions for cards, events, and event handlers
 
 * Define the [card structure](card-definitions/#card-definition-structure).
-* Create the event and event handler [definitions](events-and-event-handlers.md#definitions).
+* Create the [event](events-and-event-handlers.md#events) and [event handler](events-and-event-handlers.md#event-handlers) definitions.
 
-### Configure Python event handlers
+## Configure Python event handlers
 
 * Understand the predefined functions in the [Python template](python-event-handlers.md#python-event-handler-template).
 * Perform the steps to configure an event based on the [use case example](python-event-handlers.md#use-case-example).

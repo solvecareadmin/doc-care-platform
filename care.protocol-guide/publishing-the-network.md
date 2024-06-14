@@ -127,6 +127,70 @@ https://{{eks-env}}/{{network-id}}/data-node/v1/ddf
 ```
 {% endcode %}
 
+{% code title="Example:" %}
+```bash
+curl --location 'https://data-node/v1/ddf?status=ACTIVE' \
+--header 'Authorization: Basic Y2FyZS1iYWNrZW5kOnNlY3JldA==' \
+--header 'Content-Type: application/json' \
+--data '{
+    "ddf_type": "us-doctors-sample",
+    "meta_data": {
+        "description": "Sample"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "Doctors",
+            "meta_data": {
+                "description": "Sample",
+                "indices": "us-doctors-sample"
+            },
+            "events": [
+                {
+                    "to_role": "rl-patient",
+                    "event": "ev-cdn-broadcast"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "Provider",
+                    "description": "Provider",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "Provider"
+                },
+                {
+                    "name": "License",
+                    "description": "License",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "License"
+                },
+                {
+                    "name": "Specialization",
+                    "description": "Specialization",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Specialization"
+                },
+                {
+                    "name": "Address",
+                    "description": "Address",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Address"
+                }
+            ]
+        }
+    ]
+}'
+```
+{% endcode %}
+
 ### Searching data
 
 <mark style="color:orange;">**POST**</mark>

@@ -4,9 +4,9 @@ description: >-
   details, countries, join network settings, and solve token settings.
 ---
 
-# Network configuration
+# Network Configuration
 
-### Network metadata
+## Network metadata
 
 <table><thead><tr><th width="213">Field Name</th><th width="174">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>network_id</td><td>string</td><td>The unique ID associated with the network.</td></tr><tr><td>node_url</td><td>string</td><td>The URL of the network node where it is deployed.</td></tr><tr><td>name</td><td>string</td><td>The unique name of the network.</td></tr><tr><td>version</td><td>number</td><td>The version number of the network protocol.</td></tr><tr><td>description</td><td>string</td><td>The short description of the network.</td></tr><tr><td>publish_date</td><td>string</td><td>The date when the network protocol is published.</td></tr><tr><td>effective_date</td><td>string</td><td>The date when the protocol is effective or operational within the network.</td></tr></tbody></table>
 
@@ -24,7 +24,7 @@ description: >-
 ```
 {% endcode %}
 
-### Author details and countries
+## Author details and countries
 
 <table><thead><tr><th width="212">Field Name</th><th width="172">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>author_name</td><td>string</td><td>The name of the network protocol's author (entity or person).</td></tr><tr><td>author_website</td><td>string</td><td>The website URL of the author.</td></tr><tr><td>author_address1</td><td>string</td><td>The address of the author (line1).</td></tr><tr><td>author_address2</td><td>string</td><td>The address of the author (line2).</td></tr><tr><td>geo_fence_countries</td><td>string</td><td>The list of countries that can join the network.</td></tr></tbody></table>
 
@@ -46,7 +46,7 @@ description: >-
 ```
 {% endcode %}
 
-### Join network settings
+## Join network settings
 
 <table><thead><tr><th width="211">Field Name</th><th width="169">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>role</td><td>string</td><td>The ID of the role joining the network.</td></tr><tr><td>join_method</td><td>string</td><td>The method of joining the network.</td></tr><tr><td>required_consents</td><td>array</td><td>The cards which you allow other users in the network to access.</td></tr><tr><td>terms_and_conditions_checksum</td><td>string</td><td>The terms and conditions for joining the network.</td></tr></tbody></table>
 
@@ -71,7 +71,7 @@ description: >-
 ```
 {% endcode %}
 
-### Solve token usage
+## Solve token usage
 
 <table><thead><tr><th width="205">Field Name</th><th width="150">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>deposit_value</td><td>string</td><td>The deposit value of SOLVE tokens.</td></tr><tr><td>redemption_value</td><td>string</td><td>The redemption value of SOLVE tokens.</td></tr><tr><td>solve_gas_setting</td><td>JSON</td><td>The SOLVE gas usage setting.</td></tr><tr><td>event_wise_cost</td><td>array</td><td>The event and the cost in SOLVE token.</td></tr><tr><td>event</td><td>string</td><td>The event used for transactions in the network.</td></tr><tr><td>cost</td><td>long</td><td>The cost in SOLVE gas for each event transaction.</td></tr></tbody></table>
 
