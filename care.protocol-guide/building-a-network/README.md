@@ -4,11 +4,11 @@ description: This section provides an overview of the steps in creating a networ
 
 # Building a Network
 
-## Define the structure of the `input.json` file
-
 {% hint style="warning" %}
-**Note:** Based on the protocol requirements, ensure each value follows the specified format.&#x20;
+**Note:** Ensure that each field and value follows the specified structure according to the protocol requirements.
 {% endhint %}
+
+## Define the structure of the `input.json` file
 
 * Open the `input.json` file in a text editor and enter the [network details](network-configuration.md#network-metadata).
 * In the network settings, fill in the [author details and supported countries](network-configuration.md#author-details-and-countries).
@@ -22,10 +22,15 @@ description: This section provides an overview of the steps in creating a networ
 * Create a [data definition file](care-data-node.md#data-definition-file).
 * Define the [transactional data](transactional-data.md) structure.
 
-## Create the definitions for cards, events, and event handlers
+## Create the definitions for cards&#x20;
 
 * Define the [card structure](card-definitions/#card-definition-structure).
+* Include [tiles](card-definitions/tile-definitions.md) and [functions](card-definitions/functions.md) in the card definition.
+
+## Configure the events and event handlers
+
 * Create the [event](events-and-event-handlers.md#events) and [event handler](events-and-event-handlers.md#event-handlers) definitions.
+* Configure the [node event handlers](node-event-handlers.md).
 
 ## Configure Python event handlers
 
