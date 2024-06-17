@@ -64,7 +64,7 @@ pm.globals.set("sponsorWalletAddress", node.scAddress);
 ```
 {% endcode %}
 
-## Upload the protocol package (zip file)
+## Upload the protocol package
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -74,7 +74,7 @@ https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/restore/
 ```
 {% endcode %}
 
-## Publish the protocol package (zip file)
+## Publish the protocol package
 
 <mark style="color:orange;">**POST**</mark>
 
