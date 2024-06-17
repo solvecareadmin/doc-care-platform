@@ -498,7 +498,7 @@ In this example, a patient submits answers from the health questions card and th
 }
 ```
 
-7. The next event has one event handler: `eh-n-ev-w-broad-health-questions-na.json`.
+7. Define the event handler for the next event in the `input.json` file. The next event has one event handler: `eh-n-ev-w-broad-health-questions-na.json`.
 
 ```json
             {
