@@ -195,7 +195,7 @@ In this example, a patient submits answers from the health questions card and th
 ```
 {% endcode %}
 
-2. Create the event definition with the data used in the patient health questions: `event/ev-w-broad-health-questions.json`.
+2. Create the event definition for the submit event that contains the data used in the patient health questions: `event/ev-w-broad-health-questions.json`.
 
 {% code title="Example:" %}
 ```json
