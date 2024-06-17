@@ -158,7 +158,7 @@ The following example is an event handler definition in a JSON file that sends t
 
 In this example, a patient submits answers from the health questions card and the data is saved in a collection.
 
-1. Define the events in the `input.json` file.
+1. Define the events in the `input.json` file. Here, we have two events:
 
 {% code title="Example:" %}
 ```json
@@ -173,22 +173,22 @@ In this example, a patient submits answers from the health questions card and th
                 "submit_event_handler": "eh-ev-w-broad-health-questions",
                 "next_event": "ev-w-broad-health-questions-na",
                 "node_event_handlers": [
-                    "eh-ev-w-broad-health-questions-na", "eh-n-patient-process-py"
+                    "eh-n-ev-w-broad-health-questions", "eh-n-patient-process-py"
                 ],
                 "card": "cd-health-questions"
             },
             {
-                "id": "ev-n-broad-health-questions-na",
+                "id": "ev-w-broad-health-questions-na",
                 "name": "W.BROAD.H.QUESTIONS.NA",
                 "description": "Broadcast health questions from Patients to rl-netadmin",
                 "code": "W.BROAD.H.QUESTIONS.NA",
                 "status": "Active",
                 "type": "NODE_TO_ROLE",
-                "event_definition_ref": "event/ev-n-broad-health-questions-na.json",
+                "event_definition_ref": "event/ev-w-broad-health-questions-na.json",
                 "from_role": "rl-patient",
                 "to_role": "rl-netadmin",
                 "node_event_handlers": [
-                    "eh-ev-n-broad-health-questions-na"
+                    "eh-n-ev-w-broad-health-questions-na"
                 ],
                 "card": "cd-health-questions"
             },
@@ -226,7 +226,7 @@ In this example, a patient submits answers from the health questions card and th
                 "required": false,
                 "system": false,
                 "code": "History",
-                "order": 1
+                "order": 2
             },
             {
                 "name": "Gender",
@@ -236,7 +236,7 @@ In this example, a patient submits answers from the health questions card and th
                 "required": true,
                 "system": false,
                 "code": "Gender",
-                "order": 1
+                "order": 3
             },
             {
                 "name": "Age",
@@ -247,7 +247,7 @@ In this example, a patient submits answers from the health questions card and th
                 "system": false,
                 "times": 1,
                 "code": "Age",
-                "order": 8
+                "order": 4
             },
             {
                 "code": "transactionalGuid",
@@ -258,7 +258,7 @@ In this example, a patient submits answers from the health questions card and th
                 "required": false,
                 "system": false,
                 "times": 1,
-                "order": 12
+                "order": 5
             },
             {
                 "code": "createdAt",
@@ -269,7 +269,7 @@ In this example, a patient submits answers from the health questions card and th
                 "required": false,
                 "system": false,
                 "times": 1,
-                "order": 13
+                "order": 6
             },
             {
                 "name": "senderNodeAddress",
@@ -279,7 +279,7 @@ In this example, a patient submits answers from the health questions card and th
                 },
                 "required": false,
                 "system": false,
-                "order": 14
+                "order": 7
             }
         ],
         "primary_key": "false"
@@ -288,7 +288,7 @@ In this example, a patient submits answers from the health questions card and th
 ```
 {% endcode %}
 
-3. Define the event handlers in the `input.json` file.
+3. Define the event handlers for the submit event in the `input.json` file. Here, the submit event has two event handlers: `eh-ev-w-broad-health-questions.json` and `eh-n-ev-w-broad-health-questions.json`.&#x20;
 
 {% code title="Example:" %}
 ```json
@@ -302,18 +302,18 @@ In this example, a patient submits answers from the health questions card and th
                 "event_handler_definition_ref": "event-handler/eh-ev-w-broad-health-questions.json"
             },
             {
-                "id": "eh-ev-n-broad-health-questions-na",
-                "name": "eh-ev-n-broad-health-questions-na",
+                "id": "eh-n-ev-w-broad-health-questions",
+                "name": "eh-n-ev-w-broad-health-questions",
                 "description": "Broadcast H_QUESTIONS from Patients to rl-netadmin",
                 "status": "Active",
-                "event": "ev-n-broad-health-questions-na",
+                "event": "ev-w-broad-health-questions",
                 "type": "NODE_EVENT_HANDLER",
-                "event_handler_definition_ref": "event-handler/eh-ev-n-broad-health-questions-na.json"
-            }
+                "event_handler_definition_ref": "event-handler/eh-n-ev-w-broad-health-questions.json"
+            },
 ```
 {% endcode %}
 
-4. Create the event handler definition that submits the health questions: `event-handler/eh-ev-w-broad-health-questions.json`.
+4. Create the event handler definition for submitting the event data: `event-handler/eh-ev-w-broad-health-questions.json`.
 
 {% code title="Example:" %}
 ```json
@@ -345,9 +345,175 @@ In this example, a patient submits answers from the health questions card and th
 ```
 {% endcode %}
 
-5. Create the node event handler definition that saves the data: `event-handler/eh-ev-n-broad-health-questions-na.json`.
+5. Create the node event handler definition for saving the event data: `eh-n-ev-w-broad-health-questions.json`.
 
 {% code title="Example:" %}
+```json
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to H_QUESTIONS payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "H_QUESTIONS",
+            "order": 2,
+            "collection": "H_QUESTIONS",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "createdAt"
+                },
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        }
+    ]
+}
+```
+{% endcode %}
+
+6. Create the event definition for the next event: `ev-w-broad-health-questions-na.json`.
+
+```json
+{
+    "definition": {
+        "description": "Save H_QUESTIONS at PATIENT_ANSWERS",
+        "name": "W-BROAD-H-QUESTIONS",
+        "resource": "W-BROAD-H-QUESTIONS",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Symptoms",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Symptoms",
+                "order": 1
+            },
+            {
+                "name": "History",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "History",
+                "order": 2
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "Gender",
+                "order": 3
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 4
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 6
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            }
+        ],
+        "primary_key": "false"
+    }
+}
+```
+
+7. The next event has one event handler: `eh-n-ev-w-broad-health-questions-na.json`.
+
+```json
+            {
+                "id": "eh-n-ev-w-broad-health-questions-na",
+                "name": "eh-n-ev-w-broad-health-questions-na",
+                "description": "Broadcast H_QUESTIONS from Patients to rl-netadmin",
+                "status": "Active",
+                "event": "ev-w-broad-health-questions-na",
+                "type": "NODE_EVENT_HANDLER",
+                "event_handler_definition_ref": "event-handler/eh-n-ev-w-broad-health-questions-na.json"
+            }
+```
+
+8. Create the node event handler definition that saves the event data to the collection: `event-handler/eh-ev-n-broad-health-questions-na.json`.
+
 ```json
 {
     "nodeEventHandlers": [
@@ -382,7 +548,6 @@ In this example, a patient submits answers from the health questions card and th
     ]
 }
 ```
-{% endcode %}
 
 ### Getting the list of Doctors
 
