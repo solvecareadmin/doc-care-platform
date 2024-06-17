@@ -313,7 +313,7 @@ In this example, a patient submits answers from the health questions card and th
 ```
 {% endcode %}
 
-4. Create the event handler definition for submitting the event data: `event-handler/eh-ev-w-broad-health-questions.json`.
+4. Create the wallet event handler definition for submitting the event data: `event-handler/eh-ev-w-broad-health-questions.json`.
 
 {% code title="Example:" %}
 ```json
@@ -345,7 +345,7 @@ In this example, a patient submits answers from the health questions card and th
 ```
 {% endcode %}
 
-5. Create the node event handler definition for saving the event data: `eh-n-ev-w-broad-health-questions.json`.
+5. Create the node event handler definition for saving the event payload: `eh-n-ev-w-broad-health-questions.json`.
 
 {% code title="Example:" %}
 ```json
@@ -512,7 +512,7 @@ In this example, a patient submits answers from the health questions card and th
             }
 ```
 
-8. Create the node event handler definition that saves the event data to the collection: `event-handler/eh-ev-n-broad-health-questions-na.json`.
+8. Create the node event handler definition that saves the event data to the collection: `event-handler/eh-ev-n-broad-health-questions-na.json`. Here, the data is saved to the `PATIENT_ANSWERS` collection based on the defined search criteria.
 
 ```json
 {
@@ -549,38 +549,38 @@ In this example, a patient submits answers from the health questions card and th
 }
 ```
 
-### Getting the list of Doctors
+### Viewing records history
 
-In this example, the wallet retrieves the list of Doctors from a data collection and displays it on the card.
+In this example, the wallet retrieves the history of records from a data collection and displays it on the card.
 
 1. Define the event in the `input.json` file.
 
 {% code title="Example:" %}
 ```json
             {
-                "id": "ev-get-list-doctors",
-                "name": "W.GET.LIST.N.DR",
-                "code": "W.GET.LIST.N.DR",
-                "description": "Get Doctors List",
+                "id": "ev-get-records-history",
+                "name": "W.GET.RECORDS.HIST",
+                "code": "W.GET.RECORDS.HIST",
+                "description": "Get Records History",
                 "status": "Active",
                 "type": "WALLET_FROM_NODE",
-                "event_definition_ref": "event/ev-get-list-doctors.json",
-                "submit_event_handler": "eh-ev-get-list-doctors",
+                "event_definition_ref": "event/ev-get-records-history.json",
+                "submit_event_handler": "eh-ev-get-records-history",
                 "node_event_handlers": [],
-                "card": "cd-available-doctors"
+                "card": "cd-view-records"
             }
 ```
 {% endcode %}
 
-2. Create the event definition with the source of data: `event/ev-get-list-doctors.json`.
+2. Create the event definition with the source of data: `event/ev-get-records-history.json`. To retrieve data, this event uses the unique ID of the `transactionalGuid` generated from a submit event.
 
 {% code title="Example:" %}
 ```json
 {
     "definition": {
-        "description": "Get Doctors List",
-        "name": "Get Doctors List",
-        "resource": "Get Doctors List",
+        "description": "Get Records History",
+        "name": "Get Records History",
+        "resource": "Get Records History",
         "type": "EVENT_DATA"
     },
     "structure": {
@@ -606,25 +606,25 @@ In this example, the wallet retrieves the list of Doctors from a data collection
 {% code title="Example:" %}
 ```json
             {
-                "id": "eh-ev-get-list-doctors",
-                "name": "eh-ev-get-list-doctors",
-                "description": "eh-ev-get-list-doctors",
+                "id": "eh-ev-get-records-history",
+                "name": "eh-ev-get-records-history",
+                "description": "eh-ev-get-records-history",
                 "status": "Active",
-                "event": "ev-get-list-doctors",
+                "event": "ev-get-records-history",
                 "type": "WALLET_EVENT_HANDLER",
-                "event_handler_definition_ref": "event-handler/eh-ev-get-list-doctors.json"
-            } 
+                "event_handler_definition_ref": "event-handler/eh-ev-get-records-history.json"
+            }   
 ```
 {% endcode %}
 
-4. Create the wallet event handler definition that gets the data from the data collection: `event-handler/eh-ev-get-list-doctors.json`.
+4. Create the wallet event handler definition that gets the records history data from the collection: `event-handler/eh-ev-get-records-history.json`. This event handler uses the GET method to retrieve record data based on the filter query.
 
 {% code title="Example:" %}
 ```json
 {
     "walletEventHandler": [
         {
-            "refId": "ev-get-list-doctors",
+            "refId": "ev-get-records-history",
             "walletEvents": [
                 {
                     "actions": [
@@ -634,13 +634,13 @@ In this example, the wallet retrieves the list of Doctors from a data collection
                             "parameter": [
                                 {
                                     "method": "GET",
-                                    "url": "/transactions/DOCTORS_P"
+                                    "url": "/transactions/RECORD_DATA?filter=[{\"queryMatcher\":\"EQUAL\",\"fieldName\":\"senderNodeAddress\",\"value\":\"${senderNodeAddress}\"}]"
                                 }
                             ]
                         }
                     ],
                     "postAction": "",
-                    "refId": "ev-get-list-doctors"
+                    "refId": "ev-get-records-history"
                 }
             ]
         }

@@ -6,7 +6,7 @@ description: >-
 
 # Node Event Handlers
 
-### Types of node event handlers
+## Types of node event handlers
 
 * `VAULT_INSERT` – This event handler is used to insert a record into a specific collection in the vault.
 * `VAULT_UPDATE` – This event handler is used to update a record in a specific collection in the vault based on the dynamic search criteria.
@@ -15,16 +15,16 @@ description: >-
 * `EXPRESSION_LANGUAGE` – This event handler allows writing data manipulation expressions to easily access, filter, and calculate values.
 * `CUSTOM` – This event handler is used to specify a specific Java class that implements a legacy JAR (Java Archive) handler.
 
-### Handler definition constants
+## Handler definition constants
 
-#### Handler data source (`GenericHandlerDataSource`)
+### Handler data source (`GenericHandlerDataSource`)
 
 * `EMPTY`– An empty source or collection.
 * `EVENT_PAYLOAD` – The payload source of events processed in the handlers chain.
 * `HANDLER_ARGUMENTS` – The response value from the previous handler in the chain.
 * `PERSISTED_IDENTITY` – For vault-related handlers, it is the state of inserted or updated documents in a collection.
 
-#### Dynamic handler value (`DynamicHandlerValue`)
+### Dynamic handler value (`DynamicHandlerValue`)
 
 It uses "source" and "value" fields to link data. The actual value can be determined dynamically based on the information in the "source" field. Here are the possible values:
 
@@ -36,9 +36,9 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 | `EVENT_PAYLOAD`     | Attribute name                                               | It gets the value of the attribute in the event payload.                                       |
 | `HANDLER_ARGUMENTS` | Attribute name                                               | It gets the value of the attribute in the handler arguments.                                   |
 
-### Handler definition examples
+## Handler definition examples
 
-#### Vault Insert handler
+### Vault Insert handler
 
 | Parameters        | Data type / Values                                              | Description                                                                |
 | ----------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -64,7 +64,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 ```
 {% endcode %}
 
-#### Vault Update handler
+### Vault Update handler
 
 | Parameters        | Data type / Values                                                 | Description                                                                                                                                            |
 | ----------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -102,7 +102,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 ```
 {% endcode %}
 
-#### Data Transformation handler
+### Data Transformation handler
 
 | Parameters           | Data type / Values                                                                                                                                              | Description                                                                |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -142,7 +142,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 ```
 {% endcode %}
 
-#### Next Event Recipient handler
+### Next Event Recipient handler
 
 | Parameters       | Data type / Values                                                                                                                                       | Description                                                                |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -167,7 +167,7 @@ It uses "source" and "value" fields to link data. The actual value can be determ
 ```
 {% endcode %}
 
-#### Expression Language handler
+### Expression Language handler
 
 The expression language used for this handler type is based on Spring Expression Language (SpEL). For more information, see the documentation for [Spring Expression Language (SpEL)](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html).&#x20;
 
@@ -269,7 +269,7 @@ In Example 3, let's assume that the `HANDLER_ARGUMENTS` has a variable `user`, w
 
 The expression `arguments[users].?[country=='USA'].size() > 0 ? 'USA_PRESENT' : 'USA_NOT_PRESENT'` will filter the items which has the country value set to `"USA"`. Then it calculates the size, which returns the count. In this case, the count is `1`. If the count is greater than 0, then the result will be  `'USA_PRESENT'`.
 
-#### Custom (JAR) handler
+### Custom (JAR) handler
 
 | Parameter | Data type / Values | Description                                                           |
 | --------- | ------------------ | --------------------------------------------------------------------- |

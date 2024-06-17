@@ -6,7 +6,7 @@ description: This section provides examples on how to configure Python event han
 
 The Python event handler contains a set of base classes that provide an interface to the platform's core components, such as Vault, Wallet, Node, and Care Data Node (CDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
 
-### Python template
+## Python template
 
 {% code title="Example:" fullWidth="false" %}
 ```python
@@ -70,7 +70,7 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 ```
 {% endcode %}
 
-### Use case example
+## Use case example
 
 1. Define the event in the `input.json` file.
 
