@@ -31,7 +31,7 @@ A card contains multiple data types, user interface elements, and interactive fu
         "private_card": "",
         "base_card": "",
         "journey": "jn-start-journey",
-        "outgoing_events": ["ew-patient-nav-to-cd-next1"],
+        "outgoing_events": ["ev-patient-nav-to-cd-next"],
         "pre_rendering_events": [],
         "post_rendering_events": []
       }
@@ -193,7 +193,7 @@ The card UI actions define user interactions within the card's content. These ac
         "action1": {
             "action": ""
         }, "action2": {
-            "action": "cd-next2"
+            "action": "ev-patient-nav-to-cd-next"
         }
     }
 }

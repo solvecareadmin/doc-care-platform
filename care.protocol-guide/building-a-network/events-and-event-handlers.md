@@ -30,21 +30,21 @@ The following example represents an event that lets users navigate from one card
 ```json
         "events": [
             {
-                "id": "ev-patient-nav-to-cd-next1",
-                "name": "W.PATIENT.NAV.CD-NEXT1",
+                "id": "ev-patient-nav-to-cd-next",
+                "name": "W.PATIENT.NAV.CD-NEXT",
                 "description": "Event to navigate from start card to next card",
-                "code": "W.PATIENT.NAV.CD-NEXT1",
+                "code": "W.PATIENT.NAV.CD-NEXT",
                 "status": "Active",
                 "type": "WALLET_LOCAL",
-                "event_definition_ref": "event/ev-patient-nav-to-cd-next1.json",
-                "submit_event_handler": "eh-w-patient-nav-to-cd-next1",
+                "event_definition_ref": "event/ev-patient-nav-to-cd-next.json",
+                "submit_event_handler": "eh-w-ev-patient-nav-to-cd-next",
                 "node_event_handlers": [],
                 "card": "cd-start-rl-patient"
             },
 ```
 {% endcode %}
 
-The following example defines an event containing user details: `event/ev-patient-nav-to-cd-next1.json`.
+The following example defines an event containing user details: `event/ev-patient-nav-to-cd-next.json`.
 
 {% code title="Example:" %}
 ```json
@@ -109,25 +109,25 @@ The following example is the wallet event handler for navigating to the next car
 ```json
         "event_handlers": [
             {
-                "id": "eh-w-patient-nav-to-cd-next1",
-                "name": "W.PATIENT.NAV.CD-NEXT1",
-                "description": "Wallet Event Handler to Navigate from Start to cd-next1",
+                "id": "eh-w-ev-patient-nav-to-cd-next",
+                "name": "W.PATIENT.NAV.CD-NEXT",
+                "description": "Wallet Event Handler to Navigate from Start to cd-next",
                 "status": "Active",
-                "event": "ev-patient-nav-to-cd-next1",
+                "event": "ev-patient-nav-to-cd-next",
                 "type": "WALLET_EVENT_HANDLER",
-                "event_handler_definition_ref": "event-handler/eh-w-patient-nav-to-cd-next1.json"
+                "event_handler_definition_ref": "event-handler/eh-w-ev-patient-nav-to-cd-next.json"
             },
 ```
 {% endcode %}
 
-The following example is an event handler definition in a JSON file that sends the details to the next card in the sequence: `event-handler/eh-w-patient-nav-to-cd-next1.json`.&#x20;
+The following example is an event handler definition in a JSON file that sends the details to the next card in the sequence: `event-handler/eh-w-ev-patient-nav-to-cd-next.json`.&#x20;
 
 {% code title="Example:" %}
 ```json
 {
     "walletEventHandler": [
         {
-            "refId": "ev-patient-nav-to-cd-next1",
+            "refId": "ev-patient-nav-to-cd-next",
             "walletEvents": [
                 {
                     "actions": [
@@ -142,8 +142,8 @@ The following example is an event handler definition in a JSON file that sends t
                             ]
                         }
                     ],
-                    "postAction": "cd-next2",
-                    "refId": "ev-patient-nav-to-cd-next1"
+                    "postAction": "cd-next",
+                    "refId": "ev-patient-nav-to-cd-next"
                 }
             ]
         }
