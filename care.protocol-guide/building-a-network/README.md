@@ -25,7 +25,7 @@ description: This section provides an overview of the steps in creating a networ
 ## Create the definitions for cards&#x20;
 
 * Define the [card structure](card-definitions/#card-definition-structure).
-* Include [tiles](card-definitions/tile-definitions.md) and [functions](card-definitions/functions.md) in the card definition.
+* Include [tiles](card-definitions/tile-definitions.md) and [functions](../../care.protocol-handbook/building-a-network/card-definitions/functions.md) in the card definition.
 
 ## Configure the events and event handlers
 

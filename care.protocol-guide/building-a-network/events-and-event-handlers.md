@@ -109,7 +109,7 @@ The following example is the wallet event handler for navigating to the next car
 ```json
         "event_handlers": [
             {
-                "id": "eh-w-ev-patient-nav-to-cd-next",
+                "id": "eh-w-patient-nav-to-cd-next",
                 "name": "W.PATIENT.NAV.CD-NEXT",
                 "description": "Wallet Event Handler to Navigate from Start to cd-next",
                 "status": "Active",
@@ -120,7 +120,7 @@ The following example is the wallet event handler for navigating to the next car
 ```
 {% endcode %}
 
-The following example is an event handler definition in a JSON file that sends the details to the next card in the sequence: `event-handler/eh-w-ev-patient-nav-to-cd-next.json`.&#x20;
+The following example is an event handler definition in a JSON file that sends the details to the next card in the sequence: `event-handler/eh-w-ev-patient-nav-to-cd-next1.json`.&#x20;
 
 {% code title="Example:" %}
 ```json

@@ -2,7 +2,7 @@
 description: This section shows the structure and attributes of transactional data.
 ---
 
-# Transactional data
+# Transactional Data
 
 Transactional data contains configurable data that can be referenced from roles, cards, or events within the network. The following example shows the definition of transactional data in `td/td-default.json`.
 
@@ -52,14 +52,14 @@ Transactional data contains configurable data that can be referenced from roles,
                 "system": false
             },
             {
-                "code": "memberId",
-                "name": "memberId",
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
                 "type_definition": {
                     "type": "string"
                 },
-                "order": 1,
+                "required": false,
                 "system": false,
-                "required": false
+                "order": 4
             }
         ]
     }

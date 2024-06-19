@@ -107,8 +107,8 @@ def execute(ctx: HandlerExecutionContext) -> Map:
   "structure": {
     "attributes": [
       {
-        "code": "transactionId",
-        "name": "transactionId",
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
         "type_definition": {
           "type": "string"
         },

@@ -8,21 +8,21 @@ description: >-
 
 ## Types of node event handlers
 
-* `VAULT_INSERT` – This event handler is used to insert a record into a specific collection in the vault.
-* `VAULT_UPDATE` – This event handler is used to update a record in a specific collection in the vault based on the dynamic search criteria.
-* `MAPPER` – This event handler is used for data transformation, such as excluding, appending, or generating data in the execution chain.
-* `NEXT_EVENT_RECIPIENT` – This event handler is used to identify the recipient for the next event.
-* `EXPRESSION_LANGUAGE` – This event handler allows writing data manipulation expressions to easily access, filter, and calculate values.
-* `CUSTOM` – This event handler is used to specify a specific Java class that implements a legacy JAR (Java Archive) handler.
+* `VAULT_INSERT` — This event handler is used to insert a record into a specific collection in the vault.
+* `VAULT_UPDATE` — This event handler is used to update a record in a specific collection in the vault based on the dynamic search criteria.
+* `MAPPER` — This event handler is used for data transformation, such as excluding, appending, or generating data in the execution chain.
+* `NEXT_EVENT_RECIPIENT` — This event handler is used to identify the recipient for the next event.
+* `EXPRESSION_LANGUAGE` — This event handler allows writing data manipulation expressions to easily access, filter, and calculate values.
+* `CUSTOM` — This event handler is used to specify a specific Java class that implements a legacy JAR (Java Archive) handler.
 
 ## Handler definition constants
 
 ### Handler data source (`GenericHandlerDataSource`)
 
-* `EMPTY`– An empty source or collection.
-* `EVENT_PAYLOAD` – The payload source of events processed in the handlers chain.
-* `HANDLER_ARGUMENTS` – The response value from the previous handler in the chain.
-* `PERSISTED_IDENTITY` – For vault-related handlers, it is the state of inserted or updated documents in a collection.
+* `EMPTY`— An empty source or collection.
+* `EVENT_PAYLOAD` — The payload source of events processed in the handlers chain.
+* `HANDLER_ARGUMENTS` — The response value from the previous handler in the chain.
+* `PERSISTED_IDENTITY` — For vault-related handlers, it is the state of inserted or updated documents in a collection.
 
 ### Dynamic handler value (`DynamicHandlerValue`)
 
@@ -267,7 +267,7 @@ In Example 3, let's assume that the `HANDLER_ARGUMENTS` has a variable `user`, w
     ]
 ```
 
-The expression `arguments[users].?[country=='USA'].size() > 0 ? 'USA_PRESENT' : 'USA_NOT_PRESENT'` will filter the items which has the country value set to `"USA"`. Then it calculates the size, which returns the count. In this case, the count is `1`. If the count is greater than 0, then the result will be  `'USA_PRESENT'`.
+The expression `arguments[users].?[country=='USA'].size() > 0 ? 'USA_PRESENT' : 'USA_NOT_PRESENT'` will filter the items which has the country value set to `"USA"`. Then it calculates the size, which returns the count. In this case, the count is `1`. If the count is greater than 0, then the result will be `'USA_PRESENT'`.
 
 ### Custom (JAR) handler
 
