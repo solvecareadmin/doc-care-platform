@@ -9,7 +9,7 @@ Start your journey to better health, connect with your loved ones, and engage wi
 1. Sign in to your Care.Wallet app.
 2. From the Care.Pilot screen, tap **Learn**.
 
-<figure><img src="../.gitbook/assets/care-pilot-home.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/care-pilot-learn.png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Select the topic you want to learn about.
 
@@ -24,7 +24,7 @@ Start your journey to better health, connect with your loved ones, and engage wi
 1. Sign in to your Care.Wallet app.
 2. From the Care.Pilot screen, tap **Manage**.
 
-<figure><img src="../.gitbook/assets/care-pilot-manage.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/care-pilot-my-records.png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Select **My Records**.
 
@@ -49,9 +49,9 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 <figure><img src="../.gitbook/assets/care-pilot-my-records-select.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Enter the Care.Wallet ID of the recipient.
+5. Select a recipient from your Care.Circle or recent contacts, or use the recipient's wallet ID.
 
-<figure><img src="../.gitbook/assets/care-pilot-share-records.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/care-pilot-share-record-circle.png" alt="" width="188"><figcaption></figcaption></figure>
 
 6. Tap **Share**.
 

@@ -36,7 +36,7 @@
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-see-your-matches.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Swipe through matched leads.
+4. Swipe left or right to browse through matched leads.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-swipe-leads.png" alt="" width="188"><figcaption></figcaption></figure>
 

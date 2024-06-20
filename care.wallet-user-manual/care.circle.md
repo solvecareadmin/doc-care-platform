@@ -31,7 +31,7 @@
 
 4. Enter the Wallet ID of the user you want to invite.
 
-<figure><img src="../.gitbook/assets/care-circle-enter-wallet-id.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/care-pilot-share-record-circle.png" alt="" width="188"><figcaption></figcaption></figure>
 
 5. Tap **Invite**.
 

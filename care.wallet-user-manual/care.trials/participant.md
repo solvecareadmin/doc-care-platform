@@ -30,9 +30,9 @@
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **See Trials Near You**.
 
-<figure><img src="../../.gitbook/assets/care-trials-search.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/care-trials-see-trials-near-you.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Swipe through available trials.&#x20;
+4. Swipe left or right to browse through available trials.&#x20;
 
 <figure><img src="../../.gitbook/assets/care-trials-swipe-like-skip-previous (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -101,3 +101,5 @@
    * **Matched** — View the clinical trials you liked that the site admin has responded to.
    * **No response** — View the clinical trials you liked that the site admin has not yet responded to.
    * **Not a fit** — View trials you liked but don't match your profile.
+
+<figure><img src="../../.gitbook/assets/liked-trials-count.png" alt="" width="188"><figcaption></figcaption></figure>

@@ -6,7 +6,7 @@ description: >-
 
 # Tile Definitions
 
-### Tile0 - Text Label
+### Tile0: Text Label
 
 This tile represents a text label in a single row.
 
@@ -32,7 +32,7 @@ This tile represents a text label in a single row.
 ```
 {% endcode %}
 
-### Tile0a - Two Text Labels
+### Tile0a: Two Text Labels
 
 This tile represents two texts labels in a single row.
 
@@ -64,7 +64,7 @@ This tile represents two texts labels in a single row.
 ```
 {% endcode %}
 
-### Tile1 - Text Input
+### Tile1: Text Input
 
 This tile represents a text input for a specific key.
 
@@ -96,7 +96,7 @@ This tile represents a text input for a specific key.
 ```
 {% endcode %}
 
-### Tile1a - Two Rows with Text Input
+### Tile1a: Two Rows with Text Input
 
 This tile represents two rows: the first containing a text label and the second containing a text input for a specific key.
 
@@ -140,7 +140,7 @@ This tile represents two rows: the first containing a text label and the second 
 ```
 {% endcode %}
 
-### Tile2 - Text Input with Tooltip
+### Tile2: Text Input with Tooltip
 
 This tile represents a text input for a specific key with tooltip.
 
@@ -175,7 +175,7 @@ This tile represents a text input for a specific key with tooltip.
 ```
 {% endcode %}
 
-### Tile3 - Date Selector
+### Tile3: Date Selector
 
 This tile represents a date selector for a specific key.
 
@@ -208,7 +208,7 @@ This tile represents a date selector for a specific key.
 ```
 {% endcode %}
 
-### Tile5 - Stepper
+### Tile5: Stepper
 
 This tile represents a stepper to adjust the value for a specific key.
 
@@ -241,7 +241,7 @@ This tile represents a stepper to adjust the value for a specific key.
 ```
 {% endcode %}
 
-### Tile6 - Horizontal Radio Buttons
+### Tile6: Horizontal Radio Buttons
 
 This tile represents option selectors as radio buttons in horizontal format.
 
@@ -287,7 +287,7 @@ This tile represents option selectors as radio buttons in horizontal format.
 ```
 {% endcode %}
 
-### Tile6a - Vertical Radio Buttons
+### Tile6a: Vertical Radio Buttons
 
 This tile represents option selectors as radio buttons in vertical format.
 
@@ -333,7 +333,7 @@ This tile represents option selectors as radio buttons in vertical format.
 ```
 {% endcode %}
 
-### Tile7 - Horizontal Checkboxes
+### Tile7: Horizontal Checkboxes
 
 This tile represents a multi-option selector as checkboxes in horizontal format.
 
@@ -380,7 +380,7 @@ This tile represents a multi-option selector as checkboxes in horizontal format.
 ```
 {% endcode %}
 
-### Tile7a - Vertical Checkboxes
+### Tile7a: Vertical Checkboxes
 
 This tile represents a multi-option selector as checkboxes in vertical format.
 
@@ -427,7 +427,7 @@ This tile represents a multi-option selector as checkboxes in vertical format.
 ```
 {% endcode %}
 
-### Tile7b - Vertical Checkboxes with Subtitle
+### Tile7b: Vertical Checkboxes with Subtitle
 
 This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra option for a subtitle label, such as displaying the count in numbers.&#x20;
 
@@ -483,7 +483,7 @@ This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra opti
 ```
 {% endcode %}
 
-### Tile8 - Scrollable Table
+### Tile8: Scrollable Table
 
 This tile represents a scrollable table grid.
 
@@ -530,7 +530,7 @@ This tile represents a scrollable table grid.
 ```
 {% endcode %}
 
-### Tile9 - Scrollable Table without Title Label
+### Tile9: Scrollable Table without Title Label
 
 This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 
@@ -574,7 +574,7 @@ This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
 ```
 {% endcode %}
 
-### Tile10 - Option Selector
+### Tile10: Option Selector
 
 This tile represents an option selector.
 
@@ -618,7 +618,7 @@ This tile represents an option selector.
 ```
 {% endcode %}
 
-### Tile10a - Toggle Switch
+### Tile10a: Toggle Switch
 
 This tile represents a toggle switching button, such as "on" or "off".
 
@@ -662,7 +662,7 @@ This tile represents a toggle switching button, such as "on" or "off".
 ```
 {% endcode %}
 
-### Tile11 - Title and Text
+### Tile11: Title and Text
 
 This tile represents two rows with a title and a subtitle text.
 
@@ -692,7 +692,7 @@ This tile represents two rows with a title and a subtitle text.
 ```
 {% endcode %}
 
-### Tile11a - Title and Scrollable Text
+### Tile11a: Title and Scrollable Text
 
 This tile is the same as [Tile11](tile-definitions.md#tile11) with a scrollable subtitle text.
 
@@ -723,7 +723,7 @@ This tile is the same as [Tile11](tile-definitions.md#tile11) with a scrollable 
 ```
 {% endcode %}
 
-### Tile12 - Dropdown Option Selector
+### Tile12: Dropdown Option Selector
 
 This tile represents a dropdown selector for a list of options.
 
@@ -757,7 +757,7 @@ This tile represents a dropdown selector for a list of options.
 ```
 {% endcode %}
 
-### Tile14 - Clickable Tile
+### Tile14: Clickable Tile
 
 This tile represents a clickable tile that triggers an action.
 
@@ -785,7 +785,7 @@ This tile represents a clickable tile that triggers an action.
 ```
 {% endcode %}
 
-### Tile14a - Clickable Tile with Subtitle
+### Tile14a: Clickable Tile with Subtitle
 
 This tile is the same as [Tile14](tile-definitions.md#tile14) with a subtitle.
 
@@ -819,7 +819,7 @@ This tile is the same as [Tile14](tile-definitions.md#tile14) with a subtitle.
 ```
 {% endcode %}
 
-### Tile16 - Image Tile
+### Tile16: Image Tile
 
 This tile represents an image that can be loaded locally or from a URL.
 
@@ -847,7 +847,7 @@ This tile represents an image that can be loaded locally or from a URL.
 ```
 {% endcode %}
 
-### Tile17 - Clickable Image Grid
+### Tile17: Clickable Image Grid
 
 This tile represents clickable images to select an option or trigger an action.
 
@@ -910,7 +910,7 @@ This tile represents clickable images to select an option or trigger an action.
 ```
 {% endcode %}
 
-### Tile17a - Clickable Image Row
+### Tile17a: Clickable Image Row
 
 This tile represents clickable images in a single row. Clicking the image navigates the user to a target location.
 
@@ -989,7 +989,7 @@ This tile represents clickable images in a single row. Clicking the image naviga
 ```
 {% endcode %}
 
-### SmartTile1 - Input Validation Tile
+### SmartTile1: Input Validation Tile
 
 This tile is an input field that is used to implement checks, such as "field format" and "field value".
 
