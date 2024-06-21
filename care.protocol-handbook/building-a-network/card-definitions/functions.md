@@ -1,12 +1,12 @@
 ---
 description: >-
-  This section describes the supported functions that can be used within card
-  definitions.
+  This section provides information about the functions that are supported
+  within card definitions.
 ---
 
 # Functions
 
-Use the functions to link cards to event handlers, execute operations to fetch data, validate data input, navigate between cards, and other interactions.
+Use the functions to link cards to event handlers, execute operations to fetch data, validate data input, navigate between cards, and manage other interactions.
 
 ## Fetching data
 
@@ -229,15 +229,20 @@ Calculates the total sum of all input value.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.calculateSum",
-                                    "url": "",
-                                    "sourceKeys":["keyName1","keyName2","keyName3"],
-                                    "sourceKey":"",
-                                    "resultKey" : "KeyName3",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action": [
+        {
+          "name": "Function.calculateSum",
+          "url": "",
+          "sourceKeys":["keyName1","keyName2","keyName3"],
+          "sourceKey":"",
+          "resultKey" : "KeyName3",
+          "NAVIGATE":"cd-cost-preview"
+         }
+       ]
+     }
+   }
 ```
 {% endcode %}
 
@@ -257,16 +262,21 @@ Calculates the subtraction of the input value.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.calculateSubtract",
-                                    "url": "",
-                                    "sourceKeys":[],
-                                    "sourceKey":"keyName1",
-                                    "totalKey":"keyName2"
-                                    "resultKey" : "KeyName3",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action": [
+        {
+          "name": "Function.calculateSubtract",
+          "url": "",
+          "sourceKeys":[],
+          "sourceKey":"keyName1",
+          "totalKey":"keyName2"
+          "resultKey" : "KeyName3",
+          "NAVIGATE":"cd-cost-preview"
+         }
+       ]
+     }
+   }
 ```
 {% endcode %}
 
@@ -285,15 +295,20 @@ Calculates the multiplication of all input values.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.calculateMultiply",
-                                    "url": "",
-                                    "sourceKeys":["keyName1","keyName2","keyName3"],
-                                    "sourceKey":"",
-                                    "resultKey" : "KeyName3",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action": [
+        {
+          "name": "Function.calculateMultiply",
+          "url": "",
+          "sourceKeys":["keyName1","keyName2","keyName3"],
+          "sourceKey":"",
+          "resultKey" : "KeyName3",
+          "NAVIGATE":"cd-cost-preview"
+         }
+       ]
+     }
+   }
 ```
 {% endcode %}
 
@@ -312,16 +327,21 @@ Calculates the division of the input value.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.calculateDivide",
-                                    "url": "",
-                                    "sourceKeys":[],
-                                    "sourceKey":"keyName1",
-                                    "totalKey":"keyName2"
-                                    "resultKey" : "KeyName3",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action": [
+        {
+           "name": "Function.calculateDivide",
+           "url": "",
+           "sourceKeys":[],
+           "sourceKey":"keyName1",
+           "totalKey":"keyName2"
+           "resultKey" : "KeyName3",
+           "NAVIGATE":"cd-cost-preview"  
+         }
+       ]
+     }
+   }
 ```
 {% endcode %}
 
@@ -341,16 +361,21 @@ Calculates the percentage of the input value.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.calculatePercentage",
-                                    "url": "",
-                                    "sourceKeys":[],
-                                    "sourceKey":"keyName1",
-                                    "totalKey":"keyName2"
-                                    "resultKey" : "KeyName3",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action": [
+        {
+           "name": "Function.calculatePercentage",
+           "url": "",
+           "sourceKeys":[],
+           "sourceKey":"keyName1",
+           "totalKey":"keyName2"
+           "resultKey" : "KeyName3",
+           "NAVIGATE":"cd-cost-preview"
+          }
+        ]
+      }
+    }
 ```
 {% endcode %}
 
@@ -722,12 +747,17 @@ Captures a selfie or selects from the gallery.
 
 {% code title="Example:" %}
 ```json
-"cardUIAction":{"action1":{"action":[{
-                                    "name": "Function.camera_selfie",
-                                    "resultKey" : "KeyName",
-                                    "NAVIGATE":"cd-cost-preview"
-                        }
-                    ]}}
+"cardUIAction": {
+     "action1": {
+        "action":[
+        {
+          "name": "Function.camera_selfie",
+          "resultKey" : "KeyName",
+          "NAVIGATE":"cd-cost-preview"
+         }
+       ]
+     }
+   }
 ```
 {% endcode %}
 
