@@ -7,52 +7,56 @@
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/cw-start.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-start (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
-3. Select a registration method, enter your details, then tap **Next**.
+3. Allow the app to access your device's location.
 
-<div align="center" data-full-width="true">
+<figure><img src="../.gitbook/assets/cw-signup-allow-device-location.png" alt="" width="188"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/signup-email.png" alt="sign up by email" width="188"><figcaption><p>Email</p></figcaption></figure>
+4. Choose a method for signing up. Do one of the following:
+   *   Select **Continue with Facebook**.&#x20;
 
- 
+       <div align="left">
 
-<figure><img src="../.gitbook/assets/signup-whatsapp.png" alt="sign up by WhatsApp" width="188"><figcaption><p>WhatsApp</p></figcaption></figure>
+       <figure><img src="../.gitbook/assets/cw-signup-facebook.png" alt="" width="188"><figcaption></figcaption></figure>
 
- 
+       </div>
+   *   Enter your email address.&#x20;
 
-<figure><img src="../.gitbook/assets/signup-sms.png" alt="sign up by SMS" width="188"><figcaption><p>SMS</p></figcaption></figure>
+       <div align="left">
 
-</div>
+       <figure><img src="../.gitbook/assets/cw-signup-email.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Enter the one-time code sent to you, then tap **Next**.
+       </div>
+   *   Enter your Viber phone number.&#x20;
+
+       <div align="left">
+
+       <figure><img src="../.gitbook/assets/cw-signup-whatsapp.png" alt="" width="188"><figcaption></figcaption></figure>
+
+       </div>
+   *   Enter your WhatsApp phone number.&#x20;
+
+       <div align="left">
+
+       <figure><img src="../.gitbook/assets/cw-signup-whatsapp.png" alt="" width="188"><figcaption></figcaption></figure>
+
+       </div>
+5. Tap **Next** or follow in the instructions on the screen.
+6. If necessary, enter the one-time code sent to you, then tap **Next**.
+7. Set up a 6-digit passcode, then tap **Next**.
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/signup-otp.png" alt="enter one-time code" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-create-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
-5. Set up a 6-digit passcode, then tap **Next**.
-
-<div align="center">
-
-<figure><img src="../.gitbook/assets/signup-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-
-6. Allow the app to use biometrics for added security when accessing your account.
-
-<div align="center">
-
-<figure><img src="../.gitbook/assets/enable-biometrics.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-
-7. Use fingerprint scan or facial recognition.
-8. Wait a few seconds for your account to be created.
+8. Allow the app to use biometrics for added security when accessing your account.
+9. Use fingerprint scan or facial recognition.
+10. Wait a few seconds for your account to be created.
 
 {% hint style="info" %}
 Save your recovery phrase and keep it in a safe place. For complete instructions, see [Saving your recovery phrase](user-access.md#saving-your-recovery-phrase).
@@ -73,7 +77,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -87,7 +91,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -119,7 +123,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/save-recovery-phrase-backup.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-save-recovery-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -127,7 +131,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/recovery-phrase-request.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-save-recovery-phrase-request.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -136,7 +140,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/copy-recovery-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-save-recovery-copy-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -146,7 +150,11 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 2. Tap **I already have a Care.Wallet**.
 3. Enter your recovery phrase.
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/recover-access.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
 
 4. Accept the terms and conditions, then tap **Next**.
 5. Enter your passcode, then tap **Next**.

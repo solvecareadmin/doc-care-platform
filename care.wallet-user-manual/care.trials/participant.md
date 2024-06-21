@@ -15,11 +15,11 @@
 5. Tap **Start** to proceed**.**
 6. Answer the 5 questions to create your profile for matching clinical trials.
 
-<figure><img src="../../.gitbook/assets/care-trials-answer-5-questions.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/care-trials-5-questions.png" alt="" width="188"><figcaption></figcaption></figure>
 
-7. Review and agree to the terms and conditions and privacy policy.
+7. Agree to the terms and conditions and privacy policy.
 
-<figure><img src="../../.gitbook/assets/care-trials-profile-final-step.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/care-trials-5-questions-final-step.png" alt="" width="188"><figcaption></figcaption></figure>
 
 8. Tap **Submit**.
 9. Wait up to 5 minutes to search for available trials near you.

@@ -30,6 +30,10 @@
 
 ### Buying leads
 
+{% hint style="info" %}
+In Care.Trials, a lead is a potential participant in clinical trials. Make sure you have enough SOLVE balance to buy a lead. For instructions on how to buy SOLVE, see [Buying SOLVE tokens](../solve-tokens.md#buying-solve).
+{% endhint %}
+
 1. Sign in to the Care.Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **See Your Matches**.
@@ -41,10 +45,6 @@
 <figure><img src="../../.gitbook/assets/care-trials-sa-swipe-leads.png" alt="" width="188"><figcaption></figcaption></figure>
 
 5. Like the lead you want buy. You can also skip or go back to the previous lead.
-
-{% hint style="info" %}
-In Care.Trials, a lead is a potential participant in clinical trials. Make sure you have enough SOLVE balance to buy a lead. For instructions on how to buy SOLVE, see Buying SOLVE tokens.
-{% endhint %}
 
 ### Updating trial info
 
