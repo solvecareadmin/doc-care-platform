@@ -101,7 +101,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/cw-signup-viber.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/cw-setttings-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
     </div>
 3. Select the method you used during sign-up.&#x20;
