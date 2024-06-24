@@ -86,20 +86,29 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 ### Resetting your passcode
 
-1. Open the Care.Wallet app from your mobile device.
-2. In the "Enter your Passcode" screen, tap "**Forgot your passcode?**".
+1. Sign in to your Care.Wallet app.
+2.  Do either of the following:
 
-<div align="center">
+    * In the "Enter your Passcode" screen, tap "**Forgot your passcode?**".
 
-<figure><img src="../.gitbook/assets/cw-signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
+    <div align="left">
 
-</div>
+    <figure><img src="../.gitbook/assets/cw-signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
+    </div>
+
+    * Tap the menu icon, then go to **Settings > Passcode**.
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/cw-setttings-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
+
+    </div>
 3. Select the method you used during sign-up.&#x20;
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/forgot-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-forgot-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
@@ -108,15 +117,11 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/forgot-passcode-new.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cw-passcode-create-new.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
 
 ### Saving your recovery phrase
-
-{% hint style="info" %}
-If you lose your mobile device or uninstall the app, you can use the recovery phrase to restore your access to Care.Wallet.
-{% endhint %}
 
 1. Sign in to your Care.Wallet app.
 2. From the Manage Networks screen, tap **Save your Recovery Phrase**.
@@ -143,6 +148,10 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 <figure><img src="../.gitbook/assets/cw-save-recovery-copy-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="info" %}
+If you lose your mobile device or uninstall the app, you can use the recovery phrase to restore your access to Care.Wallet.
+{% endhint %}
 
 ### Recovering your access
 
