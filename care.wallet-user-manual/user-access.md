@@ -20,7 +20,7 @@
 
        <div align="left">
 
-       <figure><img src="../.gitbook/assets/cw-signup-facebook.png" alt="" width="188"><figcaption></figcaption></figure>
+       <figure><img src="../.gitbook/assets/cw-signup-facebook-steps.png" alt="" width="375"><figcaption></figcaption></figure>
 
        </div>
    *   Enter your email address.&#x20;
@@ -44,9 +44,8 @@
        <figure><img src="../.gitbook/assets/cw-signup-whatsapp.png" alt="" width="188"><figcaption></figcaption></figure>
 
        </div>
-5. Tap **Next** or follow in the instructions on the screen.
-6. If necessary, enter the one-time code sent to you, then tap **Next**.
-7. Set up a 6-digit passcode, then tap **Next**.
+5. If necessary, enter the one-time code sent to you, then tap **Next**.
+6. Set up a 6-digit passcode, then tap **Next**.
 
 <div align="center">
 
@@ -54,9 +53,9 @@
 
 </div>
 
-8. Allow the app to use biometrics for added security when accessing your account.
-9. Use fingerprint scan or facial recognition.
-10. Wait a few seconds for your account to be created.
+7. Allow the app to use biometrics for added security when accessing your account.
+8. Use fingerprint scan or facial recognition.
+9. Wait a few seconds for your account to be created.
 
 {% hint style="info" %}
 Save your recovery phrase and keep it in a safe place. For complete instructions, see [Saving your recovery phrase](user-access.md#saving-your-recovery-phrase).
