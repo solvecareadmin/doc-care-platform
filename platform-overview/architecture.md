@@ -29,4 +29,4 @@ Provides secure, transparent, and decentralized recording of transactions and da
 * **Care.Node**: Facilitates data storage and event handling across the network. It is a small, secure, versatile object that can be deployed in any environment.
 * **MainNet**: Holds the core registry service that maps Care.Wallet users to their respective Care.Networks, such as the country matrix for region-based services.
 * **Node Vault**: Facilitates the secure storage and management of personal data for the Care.Node, with data backups stored in [Storj](https://www.storj.io/).
-* **Event Ledger**: Records the event logs, such as sending payloads from a sender node address to a recipient node address.
+* **Event Ledger**: Records the event logs, including payload data such as sending information from a sender node address to a recipient node address.
