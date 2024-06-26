@@ -26,7 +26,7 @@ The **Services Layer** manages the core operations and management of nodes, ensu
 
 ## Blockchain Layer
 
-Provides secure, transparent, and decentralized recording of transactions and data.
+The **Blockchain Layer** provides secure, transparent, and decentralized recording of transactions and data.
 
 * **Care.Node**: Facilitates data storage and event handling across the network. It is a small, secure, versatile object that can be deployed in any environment.
 * **MainNet**: Holds the core registry service that maps Care.Wallet users to their respective Care.Networks, such as the country matrix for region-based services.
