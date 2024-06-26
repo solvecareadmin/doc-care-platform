@@ -2,7 +2,7 @@
 
 ## Presentation Layer
 
-Enables users to interact securely with cards, journeys, networks, and personal data.
+The **Presentation Layer** enables users to interact securely with cards, journeys, networks, and personal data.
 
 * **Care.Wallet**: A mobile app that serves as a gateway for users to join a Care.Network and use personalized healthcare services.
 * **Journeys**: A sequence of interconnected cards within a Care.Network, defining specific workflows for roles such as patients, doctors, and nurses.
@@ -10,13 +10,15 @@ Enables users to interact securely with cards, journeys, networks, and personal 
 
 ## Application Layer
 
-Manages configuration, administration, and communication within networks, including external sources.
+The **Application Layer** manages configuration, administration, and communication within networks, including external sources.
 
 * **Care.Network**: A digital network of various healthcare roles that operates based on a specific set of rules defined in a Care.Protocol.
 * **Care.Protocol**: Provides the governing rules and definitions of events and event handlers to facilitate secure transactions of roles and nodes within a network.
 * **Care Data Node**: A specialized node created for each network to manage the storage and processing of data files, as well as data exchanges with external systems.
 
 ## Services Layer
+
+The **Services Layer** manages the core operations and management of nodes, ensuring secure transmission of data and events across the network.
 
 * **Network Onboarding Manager (NOM)**: Facilitates the initial creation and assignments of Care.Nodes upon joining the network.
 * **Node Lifecycle Manager (NLM)**: Manages the creation and lifecycle states of Care.Nodes triggered by specific events.
