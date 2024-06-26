@@ -5,6 +5,7 @@
 ## Platform Overview
 
 * [Introduction](platform-overview/introduction.md)
+* [Architecture](platform-overview/architecture.md)
 
 ## Care.Protocol Guide
 
