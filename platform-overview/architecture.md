@@ -14,7 +14,7 @@ The **Application Layer** manages configuration, administration, and communicati
 
 * **Care.Network**: A digital network of various healthcare roles that operates based on a specific set of rules defined in a Care.Protocol.
 * **Care.Protocol**: Provides the governing rules and definitions of events and event handlers to facilitate secure transactions of roles and nodes within a network.
-* **Care Data Node**: A specialized node created for each network to manage the storage and processing of data files, as well as data exchanges with external systems.
+* **Care Data Node (CDN)**: A specialized node created for each network to manage the storage and processing of data files, as well as data exchanges with external systems.
 
 ## Services Layer
 

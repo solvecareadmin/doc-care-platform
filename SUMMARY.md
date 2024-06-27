@@ -17,7 +17,7 @@
   * [Care Data Node](care.protocol-guide/building-a-network/care-data-node.md)
   * [Roles and Journeys](care.protocol-guide/building-a-network/roles-and-journeys.md)
   * [Card Definitions](care.protocol-guide/building-a-network/card-definitions/README.md)
-    * [Tile Definitions](care.protocol-guide/building-a-network/card-definitions/tile-definitions.md)
+    * [Tiles](care.protocol-guide/building-a-network/card-definitions/tiles.md)
     * [Functions](care.protocol-handbook/building-a-network/card-definitions/functions.md)
   * [Events and Event Handlers](care.protocol-guide/building-a-network/events-and-event-handlers.md)
   * [Node Event Handlers](care.protocol-guide/building-a-network/node-event-handlers.md)

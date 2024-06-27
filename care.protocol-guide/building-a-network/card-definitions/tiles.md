@@ -1,10 +1,12 @@
 ---
 description: >-
-  This section describes the supported configurations and examples of tile
-  definitions.
+  This section describes the supported configurations and examples of tiles used
+  in card definitions.
 ---
 
-# Tile Definitions
+# Tiles
+
+Use tiles to display card data in a specific layout or to provide functionality to texts, buttons, and images.
 
 ### Tile0: Text Label
 
@@ -429,7 +431,7 @@ This tile represents a multi-option selector as checkboxes in vertical format.
 
 ### Tile7b: Vertical Checkboxes with Subtitle
 
-This tile is the same as [Tile7a](tile-definitions.md#tile7a) with an extra option for a subtitle label, such as displaying the count in numbers.&#x20;
+This tile is the same as [Tile7a](tiles.md#tile7a) with an extra option for a subtitle label, such as displaying the count in numbers.&#x20;
 
 | Configurations                                                                                                                                                                              | Preview                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -532,11 +534,11 @@ This tile represents a scrollable table grid.
 
 ### Tile9: Scrollable Table without Title Label
 
-This tile is the same as [Tile8](tile-definitions.md#tile8), with no title.
+This tile is the same as [Tile8](tiles.md#tile8), with no title.
 
-| Configurations                                             | Preview                                                                        |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| See configurations for [Tile8](tile-definitions.md#tile8). | <img src="../../../.gitbook/assets/tile9.jpg.png" alt="" data-size="original"> |
+| Configurations                                  | Preview                                                                        |
+| ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| See configurations for [Tile8](tiles.md#tile8). | <img src="../../../.gitbook/assets/tile9.jpg.png" alt="" data-size="original"> |
 
 {% code title="Example:" %}
 ```json
@@ -694,7 +696,7 @@ This tile represents two rows with a title and a subtitle text.
 
 ### Tile11a: Title and Scrollable Text
 
-This tile is the same as [Tile11](tile-definitions.md#tile11) with a scrollable subtitle text.
+This tile is the same as [Tile11](tiles.md#tile11) with a scrollable subtitle text.
 
 | Configurations                                                                                                                                                                                                             | Preview                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -787,7 +789,7 @@ This tile represents a clickable tile that triggers an action.
 
 ### Tile14a: Clickable Tile with Subtitle
 
-This tile is the same as [Tile14](tile-definitions.md#tile14) with a subtitle.
+This tile is the same as [Tile14](tiles.md#tile14) with a subtitle.
 
 | Configurations                                                                                                                                                        | Preview                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
