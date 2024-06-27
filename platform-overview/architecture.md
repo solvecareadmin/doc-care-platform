@@ -21,7 +21,7 @@ The **Application Layer** manages configuration, administration, and communicati
 The **Services Layer** manages the core operations and management of nodes, ensuring secure transmission of data and events across the network.
 
 * **Network Onboarding Manager (NOM)**: Facilitates the initial creation and assignments of Care.Nodes upon joining the network.
-* **Node Lifecycle Manager (NLM)**: Manages the creation and lifecycle states of Care.Nodes such as active, start, stop, and hibernate.
+* **Node Lifecycle Manager (NLM)**: Manages the creation and lifecycle states of Care.Nodes, such as active, start, stop, and hibernate.
 * **Base Node Services (BNS)**: Facilitates the secure transmission of events and data through the blockchain.
 
 ## Blockchain Layer
