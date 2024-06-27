@@ -21,12 +21,12 @@ The **Application Layer** manages configuration, administration, and communicati
 The **Services Layer** manages the core operations and management of nodes, ensuring secure transmission of data and events across the network.
 
 * **Network Onboarding Manager (NOM)**: Facilitates the initial creation and assignments of Care.Nodes upon joining the network.
-* **Node Lifecycle Manager (NLM)**: Manages the creation and lifecycle states of Care.Nodes triggered by specific events.
+* **Node Lifecycle Manager (NLM)**: Manages the creation and lifecycle states of Care.Nodes such as active, start, stop, and hibernate.
 * **Base Node Services (BNS)**: Facilitates the secure transmission of events and data through the blockchain.
 
 ## Blockchain Layer
 
-The **Blockchain Layer** provides secure, transparent, and decentralized storage and recording of transactions and data.
+The **Blockchain Layer** provides secure, transparent, and decentralized data storage and recording of transactions.
 
 * **Care.Node**: Facilitates data storage and event handling across the network. It is a small, secure, versatile object that can be deployed in any environment.
 * **MainNet**: Holds the core registry service that maps Care.Wallet users to their respective Care.Networks, such as the country matrix for region-based services.
