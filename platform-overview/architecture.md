@@ -33,4 +33,4 @@ The **Blockchain Layer** provides secure, transparent, and decentralized data st
 * **Node Vault**: Facilitates the secure storage and management of personal data for the Care.Node, with data backups stored in [Storj](https://www.storj.io/).
 * **Event Ledger**: Records the event logs, including payload data such as sending information from a sender node address to a recipient node address.
 
-<figure><img src="../.gitbook/assets/care-platform-architecture-diagram.png" alt=""><figcaption><p>Figure 2.0:  Care.Platform Architecture Layers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/care-platform-architecture-diagram.png" alt="Care.Platform Architecture Layers"><figcaption><p>Figure 2.0:  Care.Platform Architecture Layers</p></figcaption></figure>
