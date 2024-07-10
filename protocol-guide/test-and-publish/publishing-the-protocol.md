@@ -1,11 +1,7 @@
----
-description: We recommend using Postman to perform the steps for publishing the network.
----
-
-# Publishing the Network
+# Publishing the protocol
 
 {% hint style="info" %}
-To get the authorization and environment details, contact [care.support@solve.care](mailto:care.support@solve.care)_._
+Use Postman to perform the steps for publishing. To get the authorization and environment details, contact [care.support@solve.care](mailto:care.support@solve.care)_._
 {% endhint %}
 
 ## Fetch MainNet authorization token

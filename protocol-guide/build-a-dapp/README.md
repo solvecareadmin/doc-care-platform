@@ -1,8 +1,10 @@
 ---
-description: This section provides an overview of the steps in creating a network.
+description: >-
+  This section provides an overview of the steps to author the protocol for
+  building decentralized applications (dApps).
 ---
 
-# Building a Network
+# Build a dApp
 
 {% hint style="warning" %}
 **Note:** Ensure that each field and value follows the specified structure according to the protocol requirements.
@@ -11,9 +13,9 @@ description: This section provides an overview of the steps in creating a networ
 ## Define the structure of the `input.json` file
 
 * Open the `input.json` file in a text editor and enter the [network details](network-configuration.md#network-metadata).
-* In the network settings, fill in the [author details and supported countries](network-configuration.md#author-details-and-countries).
-* Configure the [join network settings](network-configuration.md#join-network-settings) and [solve token usage](network-configuration.md#solve-token-settings).
-* Add the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journeys).
+* In the network settings, fill in the [author details](network-configuration.md#author-details-and-countries) and specify the [supported countries](network-configuration.md#author-details-and-countries).
+* Configure the [join network settings](network-configuration.md#join-network-settings) and set up [solve token usage](network-configuration.md#solve-token-settings).
+* Define the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journeys).
 * Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers.md#events), and [event handlers](events-and-event-handlers.md#event-handlers).
 * Save and validate the `input.json` file.
 
@@ -24,13 +26,12 @@ description: This section provides an overview of the steps in creating a networ
 
 ## Create the definitions for cards&#x20;
 
-* Define the [card structure](card-definitions/#card-definition-structure).
-* Include [tiles](card-definitions/tiles.md) and [functions](../../care.protocol-handbook/building-a-network/card-definitions/functions.md) in the card definition.
+* Define the [card structure](card-definitions/#card-definition-structure), including [tiles](card-definitions/tiles.md) and [functions](card-definitions/functions.md).
 
-## Configure the events and event handlers
+## Create evens and event handler definitions
 
-* Create the [event](events-and-event-handlers.md#events) and [event handler](events-and-event-handlers.md#event-handlers) definitions.
-* Configure the [node event handlers](node-event-handlers.md).
+* Configure the [events](events-and-event-handlers.md#events) and [event handlers](events-and-event-handlers.md#event-handlers).
+* Configure [node event handlers](node-event-handlers.md).
 
 ## Configure Python event handlers
 

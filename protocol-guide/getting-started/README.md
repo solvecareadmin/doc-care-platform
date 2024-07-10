@@ -1,8 +1,8 @@
 # Getting Started
 
-**Care.Protocol** defines the rules that govern how information is communicated in Care.Networks. It is an event-driven architecture design, which contains a predefined structure in JSON files. These files define the configurations for roles, relationships, journeys, events, and interactions in a network.
+**Care.Protocol** defines the rules governing information communication within Care.Networks. It uses an event-driven architecture with a predefined structure in JSON files. These files define configurations for roles, relationships, journeys, events, and interactions within the network.
 
-In this guide, you will learn how to author Care.Protocol manually using the examples provided.
+In this guide, you'll learn how to manually author Care.Protocol using provided examples.
 
 ### Structure of files and folders
 
@@ -20,10 +20,10 @@ In this guide, you will learn how to author Care.Protocol manually using the exa
 
 ### Prerequisites
 
-Before you begin, make sure you have:
+Before you begin, ensure you have the following:
 
 * An Integrated Development Environment (IDE) or a text editor to manually author files.
 * The required Python packages to configure and run Python event handlers in Care.Protocol.
 * Postman API platform and the network environment details for publishing.
-* BrowserStack is a cloud web and mobile testing platform for testing the application.
+* BrowserStack, a cloud web and mobile testing platform, for testing the application.
 

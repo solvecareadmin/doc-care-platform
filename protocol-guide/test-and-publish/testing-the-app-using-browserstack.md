@@ -1,16 +1,4 @@
-# Testing the Network
-
-### Deployment readiness checklist
-
-Before testing and publishing the network, make sure that:
-
-* [ ] All files and data are correctly referenced in the `input.json` file.
-* [ ] There are no logical errors in the referenced data.
-* [ ] The `/definitions` folder and `input.json` file are packaged into one zip file.
-* [ ] The DDF and CSV files are ready for upload.
-* [ ] You have the test environment details where you want to publish the protocol. For information on how to publish a network, see [Publishing the Network](publishing-the-network.md).
-
-### Testing the network app using BrowserStack
+# Testing the app using BrowserStack
 
 1. Open a web browser, and then go to [https://www.browserstack.com/](https://www.browserstack.com/).
 2. Sign in to your account.

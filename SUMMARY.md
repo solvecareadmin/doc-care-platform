@@ -7,24 +7,30 @@
 * [Introduction](platform-overview/introduction.md)
 * [Architecture](platform-overview/architecture.md)
 
-## Care.Protocol Guide
+## Protocol Guide
 
-* [Getting Started](care.protocol-guide/getting-started/README.md)
-  * [Components](care.protocol-guide/getting-started/components.md)
-  * [Definition of Terms](care.protocol-guide/getting-started/definition-of-terms.md)
-* [Building a Network](care.protocol-guide/building-a-network/README.md)
-  * [Network Configuration](care.protocol-guide/building-a-network/network-configuration.md)
-  * [Care Data Node](care.protocol-guide/building-a-network/care-data-node.md)
-  * [Roles and Journeys](care.protocol-guide/building-a-network/roles-and-journeys.md)
-  * [Card Definitions](care.protocol-guide/building-a-network/card-definitions/README.md)
-    * [Tiles](care.protocol-guide/building-a-network/card-definitions/tiles.md)
-    * [Functions](care.protocol-handbook/building-a-network/card-definitions/functions.md)
-  * [Events and Event Handlers](care.protocol-guide/building-a-network/events-and-event-handlers.md)
-  * [Node Event Handlers](care.protocol-guide/building-a-network/node-event-handlers.md)
-  * [Python Event Handlers](care.protocol-guide/building-a-network/python-event-handlers.md)
-  * [Transactional Data](care.protocol-guide/building-a-network/transactional-data.md)
-* [Testing the Network](care.protocol-guide/testing-the-network.md)
-* [Publishing the Network](care.protocol-guide/publishing-the-network.md)
+* [Getting Started](protocol-guide/getting-started/README.md)
+  * [Components](protocol-guide/getting-started/components.md)
+  * [Definition of Terms](protocol-guide/getting-started/definition-of-terms.md)
+* [Build a dApp](protocol-guide/build-a-dapp/README.md)
+  * [Network Configuration](protocol-guide/build-a-dapp/network-configuration.md)
+  * [Care Data Node](protocol-guide/build-a-dapp/care-data-node.md)
+  * [Roles and Journeys](protocol-guide/build-a-dapp/roles-and-journeys.md)
+  * [Card Definitions](protocol-guide/build-a-dapp/card-definitions/README.md)
+    * [Tiles](protocol-guide/build-a-dapp/card-definitions/tiles.md)
+    * [Functions](protocol-guide/build-a-dapp/card-definitions/functions.md)
+  * [Events and Event Handlers](protocol-guide/build-a-dapp/events-and-event-handlers.md)
+  * [Node Event Handlers](protocol-guide/build-a-dapp/node-event-handlers.md)
+  * [Python Event Handlers](protocol-guide/build-a-dapp/python-event-handlers.md)
+  * [Transactional Data](protocol-guide/build-a-dapp/transactional-data.md)
+* [Test and Publish](protocol-guide/test-and-publish/README.md)
+  * [Testing the app using BrowserStack](protocol-guide/test-and-publish/testing-the-app-using-browserstack.md)
+  * [Publishing the protocol](protocol-guide/test-and-publish/publishing-the-protocol.md)
+
+## Tutorials
+
+* [Event Ticketing](tutorials/event-ticketing.md)
+* [Bookshelf](tutorials/bookshelf.md)
 
 ## Care.Wallet User Manual
 
@@ -40,3 +46,7 @@
 * [Care.Ledger](care.wallet-user-manual/care.ledger.md)
 * [Care.Vault](care.wallet-user-manual/care.vault.md)
 * [SOLVE Tokens](care.wallet-user-manual/solve-tokens.md)
+
+***
+
+* [Support](support.md)

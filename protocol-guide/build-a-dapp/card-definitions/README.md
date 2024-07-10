@@ -71,7 +71,7 @@ Card data can include text, images, links or different types of information rele
 
 ### Card layout
 
-The card body displays the card's content, which includes tiles, texts, images, and interactive functions. For information on supported tiles, see [Tiles](tiles.md). For details on supported functions, see [Functions](../../../care.protocol-handbook/building-a-network/card-definitions/functions.md).
+The card body displays the card's content, which includes tiles, texts, images, and interactive functions. For information on supported tiles, see [Tiles](tiles.md). For details on supported functions, see [Functions](functions.md).
 
 {% code title="Example:" %}
 ```json

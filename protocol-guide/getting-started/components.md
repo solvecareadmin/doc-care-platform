@@ -16,11 +16,11 @@ The Care Data Node (CDN) serves as the network's central database for storing an
 
 ### Care.Card definitions
 
-A Care.Card is an interactive module encapsulating multiple data types, user interface elements, and interoperable functions. The Care.Card definition structure contains card data, layout, card footer, and UI actions.
+A Care.Card is an interactive module encapsulating multiple data types, user interface elements, and interoperable functions. The Care.Card definition structure includes card data, layout, card footer, and UI actions.
 
 ### Event definitions
 
-The events define the interactions and communication between roles or nodes in the network, such as sending and receiving information. An event is chained together in a time series on a blockchain, creating a secure and transparent record of transactions within a network.
+Events define the interactions and communication between roles or nodes in the network, such as sending and receiving information. Events are chained together in a time series on a blockchain, creating a secure and transparent record of transactions within the network.
 
 ### Event handlers
 
@@ -28,12 +28,12 @@ An event handler is a set of instructions that execute tasks based on specific e
 
 ### Python event handlers
 
-Python event handlers are designed to execute complex events and transactions that require data processing, analysis, import, and export. A Python event handler can fetch external data in HL7, X12 EDI, XML, JSON, or CSV formats.
+Python event handlers are designed to execute complex events and transactions that require data processing, analysis, import, and export. They can fetch external data in HL7, X12 EDI, XML, JSON, or CSV formats.
 
 ### Resources
 
-The resources contain predefined data that are inserted or updated automatically during initialization.&#x20;
+Resources contain predefined data that is inserted or updated automatically during initialization.
 
 ### Transactional data
 
-Transactional data contains configurable data that can be referenced from roles, cards, or events within the network.
+Transactional data consists of configurable data that can be referenced from roles, cards, or events within the network.

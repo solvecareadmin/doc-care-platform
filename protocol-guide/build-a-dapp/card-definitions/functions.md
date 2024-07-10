@@ -410,7 +410,7 @@ Validates if the referral code entered is a valid Care.Wallet ID.
 
 ### Check field format and field value
 
-Validates field format and value. This function is used in [SmartTile1](../../../care.protocol-guide/building-a-network/card-definitions/tiles.md#smarttile1-input-validation-tile).
+Validates field format and value. This function is used in [SmartTile1](tiles.md#smarttile1-input-validation-tile).
 
 #### Parameter
 
@@ -578,7 +578,7 @@ Navigates from any card to the "SOLVE" tab view.
 
 ### Multiple selection
 
-Allows multiple item selection for [Tile12: Dropdown Option Selector](../../../care.protocol-guide/building-a-network/card-definitions/tiles.md#tile12-dropdown-option-selector).
+Allows multiple item selection for [Tile12: Dropdown Option Selector](tiles.md#tile12-dropdown-option-selector).
 
 #### Parameter
 
@@ -629,7 +629,7 @@ Allows multiple item selection for [Tile12: Dropdown Option Selector](../../../c
 
 ### isLink or isUrl
 
-Adds links inside the text of a tile, such as [Tile0: Text Label](../../../care.protocol-guide/building-a-network/card-definitions/tiles.md#tile0-text-label).
+Adds links inside the text of a tile, such as [Tile0: Text Label](tiles.md#tile0-text-label).
 
 #### Parameter
 
