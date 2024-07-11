@@ -2,11 +2,11 @@
 
 ## Overview
 
-Welcome to the Event Booker example, a simple app designed for booking events or appointments. Here’s how the app works:
+Welcome to the Event Booker example, a simple booking app for events or appointments. While this example focuses on a traditional booking system, the underlying structure can be adapted for Web3 integration. Here’s how the app works:
 
-1. **Open the App**: Start by launching the app to book your desired event or appointment.
-2. **Enter Details**: Fill in the details of your event or appointment.
-3. **Submit**: Confirm and submit your booking details.
+1. Launch the app to book an event or appointment.
+2. Fill in the details of the event or appointment.
+3. Confirm and submit your booking details.
 
 ## Steps
 
