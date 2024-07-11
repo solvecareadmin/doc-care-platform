@@ -597,26 +597,6 @@ Create the definition for the submit event: `e-w-broad-shareAppt.json`.
                 "order": 5
             },
             {
-                "name": "TrialID",
-                "code": "TrialID",
-                "type_definition": {
-                    "type": "string"
-                },
-                "required": false,
-                "system": false,
-                "order": 8
-            },
-            {
-                "name": "SiteID",
-                "code": "SiteID",
-                "type_definition": {
-                    "type": "string"
-                },
-                "required": true,
-                "system": false,
-                "order": 6
-            },
-            {
                 "name": "senderNodeAddress",
                 "code": "senderNodeAddress",
                 "type_definition": {
@@ -706,10 +686,6 @@ Create the event handler definition for the submit event that sends the booking 
                 "transactionalGuid": {
                     "source": "GENERATED",
                     "value": "UUID" 
-                },
-                "SiteID": {
-                    "source": "EVENT_PAYLOAD",
-                    "value": "SiteID"
                 },
                 "leadNodeAddress": {
                     "source": "EVENT_PAYLOAD",
