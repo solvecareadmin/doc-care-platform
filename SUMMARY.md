@@ -9,9 +9,9 @@
 
 ## Protocol Guide
 
-* [Getting Started](protocol-guide/getting-started/README.md)
-  * [Components](protocol-guide/getting-started/components.md)
-  * [Definition of Terms](protocol-guide/getting-started/definition-of-terms.md)
+* [Get Started](protocol-guide/get-started/README.md)
+  * [Components](protocol-guide/get-started/components.md)
+  * [Definition of Terms](protocol-guide/get-started/definition-of-terms.md)
 * [Build a dApp](protocol-guide/build-a-dapp/README.md)
   * [Network Configuration](protocol-guide/build-a-dapp/network-configuration.md)
   * [Care Data Node](protocol-guide/build-a-dapp/care-data-node.md)
@@ -29,8 +29,8 @@
 
 ## Tutorials
 
-* [Event Ticketing](tutorials/event-ticketing.md)
-* [Bookshelf](tutorials/bookshelf.md)
+* [Create an Event Booker](tutorials/create-an-event-booker.md)
+* [Create a Library Explorer](tutorials/create-a-library-explorer.md)
 
 ## Care.Wallet User Manual
 
