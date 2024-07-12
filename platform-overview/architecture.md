@@ -7,7 +7,7 @@
 The **Presentation Layer** allows users to securely interact with cards, journeys, networks, and personal data.
 
 * **Care.Wallet**: A mobile app that acts as a gateway for users to join a Care.Network and access personalized healthcare services.
-* **Journeys**: A sequence of interconnected cards within a Care.Network, outlining specific workflows for roles like patients, doctors, and nurses.
+* **dApps**: A sequence of interconnected cards, outlining specific workflows for roles like participants, admin, manager and employees.
 * **Care.Cards**: Information units containing text, images, and interactive buttons on the app's user interface.
 
 ## Application Layer
