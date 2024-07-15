@@ -1,7 +1,7 @@
 ---
 description: >-
-  Discover everything you need to know about the SOLVE platform with our
-  comprehensive documentation.
+  Discover everything you need to know about the platform with our comprehensive
+  documentation.
 ---
 
 # Home

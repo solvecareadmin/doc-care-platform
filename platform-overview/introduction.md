@@ -2,7 +2,7 @@
 
 ## What is Care.Platform?
 
-Care.Platform is a secure and decentralized ecosystem that allows you to take control of your data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
+Care.Platform is a secure and decentralized ecosystem that allows individuals to take control of their data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
 
 ## **Key Components**
 
