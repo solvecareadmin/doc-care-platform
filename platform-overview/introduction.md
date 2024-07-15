@@ -2,13 +2,13 @@
 
 ## What is Care.Platform?
 
-Care.Platform is a secure and decentralized ecosystem that allows individuals to take control of their data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
+Care.Platform is a secure and decentralized platform that allows individuals to take control of their data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
 
 ## **Key Components**
 
 **Chain**: A distributed ledger that chronologically records a series of events and transactions. These records are linked together, forming a continuous and immutable chain of data.
 
-**Wallet**: A mobile application that allows users to store and manage digital assets and records, and interact with other Wallet users and decentralized applications (dApps).
+**Wallet**: A mobile application that allows users to store and manage digital assets and records, interact with other Wallet users and use decentralized applications (dApps).
 
 **dApp**: A decentralized application in Web3 that offers functionalities like interactions, data exchanges, and workflows for specific user roles.
 
