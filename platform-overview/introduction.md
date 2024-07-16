@@ -2,15 +2,15 @@
 
 ## What is Care.Platform?
 
-Care.Platform is a secure and decentralized platform that allows individuals to take control of their data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
+Care.Platform is a secure and decentralized platform that empowers individuals to take control of their data using blockchain-powered technologies. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
 
 ## **Key Components**
 
 **Chain**: A distributed ledger that chronologically records a series of events and transactions. These records are linked together, forming a continuous and immutable chain of data.
 
-**Wallet**: A mobile application that allows users to store and manage digital assets and records, interact with other Wallet users and use decentralized applications (dApps).
+**Wallet**: A mobile application that allows users to store and manage digital assets and records, interact with other Wallet users, and use decentralized applications (dApps).
 
-**dApp**: A decentralized application in Web3 that offers functionalities like interactions, data exchanges, and workflows for specific user roles.
+**dApp**: A decentralized application in Web3 that offers various functionalities, including interactions, data exchanges, and workflows for specific user roles.
 
 ## Use Case Examples
 
@@ -22,7 +22,7 @@ Facilitates treatment adjustments and supports patients in managing their condit
 
 ### Insurance claims processing
 
-Manages the submission and processing of insurance claims. Patients can submit claims for reimbursement plans like vision or dental insurance, ensuring faster and more transparent processing.
+Manages the submission and processing of insurance claims. Patients can submit claims for reimbursement plans, such as vision or dental insurance, ensuring faster and more transparent processing.
 
 <figure><img src="../.gitbook/assets/insurance-claims-processing.png" alt="insurance-claims-processing-use-case" width="375"><figcaption><p>Figure 2: Use case diagram for insurance claims processing</p></figcaption></figure>
 
