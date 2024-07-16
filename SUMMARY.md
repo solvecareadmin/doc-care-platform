@@ -39,6 +39,7 @@
 * [Care.Pilot](care.wallet-user-manual/care.pilot.md)
 * [Care.Trials](care.wallet-user-manual/care.trials/README.md)
   * [Participant](care.wallet-user-manual/care.trials/participant.md)
+  * [Physician](care.wallet-user-manual/care.trials/physician.md)
   * [Site Admin](care.wallet-user-manual/care.trials/site-admin.md)
   * [Trial Admin](care.wallet-user-manual/care.trials/trial-admin.md)
   * [Nurse](care.wallet-user-manual/care.trials/nurse.md)

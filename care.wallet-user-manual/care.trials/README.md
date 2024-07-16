@@ -2,15 +2,15 @@
 
 ## Getting started
 
-Participate in clinical trials to help discover new treatments and contribute to medical advancements. Join the Care.Trials network and search for clinical trials near you.&#x20;
+Participate in clinical trials to help discover new treatments and contribute to medical advancements. Join Care.Trials and search for clinical trials near you.&#x20;
 
 ## Types of roles in Care.Trials
 
-* **Participants** — When you join the Care.Trials network as a participant, you will have access to available trials that match your profile. Use swiping to like or skip matched trials.
-* **Physician** — The physician, also known as principal investigator, helps connect patients to relevant clinical trials. In Care.Trials network, the physician can browse trials, refer patients and search for trial sponsors.
-* **Site Admin** — The site admin helps coordinate clinical trials in a specific site location. In the Care.Trials network, the site admin can view leads and interact with the participants to collect medical records and set appointments for screening.
-* **Trial Admin** — The trial admin oversees the clinical trials in all sites. In the Care.Trials network, the trial admin can activate trials and set the budget for a trial site.
-* **Nurse** — The nurse in the Care.Trials network can verify and review the participant's ID and medical records.
+* **Participants** — When you join Care.Trials as a participant, you will have access to available trials that match your profile. Use swiping to like or skip matched trials.
+* **Physician** — The physician, also known as principal investigator, helps connect patients to relevant clinical trials. In Care.Trials, the physician can browse trials, refer patients and search for trial sponsors.
+* **Site Admin** — The site admin helps coordinate clinical trials in a specific site location. In Care.Trials, the site admin can view leads and interact with the participants.
+* **Trial Admin** — The trial admin oversees the clinical trials in all sites. In Care.Trials, the trial admin can activate trials and set the budget for a trial site.
+* **Nurse** — The nurse in Care.Trials can review medical records and verify the eligibility of participants.
 
 ## Joining the Care.Trials network
 
