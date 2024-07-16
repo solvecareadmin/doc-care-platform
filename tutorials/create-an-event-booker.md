@@ -162,16 +162,14 @@ Define the included [event handlers](../protocol-guide/build-a-dapp/events-and-e
 
 Create the definitions for the start card: `cd-book-an-event.json` and the next card: `cd-set-booking-details.json`.
 
-{% code title="cd-book-an-event.json" %}
-```json
-{
+<pre class="language-json" data-title="cd-book-an-event.json"><code class="lang-json">{
     "id": "cd-book-an-event",
     "name": "Book an Event",
     "cardData": {
         "textforbookevent": "Book an event",
         "imageUrlzkk3n12": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
-        "imageUrlzkk3n15": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
-
+<strong>        "imageUrlzkk3n15": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+</strong>
     }, 
     "cardLayout": {
         "body": [
@@ -243,8 +241,7 @@ Create the definitions for the start card: `cd-book-an-event.json` and the next 
         }
     }
 }   
-```
-{% endcode %}
+</code></pre>
 
 {% code title="cd-set-booking-details.json" %}
 ```json
@@ -263,8 +260,8 @@ Create the definitions for the start card: `cd-book-an-event.json` and the next 
         "1tile1iitextiiixo3": "Time",
         "1tile1iihintii6km3": "e.g. 2 p.m. EST",
         "1tile1iierrorii6se3": "",
-        "tile1iitextiiixop": "Performer",
-        "1tile1iihintii6kmp": "e.g. The Band",
+        "tile1iitextiiixop": "Purpose",
+        "1tile1iihintii6kmp": "e.g. Comic Convention",
         "1tile1iierrorii6sep": "" 
     }, 
     "cardLayout": {
@@ -333,7 +330,7 @@ Create the definitions for the start card: `cd-book-an-event.json` and the next 
                                     "titleAlign": "JUSTIFY"
                                 },
                                 "subTitle": {
-                                    "text": "{$apptPerf}",
+                                    "text": "{$apptPurpose}",
                                     "hint": "1tile1iihintii6kmp",
                                     "subTitleTextColor": "#000080",
                                     "subTitleAlign": "START",
@@ -559,8 +556,8 @@ Create the definition for the submit event: `e-w-broad-shareAppt.json`.
                 "order": 1
             },
             {
-                "name": "apptPerf",
-                "code": "apptPerf",
+                "name": "apptPurpose",
+                "code": "apptPurpose",
                 "type_definition": {
                     "type": "string"
                 },
@@ -699,7 +696,7 @@ Create the event handler definition for the submit event that sends the booking 
                 },
                 "apptPurpose": {
                     "source": "EVENT_PAYLOAD",
-                    "value": "apptPerf"
+                    "value": "apptPurpose"
                 },
                 "apptLocation": {
                     "source": "EVENT_PAYLOAD",
@@ -773,7 +770,7 @@ Create the event handler definition for the submit event that sends the booking 
                 },
                 "apptPurpose": {
                     "source": "EVENT_PAYLOAD",
-                    "value": "apptPerf"
+                    "value": "apptPurpose"
                 },
                 "apptLocation": {
                     "source": "EVENT_PAYLOAD",
