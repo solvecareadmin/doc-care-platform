@@ -18,7 +18,7 @@ Ready to create your own booking app? Follow these steps:
 
 Open the `input.json` file in a text editor, then add the journey definition:
 
-{% code title="input.json" %}
+{% code title="input.json" overflow="wrap" %}
 ```json
             {
                 "id": "jn-event-booker",
@@ -37,7 +37,7 @@ Open the `input.json` file in a text editor, then add the journey definition:
 
 Define the included [cards](../protocol-guide/build-a-dapp/card-definitions/#cards):
 
-{% code title="input.json" %}
+{% code title="input.json" overflow="wrap" %}
 ```json
             {
                 "id": "cd-book-an-event",

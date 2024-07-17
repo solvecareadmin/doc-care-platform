@@ -8,9 +8,9 @@
 
 **Chains**: Enterprise-level solutions that offer a wide range of products and services categorized by various industries, such as healthcare, finance, gaming, and more.
 
-**Care.Wallet**: A mobile application that allows users to store and manage digital assets and records, and serves as a gateway to chains and decentralized applications (dApps).
-
 **dApp**: A decentralized application in Web3 that offers various functionalities, including interactions, data exchanges, and workflows for specific user roles.
+
+**Care.Wallet**: A mobile application that allows users to store and manage digital assets, and serves as a gateway to chains and decentralized applications (dApps).
 
 ## Use Case Examples
 

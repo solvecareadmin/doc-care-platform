@@ -100,6 +100,10 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 
 <mark style="color:green;">**GET**</mark>
 
+```
+https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/{{networkVersion}}
+```
+
 {% code title="Example:" overflow="wrap" %}
 ```bash
 curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packaging/{{networkId}}/{{networkVersion}}' \
@@ -239,11 +243,11 @@ curl --location 'https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sam
 
 ### Checking the count
 
+<mark style="color:orange;">**POST**</mark>
+
 ```
 https://{{eks-env}}/{{network-id}}/elasticsearch/us-doctors-sample/_count
 ```
-
-<mark style="color:orange;">**POST**</mark>
 
 {% code title="Example:" %}
 ```bash
