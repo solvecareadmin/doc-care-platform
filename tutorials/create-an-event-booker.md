@@ -86,7 +86,7 @@ Define the included [events](../protocol-guide/build-a-dapp/events-and-event-han
             {
                 "id": "e-w-navig-to-details",
                 "name": "W-NAVIG-TO-SET",
-                "description": "Event to Navigate from Book an Event to cd-set-booking-details",
+                "description": "Event to Navigate from Book an Event to next card",
                 "code": "W-NAVIG-TO-SET",
                 "status": "Active",
                 "type": "WALLET_LOCAL",
@@ -98,7 +98,7 @@ Define the included [events](../protocol-guide/build-a-dapp/events-and-event-han
 			{
                 "id": "e-w-navig-to-book-1",
                 "name": "W-NAVIG-TO-BOOK-EVT",
-                "description": "Event to Navigate from Set Booking to cd-book-an-event",
+                "description": "Event to Navigate from Set Booking to first card",
                 "code": "W-NAVIG-TO-BOOK-EVT",
                 "status": "Active",
                 "type": "WALLET_LOCAL",
@@ -131,7 +131,7 @@ Define the included [event handlers](../protocol-guide/build-a-dapp/events-and-e
             {
                 "id": "eh-w-navig-to-details",
                 "name": "W-NAVIG-TO-SET",
-                "description": "Wallet Event Handler to Navigate from Book an Event to cd-set-event-details",
+                "description": "Wallet Event Handler to Navigate from Book an Event to next card",
                 "status": "Active",
                 "event": "e-w-navig-to-details",
                 "type": "WALLET_EVENT_HANDLER",
@@ -140,7 +140,7 @@ Define the included [event handlers](../protocol-guide/build-a-dapp/events-and-e
             {
                 "id": "eh-w-navig-to-book-1",
                 "name": "W-NAVIG-TO-BOOK-EVT",
-                "description": "Wallet Event Handler to Navigate from Set Booking Details to cd-book-an-event",
+                "description": "Wallet Event Handler to Navigate from Set Booking Details to first card",
                 "status": "Active",
                 "event": "e-w-navig-to-book-1",
                 "type": "WALLET_EVENT_HANDLER",
@@ -162,14 +162,15 @@ Define the included [event handlers](../protocol-guide/build-a-dapp/events-and-e
 
 Create the definitions for the start card: `cd-book-an-event.json` and the next card: `cd-set-booking-details.json`.
 
-<pre class="language-json" data-title="cd-book-an-event.json"><code class="lang-json">{
+{% code title="cd-book-an-event.json" %}
+```json
+{
     "id": "cd-book-an-event",
     "name": "Book an Event",
     "cardData": {
         "textforbookevent": "Book an event",
-        "imageUrlzkk3n12": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
-<strong>        "imageUrlzkk3n15": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
-</strong>
+        "imageUrlzkk3n12": "https://abc-rep.net/arrow-right blue.png",
+
     }, 
     "cardLayout": {
         "body": [
@@ -241,7 +242,8 @@ Create the definitions for the start card: `cd-book-an-event.json` and the next 
         }
     }
 }   
-</code></pre>
+```
+{% endcode %}
 
 {% code title="cd-set-booking-details.json" %}
 ```json
@@ -509,7 +511,7 @@ Create the definition for the event to navigate from start card to the next card
 ```json
 {
     "definition": {
-        "description": "Event to Navigate from Book an Event to cd-set-event-details",
+        "description": "Event to Navigate from Book an Event to next card",
         "name": "W-NAVIG-TO-SET",
         "resource": "W-NAVIG-TO-SET",
         "type": "EVENT_DATA"
@@ -617,7 +619,7 @@ Create the definition for the navigation event after submitting details: `e-w-na
 ```json
 {
   "definition": {
-    "description": "Event to Navigate from Set Booking Details to cd-book-an-event",
+    "description": "Event to Navigate from Set Booking Details to first card",
     "name": "W-NAVIG-TO-BOOK-EVT",
     "resource": "W-NAVIG-TO-BOOK-EVT",
     "type": "EVENT_DATA"

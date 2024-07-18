@@ -22,7 +22,7 @@ description: >-
 * `EMPTY`— An empty source or collection.
 * `EVENT_PAYLOAD` — The payload source of events processed in the handlers chain.
 * `HANDLER_ARGUMENTS` — The response value from the previous handler in the chain.
-* `PERSISTED_IDENTITY` — For vault-related handlers, it is the state of inserted or updated documents in a collection.
+* `PERSISTED_ENTITY` — For vault-related handlers, it is the state of inserted or updated documents in a collection.
 
 ### Dynamic handler value (`DynamicHandlerValue`)
 
