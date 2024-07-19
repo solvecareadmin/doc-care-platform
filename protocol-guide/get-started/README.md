@@ -6,17 +6,17 @@ In this guide, you'll learn how to manually author Care.Protocol using provided 
 
 ### Structure of files and folders
 
-```
-├── sample-network/
+<pre><code>├── sample-network/
      ├── definitions/
      │    ├── card/
-     │    ├── event/
+<strong>     │    ├── ddf/     
+</strong>     │    ├── event/
      │    ├── event-handler/
      │    ├── python-event-handler/
      │    ├── resources/
      │    └── td/
      └── input.json 
-```
+</code></pre>
 
 ### Prerequisites
 

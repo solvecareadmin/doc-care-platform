@@ -468,9 +468,87 @@ Validates field format and value. This function is used in [SmartTile1](tiles.md
 
 ## Linking and navigation
 
+### Function.When.Condition.Navigate
+
+Shows an empty card if no data is fetched, otherwise it moves to a specific card based on the `whenConditionKey` value within the data. This function allows displaying different cards based on various conditions.
+
+#### Parameter
+
+| Field            | Value  | Description                                                                 |
+| ---------------- | ------ | --------------------------------------------------------------------------- |
+| name             | string | The name of the function: `Function.When.Condition.preLoad`                 |
+| method           | string | The method used to fetch data: `GET`                                        |
+| url              | string | The path of the transaction data collection.                                |
+| cardId           | string | The reference ID of the current card.                                       |
+| whenConditionKey | string | The key name which represents the condition values, such as `recordStatus`. |
+| whenConditions   | array  | The list of condition values and card IDs.                                  |
+| conditionValue   | string | The value of the condition.                                                 |
+| conditionCardId  | string | The card ID reference of the destination card.                              |
+
+{% code title="Example:" %}
+```json
+    "cardUIAction": {
+        "action253": {
+            "action": [
+                      {
+                          "name": "Function.When.Condition.Navigate",
+                          "cardId": "cd-xb8kw63u8rpge76l5mngcpkt36v1",
+                          "whenConditionKey": "recordStatus",
+                          "whenConditions": [
+                            {
+                                  "conditionValue": "empty",
+                                  "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg6"
+                            },
+                            {
+                                "conditionValue": "rejected",
+                                "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg8"
+                            },
+                            {
+                                "conditionValue": "verified",
+                                "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg7"
+                            },
+                            {
+                                "conditionValue": "submitted",
+                                "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg9"
+                            },
+                            {
+                                "conditionValue": "Pending review",
+                                "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg10"
+                            }
+                          ]
+                        }
+                    ]
+          },
+```
+{% endcode %}
+
+### Function.When.Condition.PreLoad
+
+Shows a default empty card when no data is fetched, otherwise it stays on the current card. For the description of parameters, see [Function.When.Condition.Navigate](functions.md#function.when.condition.navigate).
+
+{% code title="Example:" %}
+```json
+    "prerenderingFunctions": [
+        {
+          "name": "Function.When.Condition.preLoad",
+          "method": "GET",
+          "url": "/transactions/RECORD_DATA",
+          "cardId": "cd-xb8kw63u8rpge76l5mngcpkt36v1",
+          "whenConditionKey": "recordStatus",
+          "whenConditions": [
+            {
+              "conditionValue": "empty",
+              "conditionCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg6"
+            }
+          ]
+        }
+      ],
+```
+{% endcode %}
+
 ### Function.Navigate
 
-Moves to the destination card without calling events or event-handlers.
+Moves to the destination card without calling events or event handlers. This function also supports calculating and comparing values.
 
 #### Parameter
 
@@ -479,7 +557,7 @@ Moves to the destination card without calling events or event-handlers.
 | name   | string | The name of the function: `Function.Navigate`  |
 | cardId | string | The card ID reference of the destination card. |
 
-{% code title="Example:" %}
+{% code title="Example 1:" %}
 ```json
     "cardUIAction": {
         "action1": {
@@ -510,6 +588,37 @@ Moves to the destination card without calling events or event-handlers.
             ]
         }
     }
+```
+{% endcode %}
+
+{% code title="Example 2:" %}
+```json
+"cardUIAction": {
+    "action1": {
+        "action": "BACK"
+    },
+    "action337": {
+        "action": [
+            {
+                "name": "Function.calculateSum",
+                "sourceKeys": [
+                    "patientAge",
+                    "patientSugarLevel",
+                    "patientSleepingTime"
+                ],
+                "resultKey": "resultSum1"
+            },
+            {
+                "name": "Function.Navigate",
+                "compareKey": "resultSum1",
+                "compareValue": 60,
+                "cardIdForGreaterValue": "cd-40yoxo205nu4sippxzmzj22mnn0",
+                "cardIdForLessValue": "cd-34fdshqildm8ojse2tzu7jd85qj",
+                "cardId": "cd-40yoxo205nu4sippxzmzj22mnn0"
+            }
+        ]
+    }
+}
 ```
 {% endcode %}
 

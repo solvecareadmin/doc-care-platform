@@ -8,5 +8,6 @@ Our support team is here for you! Reach out at [care.support@solve.care](mailto:
 
 Join the conversation:
 
-* Telegram: [https://t.me/SolveCare/](https://t.me/SolveCare/)
-* Discord: [https://discord.com/invite/kVDjnq6vaZ](https://discord.com/invite/kVDjnq6vaZ)
+* [Telegram](https://t.me/SolveCare/)
+* [Discord](https://discord.com/invite/kVDjnq6vaZ)
+
