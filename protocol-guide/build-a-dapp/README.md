@@ -18,7 +18,7 @@ description: >-
 * Configure the [join network settings](network-configuration.md#join-network-settings) and set up [solve token usage](network-configuration.md#solve-token-settings).
 * Define the [roles](roles-and-journeys.md#roles) and [journeys](roles-and-journeys.md#journeys).
 * Declare the included [cards](card-definitions/#cards), [events](events-and-event-handlers.md#events), and [event handlers](events-and-event-handlers.md#event-handlers).
-* If necessary, include details about [care ledgers](../../care.wallet-user-manual/care.ledger.md).
+* If necessary, include details about [care ledgers](care-ledgers.md).
 * Save and validate the `input.json` file.
 
 ## Define the data structure
