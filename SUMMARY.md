@@ -25,8 +25,8 @@
   * [Python Event Handlers](protocol-guide/build-a-dapp/python-event-handlers.md)
   * [Transactional Data](protocol-guide/build-a-dapp/transactional-data.md)
 * [Test and Publish](protocol-guide/test-and-publish/README.md)
-  * [Testing the app using BrowserStack](protocol-guide/test-and-publish/testing-the-app-using-browserstack.md)
   * [Publishing the protocol](protocol-guide/test-and-publish/publishing-the-protocol.md)
+  * [Testing the app using BrowserStack](protocol-guide/test-and-publish/testing-the-app-using-browserstack.md)
 
 ## Tutorials
 
