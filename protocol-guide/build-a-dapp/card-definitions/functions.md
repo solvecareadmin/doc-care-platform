@@ -470,7 +470,7 @@ Validates field format and value. This function is used in [SmartTile1](tiles.md
 
 ### Function.When.Condition.Navigate
 
-Shows an empty card if no data is fetched, otherwise it moves to a specific card based on the `whenConditionKey` value within the data. This function allows displaying different cards based on various conditions.
+Shows a default empty card when no data is fetched, otherwise it moves to a specific card based on the `whenConditionKey` value within the data. This function allows displaying different cards based on various conditions.
 
 #### Parameter
 
