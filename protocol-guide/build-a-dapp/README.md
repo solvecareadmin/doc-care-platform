@@ -1,13 +1,13 @@
 ---
 description: >-
-  This section provides an overview of the steps to author the protocol for
+  This section outlines the steps involved in authoring the protocol for
   building decentralized applications (dApps).
 ---
 
 # Build a dApp
 
 {% hint style="warning" %}
-**Note:** Ensure that each field and value follows the specified structure according to the protocol requirements.
+**Note:** Ensure that all fields and values adhere strictly to the protocol structure and specifications.
 {% endhint %}
 
 ## Understand the structure of the `input.json` file

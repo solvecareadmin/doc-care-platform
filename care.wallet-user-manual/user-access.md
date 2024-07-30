@@ -5,7 +5,7 @@
 1. Open the Care.Wallet app from your mobile device.
 2. Tap **Create new Care.Wallet**.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-start (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -13,7 +13,7 @@
 
 3. Allow the app to access your device's location.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-signup-allow-device-location.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -34,13 +34,6 @@
        <figure><img src="../.gitbook/assets/cw-signup-email-steps.png" alt="" width="375"><figcaption></figcaption></figure>
 
        </div>
-   *   Enter your Viber phone number.&#x20;
-
-       <div align="left">
-
-       <figure><img src="../.gitbook/assets/cw-signup-viber.png" alt="" width="188"><figcaption></figcaption></figure>
-
-       </div>
    *   Enter your WhatsApp phone number, then tap **Next**.
 
        <div align="left">
@@ -51,7 +44,7 @@
 5. If necessary, enter the one-time code sent to you, then tap **Next**.
 6. Set up a 6-digit passcode, then tap **Next**.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-create-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -70,7 +63,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 1. Open the Care.Wallet app from your mobile device.
 2. Tap **I already have a Care.Wallet**.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-signin.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -78,7 +71,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 3. Enter your 6-digit passcode, then tap **Next**.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-signin-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -109,7 +102,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
     </div>
 3. Select the method you used during sign-up.&#x20;
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-forgot-passcode.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -118,7 +111,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 4. Enter the one-time code sent to you, then tap **Next**.
 5. Set up a new passcode.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-passcode-create-new.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -129,7 +122,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 1. Sign in to your Care.Wallet app.
 2. From the Manage Networks screen, tap **Save your Recovery Phrase**.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-save-recovery-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -137,7 +130,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 3. Allow access to view the recovery phrase.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-save-recovery-phrase-request.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -146,7 +139,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 4. Enter your passcode, then tap **Next**.
 5. Copy the phrase or write it down.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/cw-save-recovery-copy-phrase.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -162,7 +155,7 @@ If you lose your mobile device or uninstall the app, you can use the recovery ph
 2. Tap **I already have a Care.Wallet**.
 3. Enter your recovery phrase.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/recover-access.png" alt="" width="188"><figcaption></figcaption></figure>
 
