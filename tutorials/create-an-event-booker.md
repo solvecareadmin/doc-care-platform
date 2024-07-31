@@ -534,7 +534,7 @@ Create the definition for the event to navigate from start card to the next card
 ```
 {% endcode %}
 
-Create the definition for the submit event: `e-w-broad-shareAppt.json`.
+Create the definition for the submit event that contains the data for the booking details: `e-w-broad-shareAppt.json`.
 
 {% code title="e-w-broad-shareAppt.json" %}
 ```json
@@ -613,7 +613,7 @@ Create the definition for the submit event: `e-w-broad-shareAppt.json`.
 ```
 {% endcode %}
 
-Create the definition for the navigation event after submitting details: `e-w-navig-to-book-1.json`.
+Create the definition for the next navigation event after submitting details: `e-w-navig-to-book-1.json`.
 
 {% code title="e-w-navig-to-book-1.json" %}
 ```json
@@ -643,8 +643,9 @@ Create the definition for the navigation event after submitting details: `e-w-na
 
 ### 4. Create the event handler definitions
 
-Create the event handler definition for the navigation event to enter booking details: `eh-w-navig-to-details.json`.
+Create the event handler definition for the navigation event with booking details: `eh-w-navig-to-details.json`.
 
+{% code title="" %}
 ```json
 {
     "walletEventHandler": [
@@ -672,9 +673,11 @@ Create the event handler definition for the navigation event to enter booking de
     ]
 }
 ```
+{% endcode %}
 
-Create the event handler definition for the submit event that sends the booking details to the admin node: `eh-h-e-w-broad-shareAppt.json`.
+Create the event handler definition for saving data to the `BOOKING_DETAILS` collection: `eh-h-e-w-broad-shareAppt.json`. This node event handler also appends attributes to the payload.
 
+{% code title="eh-h-e-w-broad-shareAppt.json" %}
 ```json
 {
     "nodeEventHandlers": [
@@ -797,9 +800,11 @@ Create the event handler definition for the submit event that sends the booking 
     ]
 }
 ```
+{% endcode %}
 
-Create the event handler definition for the navigation event after submitting booking details: `eh-w-navig-to-book-1`. The booking details are stored in the data collection: `td/td-BOOKING_DETAILS`.
+Create the event handler definition for the navigation event after submitting booking details: `eh-w-navig-to-book-1.json`. The booking details are fetched from the data collection: `td/td-BOOKING_DETAILS`.
 
+{% code title="eh-w-navig-to-book-1.json" %}
 ```json
 {
     "walletEventHandler": [
@@ -827,3 +832,5 @@ Create the event handler definition for the navigation event after submitting bo
     ]
 }
 ```
+{% endcode %}
+

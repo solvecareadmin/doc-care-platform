@@ -73,7 +73,7 @@ description: >-
 
 ## SOLVE token usage
 
-<table><thead><tr><th width="205">Field Name</th><th width="150">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>deposit_value</td><td>string</td><td>The deposit value of SOLVE tokens.</td></tr><tr><td>redemption_value</td><td>string</td><td>The redemption value of SOLVE tokens.</td></tr><tr><td>solve_gas_setting</td><td>JSON</td><td>The SOLVE gas usage setting.</td></tr><tr><td>event_wise_cost</td><td>array</td><td>The event and the cost in SOLVE token.</td></tr><tr><td>event</td><td>string</td><td>The event used for transactions in the network.</td></tr><tr><td>cost</td><td>long</td><td>The cost in SOLVE gas for each event transaction.</td></tr></tbody></table>
+<table><thead><tr><th width="205">Field Name</th><th width="150">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>deposit_value</td><td>string</td><td>The deposit value of SOLVE tokens.</td></tr><tr><td>redemption_value</td><td>string</td><td>The redemption value of SOLVE tokens.</td></tr><tr><td>solve_gas_setting</td><td>JSON</td><td>The SOLVE gas usage setting.</td></tr><tr><td>event_wise_cost</td><td>array</td><td>The event and the cost in SOLVE token.</td></tr><tr><td>event</td><td>string</td><td>The event used for transactions in the network.</td></tr><tr><td>cost</td><td>integer</td><td>The cost in SOLVE gas for each event transaction.</td></tr></tbody></table>
 
 {% code title="Example:" %}
 ```json
