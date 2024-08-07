@@ -20,7 +20,7 @@ A Care.Card is an interactive module encapsulating multiple data types, user int
 
 ### Event definitions
 
-Events define the interactions and communication between roles or nodes in the network, such as sending and receiving information. Events are chained together in a time series on a blockchain, creating a secure and transparent record of transactions within the network.
+Events define the interactions and communication between roles or nodes in the network, such as sending and receiving information. Events are chained together in a time series on a blockchain, creating a secure, transparent, and immutable record of transactions within the network.
 
 ### Event handlers
 

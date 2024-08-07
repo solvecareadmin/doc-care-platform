@@ -18,7 +18,7 @@ The **Data Layer** provides secure, transparent, decentralized data storage and 
 
 * **MainNet**: Holds the core registry service that maps Care.Wallet users to their respective Care.Networks, such as the country matrix for region-based services.
 * **Node Vault**: A secure and decentralized storage of data for Care.Nodes, with backups stored in [Storj](https://www.storj.io/).
-* **Event Ledger**: A decentralized record of event logs from sender and recipient node addresses, including payload data.
+* **Event Ledger**: A decentralized, immutable record of event logs from sender and recipient node addresses, including payload data.
 * **Care Data Node (CDN)**: A specialized node created for each network. It manages data storage, processing, and exchanges with external systems.
 
 ## Compute Layer
