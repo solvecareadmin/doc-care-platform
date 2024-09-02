@@ -2,8 +2,8 @@
 
 ### Getting matched for clinical trials
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-home-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -26,8 +26,8 @@
 
 ### Swiping matched trials
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **See Trials Near You**.
 
 <figure><img src="../../.gitbook/assets/care-trials-see-trials-near-you.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -40,8 +40,8 @@
 
 ### Uploading your medical records and ID
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Records Review and ID Verification**.
 
 <figure><img src="../../.gitbook/assets/care-trials-records-review.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -59,8 +59,8 @@
 
 ### Submitting records for review or verification
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Records Review and ID Verification**.
 4. Select **Records Review and ID Verification**.&#x20;
 
@@ -78,8 +78,8 @@
 
 ### Viewing records history
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Records Review and ID Verification**.
 4. Select **Records & ID History**.
 
@@ -91,8 +91,8 @@
 
 ### Managing liked trials
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **See your Likes and Matches**.
 
 <figure><img src="../../.gitbook/assets/care-trials-manage-likes.png" alt="" width="188"><figcaption></figcaption></figure>

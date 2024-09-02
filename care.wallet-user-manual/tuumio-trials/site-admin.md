@@ -2,8 +2,8 @@
 
 ### Activating a site
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -31,11 +31,11 @@
 ### Buying leads
 
 {% hint style="info" %}
-In Care.Trials, a lead is a potential participant in clinical trials. Make sure you have enough SOLVE balance to buy a lead. For instructions on how to buy SOLVE, see [Buying SOLVE tokens](../solve-tokens.md#buying-solve).
+In TuumIO Trials, a lead is a potential participant in clinical trials. Make sure you have enough SOLVE balance to buy a lead. For instructions on how to buy SOLVE, see [Buying SOLVE tokens](../solve-tokens.md#buying-solve).
 {% endhint %}
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **See Your Matches**.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-see-your-matches.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -48,8 +48,8 @@ In Care.Trials, a lead is a potential participant in clinical trials. Make sure 
 
 ### Updating trial info
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -74,8 +74,8 @@ In Care.Trials, a lead is a potential participant in clinical trials. Make sure 
 You must upgrade your plan in order to buy campaigns.
 {% endhint %}
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -93,8 +93,8 @@ You must upgrade your plan in order to buy campaigns.
 
 ### Requesting budget
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -120,8 +120,8 @@ You must upgrade your plan in order to buy campaigns.
 
 ### Checking statistics
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-site-admin-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -141,8 +141,8 @@ You must upgrade your plan in order to buy campaigns.
 
 ### Connecting with the lead
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Connect and Engage**.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-connect-engage.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -161,8 +161,8 @@ You must upgrade your plan in order to buy campaigns.
 
 ### Submitting records to Nurse for review and verification
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Connect and Engage**.
 
 <figure><img src="../../.gitbook/assets/care-trials-sa-connect-engage.png" alt="" width="188"><figcaption></figcaption></figure>

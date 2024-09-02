@@ -1,9 +1,9 @@
 # User Access
 
-### Signing up to Care.Wallet
+### Signing up to TuumIO Wallet
 
-1. Open the Care.Wallet app from your mobile device.
-2. Tap **Create new Care.Wallet**.
+1. Open the TuumIO Wallet app from your mobile device.
+2. Tap **Create new TuumIO Wallet**.
 
 <div align="center">
 
@@ -58,10 +58,10 @@
 Save your recovery phrase and keep it in a safe place. For complete instructions, see [Saving your recovery phrase](user-access.md#saving-your-recovery-phrase).
 {% endhint %}
 
-### Signing in to Care.Wallet
+### Signing in to TuumIO Wallet
 
 1. Open the Care.Wallet app from your mobile device.
-2. Tap **I already have a Care.Wallet**.
+2. Tap **I already have a TuumIO Wallet**.
 
 <div align="center">
 
@@ -119,7 +119,7 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 
 ### Saving your recovery phrase
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Save your Recovery Phrase**.
 
 <div align="center">
@@ -146,13 +146,13 @@ Save your recovery phrase and keep it in a safe place. For complete instructions
 </div>
 
 {% hint style="info" %}
-If you lose your mobile device or uninstall the app, you can use the recovery phrase to restore your access to Care.Wallet.
+If you lose your mobile device or uninstall the app, you can use the recovery phrase to restore your access to TuumIO Wallet.
 {% endhint %}
 
 ### Recovering your access
 
-1. Open the Care.Wallet app from your mobile device.
-2. Tap **I already have a Care.Wallet**.
+1. Open the TuumIO Wallet app from your mobile device.
+2. Tap **I already have a TuumIO Wallet**.
 3. Enter your recovery phrase.
 
 <div align="center">

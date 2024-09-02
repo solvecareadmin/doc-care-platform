@@ -1,8 +1,8 @@
-# Care.Ledger
+# TuumIO Ledger
 
 ## Viewing event records history
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Ledger**.
 
 <figure><img src="../.gitbook/assets/cw-bottom-menu-ledger.png" alt="" width="375"><figcaption></figcaption></figure>

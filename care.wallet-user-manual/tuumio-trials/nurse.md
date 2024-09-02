@@ -2,8 +2,8 @@
 
 ### Reviewing ID and medical records
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Manage the Records > Pending record review**.
 
 <div>
@@ -32,8 +32,8 @@
 
 ### Viewing history of reviewed records
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Record** **> Reviewed records**.
 
 <figure><img src="../../.gitbook/assets/care-trials-nurse-reviewed-records.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -52,8 +52,8 @@
 
 ### Reviewing lead eligibility
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Review Trials Liked by Leads > Pending Review**.
 
 <div>
@@ -77,8 +77,8 @@
 
 ### Viewing lead verification details
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Review Trials Liked by Leads > Reviewed Leads**.
 
 <figure><img src="../../.gitbook/assets/care-trials-nurse-reviewed-leads.png" alt="" width="188"><figcaption></figcaption></figure>

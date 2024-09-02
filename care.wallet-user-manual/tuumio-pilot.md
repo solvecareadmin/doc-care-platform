@@ -1,4 +1,4 @@
-# Care.Pilot
+# TuumIO Pilot
 
 ## Welcome aboard!
 
@@ -6,8 +6,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ## Learn about Care.Wallet
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Learn**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Learn**.
 
 <figure><img src="../.gitbook/assets/care-pilot-learn.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -21,8 +21,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Adding your ID or medical records
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Manage**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Manage**.
 
 <figure><img src="../.gitbook/assets/care-pilot-my-records.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -42,14 +42,14 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Sharing your records
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Manage**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Manage**.
 3. Select **My Records**.
 4. Tap the record you want to share.
 
 <figure><img src="../.gitbook/assets/care-pilot-my-records-select.png" alt="" width="188"><figcaption></figcaption></figure>
 
-5. Select a recipient from your Care.Circle or recent contacts, or use the recipient's wallet ID.
+5. Select a recipient from your TuumIO Circle or recent contacts, or use the recipient's wallet ID.
 
 <figure><img src="../.gitbook/assets/care-pilot-share-record-circle.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -57,8 +57,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Viewing shared records
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Manage**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Manage**.
 3. Select "**Shared with me**".
 
 <figure><img src="../.gitbook/assets/care-pilot-shared.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -71,8 +71,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Sending health questions
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Ask**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Ask**.
 
 <figure><img src="../.gitbook/assets/care-pilot-ask.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -80,7 +80,7 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 <figure><img src="../.gitbook/assets/care-pilot-ask-question.png" alt="" width="188"><figcaption></figcaption></figure>
 
-4. Enter the Care.Wallet ID of the recipient, then select a question.
+4. Enter the TuumIO Wallet ID of the recipient, then select a question.
 
 <figure><img src="../.gitbook/assets/care-pilot-ask-question-send.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -88,8 +88,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Answering received questions
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Ask**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Ask**.
 3. Tap "**My answers**".
 
 <figure><img src="../.gitbook/assets/care-pilot-my-answers.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -106,8 +106,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 ### Viewing sent history
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Ask**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Ask**.
 3. Tap "**Sent by me**".
 
 <figure><img src="../.gitbook/assets/care-pilot-ask-sent-history.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -120,8 +120,8 @@ Start your journey to better health, connect with your loved ones, and engage wi
 
 Participate in surveys and get updates from the community.
 
-1. Sign in to your Care.Wallet app.
-2. From the Care.Pilot screen, tap **Engage**.
+1. Sign in to your TuumIO Wallet app.
+2. From the TuumIO Pilot screen, tap **Engage**.
 
 <figure><img src="../.gitbook/assets/care-pilot-engage.png" alt="" width="188"><figcaption></figcaption></figure>
 

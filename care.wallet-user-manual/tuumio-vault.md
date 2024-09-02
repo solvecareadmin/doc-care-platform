@@ -1,8 +1,8 @@
-# Care.Vault
+# TuumIO Vault
 
 ## Viewing user event records
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Vault**.
 
 <figure><img src="../.gitbook/assets/cw-bottom-menu-vault.png" alt="" width="375"><figcaption></figcaption></figure>

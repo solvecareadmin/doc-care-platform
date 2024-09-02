@@ -2,8 +2,8 @@
 
 ### Activating a trial
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -30,8 +30,8 @@
 
 ### Updating trial info
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Start Here**.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-start.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -52,8 +52,8 @@
 
 ### Setting the budget
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Manage Sites**.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-manage-sites.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -87,8 +87,8 @@
 
 ### Checking the site statistics
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Manage Sites**.
 
 <figure><img src="../../.gitbook/assets/care-trials-ta-manage-sites.png" alt="" width="188"><figcaption></figcaption></figure>

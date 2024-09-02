@@ -4,13 +4,13 @@ description: This section provides examples on how to configure Python event han
 
 # Python Event Handlers
 
-The Python event handler contains a set of base classes that provide an interface to the platform's core components, such as Vault, Wallet, Node, and Care Data Node (CDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
+The Python event handler contains a set of base classes that provide an interface to the platform's core components, such as Vault, Wallet, Node, and TuumIO Data Node (TDN). The following template includes base classes and functions that provide features to retrieve, search, update, and save data.
 
 ## Python template
 
 {% code title="Example:" fullWidth="false" %}
 ```python
-class CDN:
+class TDN:
     def __init__(self, index: str):
         self.context = context
         self.index = index
@@ -77,10 +77,10 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 {% code title="Example:" %}
 ```json
 {
-    "id": "ev-cdn-broadcast",
-    "name": "N.CDN.BROADCAST.MESSAGE",
-    "code": "N.CDN.BROADCAST.MESSAGE",
-    "description": "CDN broadcast message",
+    "id": "ev-tdn-broadcast",
+    "name": "N.TDN.BROADCAST.MESSAGE",
+    "code": "N.TDN.BROADCAST.MESSAGE",
+    "description": "TDN broadcast message",
     "status": "Active",
     "type": "NODE_TO_ROLE",
     "from_role": "DATA_NODE",
@@ -99,9 +99,9 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 ```json
 {
   "definition": {
-    "description": "Broadcast CDN message",
-    "name": "N_CDN_BROADCAST_MESSAGE",
-    "resource": "N_CDN_BROADCAST_MESSAGE",
+    "description": "Broadcast TDN message",
+    "name": "N_TDN_BROADCAST_MESSAGE",
+    "resource": "N_TDN_BROADCAST_MESSAGE",
     "type": "EVENT_DATA"
   },
   "structure": {
@@ -166,10 +166,10 @@ def execute(ctx: HandlerExecutionContext) -> Map:
 ```json
  {
     "id": "eh-n-patient-process-py",
-    "name": "N.CDN.BROADCAST.MESSAGE",
-    "description": "N.CDN.BROADCAST.MESSAGE",
+    "name": "N.TDN.BROADCAST.MESSAGE",
+    "description": "N.TDN.BROADCAST.MESSAGE",
     "status": "Active",
-    "event": "ev-cdn-broadcast",
+    "event": "ev-tdn-broadcast",
     "type": "NODE_EVENT_HANDLER",
     "python_event_handler_ref": "python-event-handler/eh-n-patient-process.py"
   }

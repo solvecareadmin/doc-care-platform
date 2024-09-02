@@ -1,7 +1,7 @@
 # Publishing the protocol
 
 {% hint style="info" %}
-Use Postman to perform the steps for publishing. To get the authorization and environment details, contact [care.support@solve.care](mailto:care.support@solve.care)_._
+Use Postman to perform the steps for publishing. To get the authorization and environment details, contact [tuumio.support@solve.care](mailto:care.support@solve.care)_._
 {% endhint %}
 
 ## Fetch MainNet authorization token
@@ -111,13 +111,13 @@ curl --location --globoff 'https://{{eks-env}}/generic-protocol-service/v2/packa
 ```
 {% endcode %}
 
-## Update CDN
+## Update TDN
 
 Upload the CSV file with the same attributes as the uploaded DDF in the input folder of the Amazon S3 bucket. If necessary, delete existing data.
 
 ### Uploading data definition file (DDF)
 
-The data definition file contains the model and structure for organizing data in CDN.
+The data definition file contains the model and structure for organizing data in TDN.
 
 <mark style="color:orange;">**POST**</mark>
 
@@ -216,7 +216,7 @@ curl --location 'https://elasticsearch/us-doctors-sample/_search' \
 ```
 {% endcode %}
 
-### Deleting existing data from CDN
+### Deleting existing data from TDN
 
 <mark style="color:orange;">**POST**</mark>
 

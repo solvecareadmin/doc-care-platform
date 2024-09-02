@@ -1,8 +1,8 @@
-# SOLVE tokens
+# SOLVE Tokens
 
 ## Buying SOLVE
 
-1. Sign in to the Care.Wallet app.
+1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **SOLVE**.
 
 <figure><img src="../.gitbook/assets/cw-bottom-menu-solve.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -22,7 +22,7 @@
 
 ## Depositing SOLVE
 
-1. Sign in to the Care.Wallet app.
+1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **SOLVE**.
 3. Select **Deposit SOLVE**.
 
@@ -34,7 +34,7 @@
 
 ## Transferring SOLVE
 
-1. Sign in to the Care.Wallet app.
+1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **SOLVE**.
 3. Select **Transfer/Gift SOLVE**.
 
@@ -62,7 +62,7 @@
 
 ## Paying bills
 
-1. Sign in to the Care.Wallet app.
+1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **SOLVE**.
 3. Select **Pay Bills**.
 
@@ -73,7 +73,7 @@
 
 ## Viewing transactions history
 
-1. Sign in to the Care.Wallet app.
+1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **SOLVE**.
 3. Select **Transactions History**.
 

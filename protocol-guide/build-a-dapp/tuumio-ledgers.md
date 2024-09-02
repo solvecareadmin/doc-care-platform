@@ -1,8 +1,8 @@
-# Care Ledgers
+# TuumIO Ledgers
 
-## Care Ledger specifications
+## TuumIO Ledger specifications
 
-A care ledger is used to store and manage data related to events or transactions within the network. If necessary, include details about `care_ledgers` and `care_ledger_tags` in your protocol.
+A TuumIO ledger is used to store and manage data related to events or transactions within the network. If necessary, include details about `tuumIO_ledgers` and `tuumIO_ledger_tags` in your protocol.
 
 Use tags to categorize data within care ledgers, such as Appointments, Prescriptions, Results, and others.
 
@@ -13,7 +13,7 @@ Use tags to categorize data within care ledgers, such as Appointments, Prescript
 
 {% code title="Example:" %}
 ```json
-        "care_ledger_tags": [            
+        "tuumIO_ledger_tags": [            
             {
                 "id": "clt-Answer-QA",
                 "name": "Answer QA"
@@ -28,19 +28,19 @@ Use tags to categorize data within care ledgers, such as Appointments, Prescript
 
 Declare the attributes and values for the care ledgers.
 
-| Field Name         | Value  | Description                                                                       |
-| ------------------ | ------ | --------------------------------------------------------------------------------- |
-| id                 | string | The unique ID of the care ledger.                                                 |
-| name               | string | The name of the care ledger.                                                      |
-| description        | string | The description of the care ledger.                                               |
-| event\_id          | string | The reference ID of the event to be recorded in the care ledger.                  |
-| private\_cards     | array  | The cards with consent to view.                                                   |
-| public\_cards      | array  | The cards associated to the event record, which can be shared across the network. |
-| care\_ledger\_tags | array  | The reference IDs of the care ledger tags.                                        |
+| Field Name           | Value  | Description                                                                       |
+| -------------------- | ------ | --------------------------------------------------------------------------------- |
+| id                   | string | The unique ID of the tuumIO ledger.                                               |
+| name                 | string | The name of the tuumIO ledger.                                                    |
+| description          | string | The description of the tuumIO ledger.                                             |
+| event\_id            | string | The reference ID of the event to be recorded in the tuumIO ledger.                |
+| private\_cards       | array  | The cards with consent to view.                                                   |
+| public\_cards        | array  | The cards associated to the event record, which can be shared across the network. |
+| tuumIO\_ledger\_tags | array  | The reference IDs of the tuumIO ledger tags.                                      |
 
 {% code title="Example:" %}
 ```json
-        "care_ledgers": [
+        "tuumIO_ledgers": [
             {
                 "id": "cl-e-PSbUgucq4Z8zCSemaBiuSyc2uijm8",
                 "name": "Answer QA",

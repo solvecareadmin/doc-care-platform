@@ -2,8 +2,8 @@
 
 ### Verifying ID and medical license
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Verify your identity > Verify your identity**.
 
 <div>
@@ -24,8 +24,8 @@
 
 ### Viewing history of submitted IDs
 
-1. Sign in to the Care.Wallet app.
-2. From the Manage Networks screen, tap **Care.Trials**.
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **TuumIO Trials**.
 3. Tap **Verify your identity > ID history**.
 
 <figure><img src="../../.gitbook/assets/care-trials-physician-id-history.png" alt="" width="188"><figcaption></figcaption></figure>

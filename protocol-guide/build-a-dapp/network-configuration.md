@@ -13,7 +13,7 @@ description: >-
 {% code title="Example:" %}
 ```json
 {
-    "care_protocol": {
+    "tuumIO_protocol": {
         "network_id": "dev-network-xxx",
         "node_url": "https://site000.abc.net",
         "name": "My Care Network",

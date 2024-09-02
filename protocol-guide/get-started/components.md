@@ -1,7 +1,7 @@
 ---
 description: >-
   This section describes the structured files and modules that can be configured
-  in Care.Protocol.
+  in TuumIO Protocol.
 ---
 
 # Components
@@ -10,13 +10,13 @@ description: >-
 
 The `input.json` file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
 
-### Care Data Node
+### TuumIO Data Node
 
-The Care Data Node (CDN) serves as the network's central database for storing and processing data files. It facilitates data exchange with external client systems, including electronic medical records, claims systems, member systems, and payment systems.
+The TuumIO Data Node (TDN) serves as the network's central database for storing and processing data files. It facilitates data exchange with external client systems, including electronic medical records, claims systems, member systems, and payment systems.
 
-### Care.Card definitions
+### TuumIO Card definitions
 
-A Care.Card is an interactive module encapsulating multiple data types, user interface elements, and interoperable functions. The Care.Card definition structure includes card data, layout, card footer, and UI actions.
+A TuumIO Card is an interactive module encapsulating multiple data types, user interface elements, and interoperable functions. The TuumIO Card definition structure includes card data, layout, card footer, and UI actions.
 
 ### Event definitions
 

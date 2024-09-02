@@ -8,7 +8,7 @@ description: >-
 
 ## Roles
 
-A role is a fundamental element of Care.Protocol that represents a specific participant type, such as patients or doctors. Each role is defined with the corresponding cards and events.
+A role is a fundamental element of TuumIO Protocol that represents a specific participant type, such as patients or doctors. Each role is defined with the corresponding cards and events.
 
 <table><thead><tr><th width="185">Field Name</th><th width="148">Value Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>The unique ID of the role.</td></tr><tr><td>name</td><td>string</td><td>The name of the role.</td></tr><tr><td>description</td><td>string</td><td>The description of the role.</td></tr><tr><td>type</td><td>string</td><td>The role type is defined in the platform.</td></tr><tr><td>status</td><td>string</td><td>The status of the role is set to Active.</td></tr><tr><td>version</td><td>number</td><td>The role's version number is updated when the role metadata value changes.</td></tr><tr><td>td_collections</td><td>array</td><td>The transactional data records are linked to the role.</td></tr><tr><td>allow_events_with_role</td><td>array</td><td>The events allowed for the role.</td></tr><tr><td>home_card_ref_id</td><td>string</td><td>The reference ID to the home card for the role.</td></tr></tbody></table>
 

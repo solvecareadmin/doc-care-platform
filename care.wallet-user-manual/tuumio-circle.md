@@ -1,13 +1,13 @@
-# Care.Circle
+# TuumIO Circle
 
 ## Inviting participants
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Circle**.
 
 <figure><img src="../.gitbook/assets/cw-bottom-menu-circle.png" alt="" width="375"><figcaption></figcaption></figure>
 
-3. Navigate to **My Care.Circle** **>** **Invite Participants**.
+3. Navigate to **My TuumIO Circle** **>** **Invite Participants**.
 
 <figure><img src="../.gitbook/assets/care-circle-invite-participants.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -46,9 +46,9 @@
 
 ## Assigning a nickname
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Circle**.
-3. Navigate to **My Care.Circle** **>** **Invite Participants**.
+3. Navigate to **My TuumIO Circle** **>** **Invite Participants**.
 4. Select the participant.
 5. Tap **Assign nickname**.
 
@@ -58,10 +58,10 @@
 
 ## Removing participants
 
-1. Sign in to your Care.Wallet app.
+1. Sign in to your TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Circle**.
-3. Navigate to **My Care.Circle** **>** **Invite Participants**.
+3. Navigate to **My TuumIO Circle** **>** **Invite Participants**.
 4. Select the participant.
-5. Tap **Remove from Care.Circle > Remove**.
+5. Tap **Remove from TuumIO Circle > Remove**.
 
 <figure><img src="../.gitbook/assets/care-circle-remove-from-circle.png" alt="" width="188"><figcaption></figcaption></figure>
