@@ -2,7 +2,7 @@
 
 **TuumIO** **Protocol** defines the rules governing information communication and data exchange. It employs an event-driven architecture and utilizes JSON files to represent configurations for roles, relationships, journeys, events, and interactions. By using standard data structures, it reduces complexity and enables interoperability between systems.
 
-In this guide, you'll learn how to manually author Care.Protocol using provided examples.
+In this guide, you'll learn how to manually author TuumIO Protocol using provided examples.
 
 ### Structure of files and folders
 

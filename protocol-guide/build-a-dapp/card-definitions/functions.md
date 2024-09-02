@@ -764,11 +764,11 @@ Adds links inside the text of a tile, such as [Tile0: Text Label](tiles.md#tile0
               "urls": [
                   { 
                     "label":"Terms",
-                    "url":"https://solve.care/carewallet-terms-and-conditions/" 
+                    "url":"https://solve.care/tuumiowallet-terms-and-conditions/" 
                   },
                   {
                     "label":"Privacy",
-                    "url":"https://solve.care/carewallet-privacy-policy/" 
+                    "url":"https://solve.care/tuumiowallet-privacy-policy/" 
                   }
               ]
           }

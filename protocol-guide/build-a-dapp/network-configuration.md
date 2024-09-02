@@ -16,9 +16,9 @@ description: >-
     "tuumIO_protocol": {
         "network_id": "dev-network-xxx",
         "node_url": "https://site000.abc.net",
-        "name": "My Care Network",
+        "name": "My TuumIO Network",
         "version": 1,
-        "description": "This is a sample care network.",
+        "description": "This is a sample TuumIO network.",
         "publish_date": "2024-03-27",
         "effective_date": "2024-03-27",
 ```

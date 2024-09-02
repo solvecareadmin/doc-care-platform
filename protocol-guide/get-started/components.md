@@ -8,7 +8,7 @@ description: >-
 
 ### `input.json`
 
-The `input.json` file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and care ledgers.
+The `input.json` file is a hierarchical structure of objects defined within a network. It contains information about the network, roles, journeys, cards, events, event handlers, and TuumIO ledgers.
 
 ### TuumIO Data Node
 

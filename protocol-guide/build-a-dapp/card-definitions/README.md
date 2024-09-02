@@ -60,7 +60,7 @@ Card data can include text, images, links or different types of information rele
     "id": "cd-start-rl-patient",
     "name": "Get started",
     "cardData": {
-        "Tile11000vtext": "Welcome to my care network!",
+        "Tile11000vtext": "Welcome to my TuumIO network!",
         "Tile11000vsubText": "This is an example.",
         "Tile11000vsubText1": "This is another example.",
         "imgUrlpjbx": "https://123.abc.net/media/Intro.png",

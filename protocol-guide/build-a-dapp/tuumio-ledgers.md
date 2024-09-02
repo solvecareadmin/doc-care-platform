@@ -4,16 +4,16 @@
 
 A TuumIO ledger is used to store and manage data related to events or transactions within the network. If necessary, include details about `tuumIO_ledgers` and `tuumIO_ledger_tags` in your protocol.
 
-Use tags to categorize data within care ledgers, such as Appointments, Prescriptions, Results, and others.
+Use tags to categorize data within TuumIO ledgers, such as Appointments, Prescriptions, Results, and others.
 
-| Field Name | Value  | Description                           |
-| ---------- | ------ | ------------------------------------- |
-| id         | string | The unique ID of the care ledger tag. |
-| name       | string | The name of the care ledger tag.      |
+| Field Name | Value  | Description                             |
+| ---------- | ------ | --------------------------------------- |
+| id         | string | The unique ID of the TuumIO ledger tag. |
+| name       | string | The name of the TuumIO ledger tag.      |
 
 {% code title="Example:" %}
 ```json
-        "tuumIO_ledger_tags": [            
+        "care_ledger_tags": [            
             {
                 "id": "clt-Answer-QA",
                 "name": "Answer QA"
@@ -26,7 +26,7 @@ Use tags to categorize data within care ledgers, such as Appointments, Prescript
 ```
 {% endcode %}
 
-Declare the attributes and values for the care ledgers.
+Declare the attributes and values for the TuumIO ledgers.
 
 | Field Name           | Value  | Description                                                                       |
 | -------------------- | ------ | --------------------------------------------------------------------------------- |
@@ -40,7 +40,7 @@ Declare the attributes and values for the care ledgers.
 
 {% code title="Example:" %}
 ```json
-        "tuumIO_ledgers": [
+        "care_ledgers": [
             {
                 "id": "cl-e-PSbUgucq4Z8zCSemaBiuSyc2uijm8",
                 "name": "Answer QA",
