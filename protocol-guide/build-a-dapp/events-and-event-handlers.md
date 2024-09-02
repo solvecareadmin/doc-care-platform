@@ -16,9 +16,9 @@ An event represents the actions that occur based on user interactions within a n
 
 ### Types of events
 
-* `WALLET_LOCAL` — A local event within Care.Wallet, such as sending data from one card to another.
-* `WALLET_FROM_NODE` — An event that gets data from a specific node, such as retrieving a list of records in Care.Wallet.
-* `WALLET_TO_NODE` — An event that sends data from Care.Wallet to a specific node, such as submitting records.
+* `WALLET_LOCAL` — A local event within TuumIO Wallet, such as sending data from one card to another.
+* `WALLET_FROM_NODE` — An event that gets data from a specific node, such as retrieving a list of records in TuumIO Wallet.
+* `WALLET_TO_NODE` — An event that sends data from TuumIO Wallet to a specific node, such as submitting records.
 * `NODE_TO_NODE` — An event that sends data from one node to another node, such as a patient booking an appointment with a doctor.
 * `NODE_TO_ROLE` — An event that sends data to all nodes with a designated role in a network, such as a patient searching for the nearest pediatrician among all doctors in the network.
 

@@ -383,7 +383,7 @@ Calculates the percentage of the input value.
 
 ### Function.validateReferralCode
 
-Validates if the referral code entered is a valid Care.Wallet ID.
+Validates if the referral code entered is a valid TuumIO Wallet ID.
 
 #### Parameter
 
