@@ -1,6 +1,6 @@
 # Architecture
 
-<figure><img src="../.gitbook/assets/platform-architecture.png" alt="Care.Platform Architecture Layers"><figcaption><p>Figure 4: High-level Platform Architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/platform-tuumIO-architecture (1).png" alt=""><figcaption><p>Figure 4: High-level Platform Architecture</p></figcaption></figure>
 
 ## Application Layer
 
