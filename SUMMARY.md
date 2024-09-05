@@ -33,21 +33,21 @@
 * [Create an Event Booker](tutorials/create-an-event-booker.md)
 * [Create a Library Explorer](tutorials/create-a-library-explorer.md)
 
-### Care.Wallet User Manual
+## Care.Wallet User Manual
 
-#* [Overview](care.wallet-user-manual/overview.md)
-#* [User Access](care.wallet-user-manual/user-access.md)
-#* [TuumIO Pilot](care.wallet-user-manual/tuumio-pilot.md)
-#* [TuumIO Trials](care.wallet-user-manual/tuumio-trials/README.md)
-#  * [Participant](care.wallet-user-manual/tuumio-trials/participant.md)
-#  * [Physician](care.wallet-user-manual/tuumio-trials/physician.md)
-#  * [Site Admin](care.wallet-user-manual/tuumio-trials/site-admin.md)
-#  * [Trial Admin](care.wallet-user-manual/tuumio-trials/trial-admin.md)
-#  * [Nurse](care.wallet-user-manual/tuumio-trials/nurse.md)
-#* [TuumIO Circle](care.wallet-user-manual/tuumio-circle.md)
-#* [TuumIO Ledger](care.wallet-user-manual/tuumio-ledger.md)
-#* [TuumIO Vault](care.wallet-user-manual/tuumio-vault.md)
-#* [SOLVE Tokens](care.wallet-user-manual/solve-tokens.md)
+* [Overview](care.wallet-user-manual/overview.md)
+* [User Access](care.wallet-user-manual/user-access.md)
+* [TuumIO Pilot](care.wallet-user-manual/tuumio-pilot.md)
+* [TuumIO Trials](care.wallet-user-manual/tuumio-trials/README.md)
+  * [Participant](care.wallet-user-manual/tuumio-trials/participant.md)
+  * [Physician](care.wallet-user-manual/tuumio-trials/physician.md)
+  * [Site Admin](care.wallet-user-manual/tuumio-trials/site-admin.md)
+  * [Trial Admin](care.wallet-user-manual/tuumio-trials/trial-admin.md)
+  * [Nurse](care.wallet-user-manual/tuumio-trials/nurse.md)
+* [TuumIO Circle](care.wallet-user-manual/tuumio-circle.md)
+* [TuumIO Ledger](care.wallet-user-manual/tuumio-ledger.md)
+* [TuumIO Vault](care.wallet-user-manual/tuumio-vault.md)
+* [SOLVE Tokens](care.wallet-user-manual/solve-tokens.md)
 
 ***
 
