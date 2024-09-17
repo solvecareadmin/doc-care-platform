@@ -34,12 +34,12 @@
   * [Caira - AI Assistant](protocol-guide/tuumio-wallet-user-manual/caira-ai-assistant.md)
   * [User Profile](protocol-guide/tuumio-wallet-user-manual/user-profile.md)
   * [Care.Trials](protocol-guide/tuumio-wallet-user-manual/care.trials/README.md)
-    * [Nurse](protocol-guide/tuumio-wallet-user-manual/care.trials/nurse.md)
     * [Overview](protocol-guide/tuumio-wallet-user-manual/care.trials/overview.md)
     * [Participant](protocol-guide/tuumio-wallet-user-manual/care.trials/participant.md)
-    * [Physician](protocol-guide/tuumio-wallet-user-manual/care.trials/physician.md)
     * [Site Admin](protocol-guide/tuumio-wallet-user-manual/care.trials/site-admin.md)
     * [Trial Admin](protocol-guide/tuumio-wallet-user-manual/care.trials/trial-admin.md)
+    * [Physician](protocol-guide/tuumio-wallet-user-manual/care.trials/physician.md)
+    * [Nurse](protocol-guide/tuumio-wallet-user-manual/care.trials/nurse.md)
 
 ## Tutorials
 
