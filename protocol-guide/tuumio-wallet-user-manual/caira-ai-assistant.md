@@ -6,15 +6,11 @@
 
 1. Sign in to the TuumIO Wallet app.
 2. From the bottom navigation bar, tap **Caira**.\
-   ![](.gitbook/assets/Screenshot\_20240917\_165125.png)\
+   ![](../../.gitbook/assets/Screenshot\_20240917\_165125.png)\
    \
-   ![](.gitbook/assets/Screenshot\_20240917\_165134.png)
+   ![](../../.gitbook/assets/Screenshot\_20240917\_165134.png)
 3. Allow the app to access your device's microphone.\
-   ![](.gitbook/assets/Screenshot\_20240917\_165109.png)
+   ![](../../.gitbook/assets/Screenshot\_20240917\_165109.png)
 4. Share your query to Caira.
 5. You will see the result to your requested query.\
-   ![](.gitbook/assets/Screenshot\_20240917\_170934.png)
-
-
-
-<figure><img src="../../.gitbook/assets/Screenshot_20240917_170934.png" alt="" width="188"><figcaption></figcaption></figure>
+   ![](../../.gitbook/assets/Screenshot\_20240917\_170934.png)
