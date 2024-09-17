@@ -15,7 +15,8 @@ Users can also view detailed descriptions of each field and learn how their data
 Additionally, users have the option to delete their wallet account if they no longer wish to use the service.
 
 To open the profile screen, tap 'Profile' from the bottom navigation bar.\
+![](../../.gitbook/assets/Screenshot\_20240917\_174347.png)\
 \
+![](../../.gitbook/assets/Screenshot\_20240917\_174355.png)\
 \
-\
-\
+![](../../.gitbook/assets/Screenshot\_20240917\_174405.png)
