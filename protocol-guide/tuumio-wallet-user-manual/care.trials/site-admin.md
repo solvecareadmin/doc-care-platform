@@ -5,17 +5,17 @@
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Activate your site**.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_223401.png)
 4. Tap **Activate Site**.
 5. Tap **Step 1: Request site code.**\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_223738.png)
 6. Enter the Trial ID and the email address where you want the activation code to be sent.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_223922.png)
 7. Tap **Request code**. Wait for the activation code to be sent to your email.
 8. Tap **Step 2: Activate site role**.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_224145.png)
 9. Enter the activation code sent to your email.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_224219.png)
 10. Tap **Activate Site**.
 
 ### Buying leads
@@ -27,7 +27,7 @@ In TuumIO Trials, a lead is a potential participant in clinical trials. Make sur
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **See Your Matches**.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_224304.png)
 4. Swipe left or right to browse through matched leads.
 5. Like the lead you want buy. You can also skip or go back to the previous lead.
 
