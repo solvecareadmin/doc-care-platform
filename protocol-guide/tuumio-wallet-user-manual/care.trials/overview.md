@@ -16,9 +16,10 @@ Participate in clinical trials to help discover new treatments and contribute to
 
 1. Sign in to the TuumIO Wallet app.
 2. From the CTN Home screen, select the role you want to join.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_231910.png)
 3. Tap any card of the role.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_232309.png)
 4. Please review the terms and conditions.
 5. Tap the join button.
 6. Wait up to 5 minutes to connect your TuumIO Wallet to the network.
+
