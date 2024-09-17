@@ -27,19 +27,21 @@
 * [Test and Publish](protocol-guide/test-and-publish/README.md)
   * [Publishing the protocol](protocol-guide/test-and-publish/publishing-the-protocol.md)
   * [Testing the app using BrowserStack](protocol-guide/test-and-publish/testing-the-app-using-browserstack.md)
-* [TuumIO Wallet User Manual](protocol-guide/tuumio-wallet-user-manual/README.md)
-  * [About TuumIO Wallet](protocol-guide/tuumio-wallet-user-manual/about-tuumio-wallet.md)
-  * [User Access](protocol-guide/tuumio-wallet-user-manual/user-access.md)
-  * [SOLVE Tokens](protocol-guide/tuumio-wallet-user-manual/solve-tokens.md)
-  * [Caira - AI Assistant](protocol-guide/tuumio-wallet-user-manual/caira-ai-assistant.md)
-  * [User Profile](protocol-guide/tuumio-wallet-user-manual/user-profile.md)
-  * [Care.Trials](protocol-guide/tuumio-wallet-user-manual/care.trials/README.md)
-    * [Overview](protocol-guide/tuumio-wallet-user-manual/care.trials/overview.md)
-    * [Participant](protocol-guide/tuumio-wallet-user-manual/care.trials/participant.md)
-    * [Site Admin](protocol-guide/tuumio-wallet-user-manual/care.trials/site-admin.md)
-    * [Trial Admin](protocol-guide/tuumio-wallet-user-manual/care.trials/trial-admin.md)
-    * [Physician](protocol-guide/tuumio-wallet-user-manual/care.trials/physician.md)
-    * [Nurse](protocol-guide/tuumio-wallet-user-manual/care.trials/nurse.md)
+
+## TuumIO Wallet User Manual
+
+* [About TuumIO Wallet](tuumio-wallet-user-manual/about-tuumio-wallet.md)
+* [User Access](tuumio-wallet-user-manual/user-access.md)
+* [SOLVE Tokens](tuumio-wallet-user-manual/solve-tokens.md)
+* [Caira - AI Assistant](tuumio-wallet-user-manual/caira-ai-assistant.md)
+* [User Profile](tuumio-wallet-user-manual/user-profile.md)
+* [Care.Trials](tuumio-wallet-user-manual/care.trials/README.md)
+  * [Overview](tuumio-wallet-user-manual/care.trials/overview.md)
+  * [Participant](tuumio-wallet-user-manual/care.trials/participant.md)
+  * [Site Admin](tuumio-wallet-user-manual/care.trials/site-admin.md)
+  * [Trial Admin](tuumio-wallet-user-manual/care.trials/trial-admin.md)
+  * [Physician](tuumio-wallet-user-manual/care.trials/physician.md)
+  * [Nurse](tuumio-wallet-user-manual/care.trials/nurse.md)
 
 ## Tutorials
 

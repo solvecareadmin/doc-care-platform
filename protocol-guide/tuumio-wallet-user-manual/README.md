@@ -1,2 +1,0 @@
-# TuumIO Wallet User Manual
-
