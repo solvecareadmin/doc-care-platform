@@ -36,7 +36,7 @@ In TuumIO Trials, a lead is a potential participant in clinical trials. Make sur
 
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
-3. Tap **Start Here**.\
+3. Tap **Activate your site**.\
    ![](../../../.gitbook/assets/Screenshot\_20240917\_185334.png)
 4. In the "Active site" list, select the trial you want to update.\
    ![](../../../.gitbook/assets/Screenshot\_20240917\_185347.png)
@@ -54,7 +54,7 @@ You must upgrade your plan in order to buy campaigns.
 
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
-3. Tap **Start Here**.\
+3. Tap **Activate your site**.\
    ![](../../../.gitbook/assets/Screenshot\_20240917\_185550.png)
 4. In the "Active site" list, select the trial you want to update.
 5. Tap **Buy campaign**.\
@@ -67,7 +67,7 @@ You must upgrade your plan in order to buy campaigns.
 
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
-3. Tap **Start Here**.\
+3. Tap **Activate your site**.\
    ![](../../../.gitbook/assets/Screenshot\_20240917\_185715.png)
 4. In the "Active site" list, select the trial you want to update.
 5. Tap **Track Budget > Request budget**.\
@@ -82,7 +82,7 @@ You must upgrade your plan in order to buy campaigns.
 
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
-3. Tap **Start Here**.\
+3. Tap **Activate your site**.\
    ![](../../../.gitbook/assets/Screenshot\_20240917\_185858.png)
 4. In the "Active site" list, select a trial.
 5. Tap **Check statistics > Update data.**\

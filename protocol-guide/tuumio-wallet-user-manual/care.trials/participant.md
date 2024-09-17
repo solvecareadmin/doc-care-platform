@@ -30,7 +30,7 @@
 
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
-3. Tap **Records Review and ID Verification**.\
+3. Tap **Records and ID**.\
    ![](../../../.gitbook/assets/Screenshot\_20240916\_222157.png)
 4. Select **Upload records and ID**.\
    ![](../../../.gitbook/assets/Screenshot\_20240916\_222218.png)
@@ -60,8 +60,7 @@
 4. Select **Records & ID History**.\
    ![](../../../.gitbook/assets/Screenshot\_20240916\_222651.png)
 5. Select the record or ID that you want to view.\
-   ![](../../../.gitbook/assets/Screenshot\_20240916\_222704.png)\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_222704.png)\\
 
 ### Managing liked trials
 
@@ -74,4 +73,3 @@
    * **Matched** — View the clinical trials you liked that the site admin has responded to.
    * **No response** — View the clinical trials you liked that the site admin has not yet responded to.
    * **Not a fit** — View trials you liked but don't match your profile.
-
