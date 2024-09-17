@@ -5,17 +5,17 @@
 1. Sign in to the TuumIO Wallet app.
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Start Here**.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_225525.png)
 4. Tap **Activate Trial**.
 5. Tap **Step 1: Request admin code.**\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_225559.png)
 6. Enter the Trial ID and the email address where you want the activation code to be sent.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_225653.png)
 7. Tap **Request code**. Wait for the activation code to be sent to your email.
 8. Tap **Step 2: Activate admin role**.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_225712.png)
 9. Enter the activation code you received in Step 1.\
-
+   ![](../../../.gitbook/assets/Screenshot\_20240916\_225753.png)
 10. Tap **Activate**.
 
 ### Updating trial info
