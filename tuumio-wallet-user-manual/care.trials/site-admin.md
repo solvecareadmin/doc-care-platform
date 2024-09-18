@@ -52,7 +52,7 @@ In TuumIO Trials, a lead is a potential participant in clinical trials. Make sur
 2. From the Manage Networks screen, tap **Care.Trials**.
 3. Tap **Activate your site**.\
    ![](../../.gitbook/assets/Screenshot\_20240918\_142433.png)
-4. In the "Active site" list, select the trial you want to update.\
+4. In the "Active site" list, select the trial you want to upgrade plan.\
    ![](../../.gitbook/assets/Screenshot\_20240918\_142442.png)
 5. Tap **Upgrade plan**.\
    ![](../../.gitbook/assets/Screenshot\_20240918\_142457.png)
