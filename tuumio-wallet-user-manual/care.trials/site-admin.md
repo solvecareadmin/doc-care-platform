@@ -46,6 +46,23 @@ In TuumIO Trials, a lead is a potential participant in clinical trials. Make sur
    ![](../../.gitbook/assets/Screenshot\_20240917\_185517.png)
 7. Tap **Update**.
 
+### Upgrade your plan
+
+1. Sign in to the TuumIO Wallet app.
+2. From the Manage Networks screen, tap **Care.Trials**.
+3. Tap **Activate your site**.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142433.png)
+4. In the "Active site" list, select the trial you want to update.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142442.png)
+5. Tap **Upgrade plan**.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142457.png)
+6. From Explore Plans screen, tap on **Upgrade Plan** button.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142633.png)
+7. Tap on **Confirm** to confirm your payment.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142635.png)
+8. Your plan will be subscribed.\
+   ![](../../.gitbook/assets/Screenshot\_20240918\_142750.png)
+
 ### Buying campaigns
 
 {% hint style="info" %}
