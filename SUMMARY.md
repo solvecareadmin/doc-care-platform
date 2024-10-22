@@ -2,10 +2,10 @@
 
 * [Home](README.md)
 
-## Platform Overview
+## Protocol Overview
 
-* [Introduction](platform-overview/introduction.md)
-* [Architecture](platform-overview/architecture.md)
+* [Introduction](protocol-overview/introduction.md)
+* [Architecture](protocol-overview/architecture.md)
 
 ## Protocol Guide
 

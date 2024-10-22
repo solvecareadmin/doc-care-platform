@@ -1,8 +1,8 @@
 # Introduction
 
-## What is TuumIO Platform?
+## What is TuumIO Protocol?
 
-**TuumIO.Platform** is a secure and decentralized platform that empowers individuals to take control of their data using blockchain technology. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
+**TuumIO.Protocol** is a secure and decentralized platform that empowers individuals to take control of their data using blockchain technology. It is designed to reduce reliance on centralized IT systems and provides a foundation for Web3 development.
 
 ## **Key Components**
 
